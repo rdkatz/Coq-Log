@@ -1,0 +1,11 @@
+# Archivos temporales y de configuración de CoqIDE
+.*.aux
+.coqide.sty
+coqide.cache
+
+# Archivos compilados por Coq (esenciales)
+*.vo
+*.vok
+*.vos
+*.glob
+
