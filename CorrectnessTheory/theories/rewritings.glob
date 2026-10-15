@@ -1,0 +1,1944 @@
+DIGEST 14d09d8ee89affd15afe6d8f55d7b49b
+FCoq_Log.rewritings
+R481:485 Coq.Arith.Arith <> <> lib
+R487:490 Coq.Lists.List <> <> lib
+R492:497 Coq.funind.Recdef <> <> lib
+R499:507 Coq.Logic.Decidable <> <> lib
+R526:529 Coq.Bool.Bool <> <> lib
+R575:591 Coq_Log.terms_constraints <> <> lib
+R593:604 Coq_Log.substitution <> <> lib
+ind 757:765 <> decompose
+constr 846:851 <> dec_hd
+constr 902:907 <> dec_tl
+R787:790 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R801:804 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R815:818 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R829:832 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R819:828 Coq_Log.terms_constraints <> constraint def
+R805:814 Coq_Log.terms_constraints <> constraint def
+R791:800 Coq_Log.terms_constraints <> constraint def
+R768:786 Coq_Log.terms_constraints <> primitiveConstraint ind
+binder 862:863 <> pc:3
+binder 865:865 <> c:4
+R868:876 Coq_Log.rewritings <> decompose:1 ind
+R895:895 Coq_Log.rewritings <> c:4 var
+R891:893 Coq.Init.Datatypes <> nil constr
+R884:887 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R882:883 Coq_Log.rewritings <> pc:3 var
+R888:888 Coq_Log.rewritings <> c:4 var
+R878:879 Coq_Log.rewritings <> pc:3 var
+binder 918:919 <> pc:5
+binder 921:923 <> pc':6
+binder 925:925 <> c:7
+binder 927:928 <> c1:8
+binder 930:931 <> c2:9
+R968:987 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R988:996 Coq_Log.rewritings <> decompose:1 ind
+R1024:1025 Coq_Log.rewritings <> c2:9 var
+R1016:1019 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1013:1015 Coq_Log.rewritings <> pc':6 var
+R1020:1021 Coq_Log.rewritings <> c1:8 var
+R1005:1008 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1002:1004 Coq_Log.rewritings <> pc':6 var
+R1009:1009 Coq_Log.rewritings <> c:7 var
+R998:999 Coq_Log.rewritings <> pc:5 var
+R948:956 Coq_Log.rewritings <> decompose:1 ind
+R966:967 Coq_Log.rewritings <> c2:9 var
+R963:964 Coq_Log.rewritings <> c1:8 var
+R961:961 Coq_Log.rewritings <> c:7 var
+R958:959 Coq_Log.rewritings <> pc:5 var
+R1047:1055 Coq_Log.rewritings <> decompose ind
+prf 1211:1222 <> decompose_eq
+binder 1224:1225 <> pc:10
+binder 1227:1227 <> c:11
+binder 1229:1230 <> c1:12
+binder 1232:1233 <> c2:13
+R1240:1240 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1261:1265 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1267:1269 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1266:1266 Coq_Log.rewritings <> c:11 var
+R1272:1276 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R1285:1285 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R1270:1271 Coq_Log.rewritings <> c1:12 var
+R1279:1282 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1277:1278 Coq_Log.rewritings <> pc:10 var
+R1283:1284 Coq_Log.rewritings <> c2:13 var
+R1241:1249 Coq_Log.rewritings <> decompose ind
+R1259:1260 Coq_Log.rewritings <> c2:13 var
+R1256:1257 Coq_Log.rewritings <> c1:12 var
+R1254:1254 Coq_Log.rewritings <> c:11 var
+R1251:1252 Coq_Log.rewritings <> pc:10 var
+R1337:1355 Coq_Log.terms_constraints <> primitiveConstraint ind
+binder 1331:1333 <> pc':14
+R1372:1381 Coq_Log.terms_constraints <> constraint def
+binder 1359:1360 <> c':15
+binder 1362:1364 <> c1':16
+binder 1366:1368 <> c2':17
+R1389:1391 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1387:1388 Coq_Log.rewritings <> c':15 var
+R1395:1399 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R1410:1410 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R1392:1394 Coq_Log.rewritings <> c1':16 var
+R1403:1406 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1400:1402 Coq_Log.rewritings <> pc':14 var
+R1407:1409 Coq_Log.rewritings <> c2':17 var
+R1337:1355 Coq_Log.terms_constraints <> primitiveConstraint ind
+binder 1331:1333 <> pc':18
+R1372:1381 Coq_Log.terms_constraints <> constraint def
+binder 1359:1360 <> c':19
+binder 1362:1364 <> c1':20
+binder 1366:1368 <> c2':21
+R1389:1391 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1387:1388 Coq_Log.rewritings <> c':19 var
+R1395:1399 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R1410:1410 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R1392:1394 Coq_Log.rewritings <> c1':20 var
+R1403:1406 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1400:1402 Coq_Log.rewritings <> pc':18 var
+R1407:1409 Coq_Log.rewritings <> c2':21 var
+R1422:1434 Coq_Log.rewritings <> decompose_ind scheme
+R1422:1434 Coq_Log.rewritings <> decompose_ind scheme
+R1469:1477 Coq.Lists.List <> app_nil_l thm
+R1469:1477 Coq.Lists.List <> app_nil_l thm
+R1469:1477 Coq.Lists.List <> app_nil_l thm
+prf 1563:1574 <> eq_decompose
+binder 1576:1577 <> pc:22
+binder 1579:1580 <> c1:23
+binder 1582:1583 <> c2:24
+binder 1597:1597 <> c:25
+R1618:1621 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1622:1630 Coq_Log.rewritings <> decompose ind
+R1640:1641 Coq_Log.rewritings <> c2:24 var
+R1637:1638 Coq_Log.rewritings <> c1:23 var
+R1635:1635 Coq_Log.rewritings <> c:25 var
+R1632:1633 Coq_Log.rewritings <> pc:22 var
+R1601:1603 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1600:1600 Coq_Log.rewritings <> c:25 var
+R1606:1609 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R1604:1605 Coq_Log.rewritings <> c1:23 var
+R1612:1615 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1610:1611 Coq_Log.rewritings <> pc:22 var
+R1616:1617 Coq_Log.rewritings <> c2:24 var
+R1691:1696 Coq_Log.rewritings <> dec_hd constr
+R1691:1696 Coq_Log.rewritings <> dec_hd constr
+R1755:1760 Coq_Log.rewritings <> dec_tl constr
+R1755:1760 Coq_Log.rewritings <> dec_tl constr
+ind 1959:1972 <> condition_Eq_9
+constr 2018:2028 <> empty_empty
+constr 2084:2092 <> empty_var
+constr 2157:2165 <> var_empty
+constr 2230:2236 <> var_var
+R1986:1989 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2001:2004 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1990:1995 Coq.Init.Datatypes <> option ind
+R1997:2000 Coq_Log.terms_constraints <> term ind
+R1975:1980 Coq.Init.Datatypes <> option ind
+R1982:1985 Coq_Log.terms_constraints <> term ind
+R2032:2045 Coq_Log.rewritings <> condition_Eq_9:26 ind
+R2064:2067 Coq.Init.Datatypes <> Some constr
+R2069:2076 Coq_Log.terms_constraints <> EmptySet constr
+R2048:2051 Coq.Init.Datatypes <> Some constr
+R2053:2060 Coq_Log.terms_constraints <> EmptySet constr
+binder 2103:2103 <> X:28
+R2106:2119 Coq_Log.rewritings <> condition_Eq_9:26 ind
+R2138:2141 Coq.Init.Datatypes <> Some constr
+R2144:2146 Coq_Log.terms_constraints <> Var constr
+R2148:2148 Coq_Log.rewritings <> X:28 var
+R2122:2125 Coq.Init.Datatypes <> Some constr
+R2127:2134 Coq_Log.terms_constraints <> EmptySet constr
+binder 2176:2176 <> X:29
+R2179:2192 Coq_Log.rewritings <> condition_Eq_9:26 ind
+R2210:2213 Coq.Init.Datatypes <> Some constr
+R2215:2222 Coq_Log.terms_constraints <> EmptySet constr
+R2195:2198 Coq.Init.Datatypes <> Some constr
+R2201:2203 Coq_Log.terms_constraints <> Var constr
+R2205:2205 Coq_Log.rewritings <> X:29 var
+binder 2247:2247 <> X:30
+binder 2249:2249 <> Y:31
+R2258:2261 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2262:2275 Coq_Log.rewritings <> condition_Eq_9:26 ind
+R2293:2296 Coq.Init.Datatypes <> Some constr
+R2299:2301 Coq_Log.terms_constraints <> Var constr
+R2303:2303 Coq_Log.rewritings <> Y:31 var
+R2278:2281 Coq.Init.Datatypes <> Some constr
+R2284:2286 Coq_Log.terms_constraints <> Var constr
+R2288:2288 Coq_Log.rewritings <> X:30 var
+R2253:2256 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R2252:2252 Coq_Log.rewritings <> X:30 var
+R2257:2257 Coq_Log.rewritings <> Y:31 var
+R2327:2340 Coq_Log.rewritings <> condition_Eq_9 ind
+ind 2363:2368 <> stepEq
+constr 2413:2419 <> stepEq1
+constr 2530:2536 <> stepEq2
+constr 2708:2714 <> stepEq3
+constr 2883:2889 <> stepEq4
+constr 3151:3157 <> stepEq5
+constr 3524:3530 <> stepEq6
+constr 3953:3959 <> stepEq7
+constr 4125:4131 <> stepEq8
+constr 4364:4372 <> stepEq9_1
+constr 4596:4604 <> stepEq9_2
+constr 4836:4844 <> stepEq9_3
+constr 5080:5088 <> stepEq9_4
+constr 5518:5527 <> stepEq10_1
+constr 5939:5948 <> stepEq10_2
+constr 6339:6348 <> stepEq10_3
+constr 6746:6755 <> stepEq10_4
+constr 7374:7381 <> stepEq11
+R2382:2385 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2396:2399 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2386:2395 Coq_Log.terms_constraints <> constraint def
+R2372:2381 Coq_Log.terms_constraints <> constraint def
+binder 2430:2430 <> t:34
+binder 2432:2432 <> c:35
+binder 2434:2435 <> l1:36
+binder 2437:2438 <> l2:37
+R2482:2502 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2503:2508 Coq_Log.rewritings <> stepEq:32 ind
+R2515:2516 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R2513:2514 Coq_Log.rewritings <> l1:36 var
+R2517:2518 Coq_Log.rewritings <> l2:37 var
+R2510:2510 Coq_Log.rewritings <> c:35 var
+R2456:2464 Coq_Log.rewritings <> decompose ind
+R2480:2481 Coq_Log.rewritings <> l2:37 var
+R2477:2478 Coq_Log.rewritings <> l1:36 var
+R2475:2475 Coq_Log.rewritings <> c:35 var
+R2468:2471 Coq_Log.terms_constraints <> :::x_'=='_x not
+R2467:2467 Coq_Log.rewritings <> t:34 var
+R2472:2472 Coq_Log.rewritings <> t:34 var
+binder 2547:2547 <> t:38
+binder 2549:2549 <> X:39
+binder 2551:2551 <> c:40
+binder 2553:2554 <> l1:41
+binder 2556:2557 <> l2:42
+R2607:2625 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2641:2660 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2661:2666 Coq_Log.rewritings <> stepEq:32 ind
+R2671:2671 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2684:2689 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2696:2696 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2672:2672 Coq_Log.terms_constraints <> :::x_'=='_x not
+R2678:2682 Coq_Log.terms_constraints <> :::x_'=='_x not
+R2673:2675 Coq_Log.terms_constraints <> Var constr
+R2677:2677 Coq_Log.rewritings <> X:39 var
+R2683:2683 Coq_Log.rewritings <> t:38 var
+R2692:2693 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R2690:2691 Coq_Log.rewritings <> l1:41 var
+R2694:2695 Coq_Log.rewritings <> l2:42 var
+R2668:2668 Coq_Log.rewritings <> c:40 var
+R2626:2627 Coq.Init.Logic <> ::type_scope:'~'_x not
+R2640:2640 Coq.Init.Logic <> ::type_scope:'~'_x not
+R2628:2637 Coq_Log.terms_constraints <> isVariable def
+R2639:2639 Coq_Log.rewritings <> t:38 var
+R2575:2583 Coq_Log.rewritings <> decompose ind
+R2605:2606 Coq_Log.rewritings <> l2:42 var
+R2602:2603 Coq_Log.rewritings <> l1:41 var
+R2600:2600 Coq_Log.rewritings <> c:40 var
+R2587:2591 Coq_Log.terms_constraints <> :::x_'=='_x not
+R2597:2597 Coq_Log.terms_constraints <> :::x_'=='_x not
+R2586:2586 Coq_Log.rewritings <> t:38 var
+R2592:2594 Coq_Log.terms_constraints <> Var constr
+R2596:2596 Coq_Log.rewritings <> X:39 var
+binder 2725:2725 <> X:43
+binder 2727:2727 <> f:44
+binder 2729:2729 <> l:45
+binder 2731:2731 <> c:46
+binder 2733:2734 <> l1:47
+binder 2736:2737 <> l2:48
+R2797:2815 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2816:2816 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2835:2855 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2856:2861 Coq_Log.rewritings <> stepEq:32 ind
+R2865:2865 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R2872:2872 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R2866:2871 Coq_Log.terms_constraints <> FalseC constr
+R2863:2863 Coq_Log.rewritings <> c:46 var
+R2817:2830 Coq_Log.terms_constraints <> occurCheckList def
+R2834:2834 Coq_Log.rewritings <> l:45 var
+R2832:2832 Coq_Log.rewritings <> X:43 var
+R2755:2763 Coq_Log.rewritings <> decompose ind
+R2795:2796 Coq_Log.rewritings <> l2:48 var
+R2792:2793 Coq_Log.rewritings <> l1:47 var
+R2790:2790 Coq_Log.rewritings <> c:46 var
+R2766:2766 Coq_Log.terms_constraints <> :::x_'=='_x not
+R2772:2777 Coq_Log.terms_constraints <> :::x_'=='_x not
+R2787:2787 Coq_Log.terms_constraints <> :::x_'=='_x not
+R2767:2769 Coq_Log.terms_constraints <> Var constr
+R2771:2771 Coq_Log.rewritings <> X:43 var
+R2778:2782 Coq_Log.terms_constraints <> OTerm constr
+R2786:2786 Coq_Log.rewritings <> l:45 var
+R2784:2784 Coq_Log.rewritings <> f:44 var
+binder 2900:2900 <> X:49
+binder 2902:2903 <> t1:50
+binder 2905:2906 <> t2:51
+binder 2908:2908 <> c:52
+binder 2910:2910 <> v:53
+binder 2912:2913 <> l1:54
+binder 2915:2916 <> l2:55
+R2975:2993 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3047:3065 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3066:3066 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3102:3123 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3124:3129 Coq_Log.rewritings <> stepEq:32 ind
+R3133:3133 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R3140:3140 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R3134:3139 Coq_Log.terms_constraints <> FalseC constr
+R3131:3131 Coq_Log.rewritings <> c:52 var
+R3067:3080 Coq_Log.terms_constraints <> occurCheckList def
+R3085:3094 Coq_Log.terms_constraints <> SetCToList def
+R3099:3100 Coq_Log.rewritings <> t2:51 var
+R3096:3097 Coq_Log.rewritings <> t1:50 var
+R3082:3082 Coq_Log.rewritings <> X:49 var
+R3019:3022 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R2994:2994 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3002:3005 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2995:2998 Coq_Log.terms_constraints <> tail def
+R3000:3001 Coq_Log.rewritings <> t2:51 var
+R3006:3009 Coq.Init.Datatypes <> Some constr
+R3011:3018 Coq_Log.terms_constraints <> EmptySet constr
+R3023:3023 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3031:3034 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3024:3027 Coq_Log.terms_constraints <> tail def
+R3029:3030 Coq_Log.rewritings <> t2:51 var
+R3035:3038 Coq.Init.Datatypes <> Some constr
+R3041:3043 Coq_Log.terms_constraints <> Var constr
+R3045:3045 Coq_Log.rewritings <> v:53 var
+R2934:2942 Coq_Log.rewritings <> decompose ind
+R2973:2974 Coq_Log.rewritings <> l2:55 var
+R2970:2971 Coq_Log.rewritings <> l1:54 var
+R2968:2968 Coq_Log.rewritings <> c:52 var
+R2950:2954 Coq_Log.terms_constraints <> :::x_'=='_x not
+R2965:2965 Coq_Log.terms_constraints <> :::x_'=='_x not
+R2945:2947 Coq_Log.terms_constraints <> Var constr
+R2949:2949 Coq_Log.rewritings <> X:49 var
+R2955:2958 Coq_Log.terms_constraints <> SetC constr
+R2963:2964 Coq_Log.rewritings <> t2:51 var
+R2960:2961 Coq_Log.rewritings <> t1:50 var
+binder 3168:3168 <> X:56
+binder 3170:3170 <> t:57
+binder 3172:3172 <> c:58
+binder 3174:3175 <> l1:59
+binder 3177:3178 <> l2:60
+R3226:3244 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3262:3264 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3265:3265 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3333:3352 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3404:3446 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3447:3452 Coq_Log.rewritings <> stepEq:32 ind
+R3458:3458 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3469:3474 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3512:3512 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3464:3467 Coq_Log.terms_constraints <> :::x_'=='_x not
+R3459:3461 Coq_Log.terms_constraints <> Var constr
+R3463:3463 Coq_Log.rewritings <> X:56 var
+R3468:3468 Coq_Log.rewritings <> t:57 var
+R3475:3494 Coq_Log.substitution <> applySubstitutionToC def
+R3507:3508 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R3505:3506 Coq_Log.rewritings <> l1:59 var
+R3509:3510 Coq_Log.rewritings <> l2:60 var
+R3496:3496 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R3502:3502 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R3497:3497 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3499:3499 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3501:3501 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3498:3498 Coq_Log.rewritings <> X:56 var
+R3500:3500 Coq_Log.rewritings <> t:57 var
+R3454:3454 Coq_Log.rewritings <> c:58 var
+R3353:3354 Coq.Init.Logic <> ::type_scope:'~'_x not
+R3403:3403 Coq.Init.Logic <> ::type_scope:'~'_x not
+R3355:3362 Coq_Log.terms_constraints <> isInSFPC def
+R3380:3383 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R3378:3379 Coq_Log.rewritings <> l1:59 var
+R3384:3384 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3395:3399 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3390:3393 Coq_Log.terms_constraints <> :::x_'=='_x not
+R3385:3387 Coq_Log.terms_constraints <> Var constr
+R3389:3389 Coq_Log.rewritings <> X:56 var
+R3394:3394 Coq_Log.rewritings <> t:57 var
+R3400:3401 Coq_Log.rewritings <> l2:60 var
+R3370:3373 Coq_Log.terms_constraints <> :::x_'=='_x not
+R3365:3367 Coq_Log.terms_constraints <> Var constr
+R3369:3369 Coq_Log.rewritings <> X:56 var
+R3374:3374 Coq_Log.rewritings <> t:57 var
+R3266:3266 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R3276:3280 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R3267:3273 Coq_Log.terms_constraints <> setTerm def
+R3275:3275 Coq_Log.rewritings <> t:57 var
+R3296:3300 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R3332:3332 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R3281:3282 Coq.Init.Logic <> ::type_scope:'~'_x not
+R3295:3295 Coq.Init.Logic <> ::type_scope:'~'_x not
+R3283:3290 Coq_Log.terms_constraints <> isSetInC def
+R3294:3294 Coq_Log.rewritings <> c:58 var
+R3292:3292 Coq_Log.rewritings <> X:56 var
+R3301:3307 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R3309:3310 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 3308:3308 <> Y:61
+R3317:3319 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3311:3314 Coq_Log.terms_constraints <> tail def
+R3316:3316 Coq_Log.rewritings <> t:57 var
+R3320:3323 Coq.Init.Datatypes <> Some constr
+R3326:3328 Coq_Log.terms_constraints <> Var constr
+R3330:3330 Coq_Log.rewritings <> Y:61 var
+R3245:3246 Coq.Init.Logic <> ::type_scope:'~'_x not
+R3261:3261 Coq.Init.Logic <> ::type_scope:'~'_x not
+R3247:3256 Coq_Log.terms_constraints <> occurCheck def
+R3260:3260 Coq_Log.rewritings <> t:57 var
+R3258:3258 Coq_Log.rewritings <> X:56 var
+R3196:3204 Coq_Log.rewritings <> decompose ind
+R3224:3225 Coq_Log.rewritings <> l2:60 var
+R3221:3222 Coq_Log.rewritings <> l1:59 var
+R3219:3219 Coq_Log.rewritings <> c:58 var
+R3212:3215 Coq_Log.terms_constraints <> :::x_'=='_x not
+R3207:3209 Coq_Log.terms_constraints <> Var constr
+R3211:3211 Coq_Log.rewritings <> X:56 var
+R3216:3216 Coq_Log.rewritings <> t:57 var
+binder 3541:3541 <> X:62
+binder 3543:3544 <> t1:63
+binder 3546:3547 <> t2:64
+binder 3549:3549 <> c:65
+binder 3551:3551 <> N:66
+binder 3553:3554 <> l1:67
+binder 3556:3557 <> l2:68
+R3618:3636 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3675:3693 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3694:3694 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3721:3740 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3741:3741 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3771:3790 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3791:3791 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3804:3823 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3830:3850 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3851:3856 Coq_Log.rewritings <> stepEq:32 ind
+R3930:3934 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R3941:3941 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R3861:3861 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R3911:3914 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R3928:3929 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R3862:3862 Coq_Log.terms_constraints <> :::x_'=='_x not
+R3868:3873 Coq_Log.terms_constraints <> :::x_'=='_x not
+R3910:3910 Coq_Log.terms_constraints <> :::x_'=='_x not
+R3863:3865 Coq_Log.terms_constraints <> Var constr
+R3867:3867 Coq_Log.rewritings <> X:62 var
+R3874:3881 Coq_Log.terms_constraints <> listSetC def
+R3903:3905 Coq_Log.terms_constraints <> Var constr
+R3907:3907 Coq_Log.rewritings <> N:66 var
+R3884:3893 Coq_Log.terms_constraints <> SetCToList def
+R3898:3899 Coq_Log.rewritings <> t2:64 var
+R3895:3896 Coq_Log.rewritings <> t1:63 var
+R3915:3919 Coq_Log.terms_constraints <> IsSet constr
+R3922:3924 Coq_Log.terms_constraints <> Var constr
+R3926:3926 Coq_Log.rewritings <> N:66 var
+R3937:3938 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R3935:3936 Coq_Log.rewritings <> l1:67 var
+R3939:3940 Coq_Log.rewritings <> l2:68 var
+R3858:3858 Coq_Log.rewritings <> c:65 var
+R3825:3828 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R3824:3824 Coq_Log.rewritings <> N:66 var
+R3829:3829 Coq_Log.rewritings <> X:62 var
+R3792:3799 Coq_Log.terms_constraints <> isFreshC def
+R3803:3803 Coq_Log.rewritings <> c:65 var
+R3801:3801 Coq_Log.rewritings <> N:66 var
+R3742:3749 Coq_Log.terms_constraints <> isFreshL def
+R3754:3763 Coq_Log.terms_constraints <> SetCToList def
+R3768:3769 Coq_Log.rewritings <> t2:64 var
+R3765:3766 Coq_Log.rewritings <> t1:63 var
+R3751:3751 Coq_Log.rewritings <> N:66 var
+R3695:3695 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3703:3707 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3720:3720 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3696:3699 Coq_Log.terms_constraints <> tail def
+R3701:3702 Coq_Log.rewritings <> t2:64 var
+R3708:3711 Coq.Init.Datatypes <> Some constr
+R3714:3716 Coq_Log.terms_constraints <> Var constr
+R3718:3718 Coq_Log.rewritings <> X:62 var
+R3637:3638 Coq.Init.Logic <> ::type_scope:'~'_x not
+R3674:3674 Coq.Init.Logic <> ::type_scope:'~'_x not
+R3639:3652 Coq_Log.terms_constraints <> occurCheckList def
+R3657:3666 Coq_Log.terms_constraints <> SetCToList def
+R3671:3672 Coq_Log.rewritings <> t2:64 var
+R3668:3669 Coq_Log.rewritings <> t1:63 var
+R3654:3654 Coq_Log.rewritings <> X:62 var
+R3575:3583 Coq_Log.rewritings <> decompose ind
+R3616:3617 Coq_Log.rewritings <> l2:68 var
+R3613:3614 Coq_Log.rewritings <> l1:67 var
+R3611:3611 Coq_Log.rewritings <> c:65 var
+R3586:3587 Coq_Log.terms_constraints <> Eq constr
+R3598:3601 Coq_Log.terms_constraints <> SetC constr
+R3606:3607 Coq_Log.rewritings <> t2:64 var
+R3603:3604 Coq_Log.rewritings <> t1:63 var
+R3590:3592 Coq_Log.terms_constraints <> Var constr
+R3594:3594 Coq_Log.rewritings <> X:62 var
+binder 3970:3970 <> f:69
+binder 3972:3973 <> lf:70
+binder 3975:3975 <> g:71
+binder 3977:3978 <> lg:72
+binder 3980:3980 <> c:73
+binder 3982:3983 <> l1:74
+binder 3985:3986 <> l2:75
+R4052:4070 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4077:4097 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4098:4103 Coq_Log.rewritings <> stepEq:32 ind
+R4107:4107 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R4114:4114 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R4108:4113 Coq_Log.terms_constraints <> FalseC constr
+R4105:4105 Coq_Log.rewritings <> c:73 var
+R4071:4072 Coq.Init.Logic <> ::type_scope:'~'_x not
+R4076:4076 Coq.Init.Logic <> ::type_scope:'~'_x not
+R4074:4074 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4073:4073 Coq_Log.rewritings <> f:69 var
+R4075:4075 Coq_Log.rewritings <> g:71 var
+R4004:4012 Coq_Log.rewritings <> decompose ind
+R4050:4051 Coq_Log.rewritings <> l2:75 var
+R4047:4048 Coq_Log.rewritings <> l1:74 var
+R4045:4045 Coq_Log.rewritings <> c:73 var
+R4015:4015 Coq_Log.terms_constraints <> :::x_'=='_x not
+R4026:4031 Coq_Log.terms_constraints <> :::x_'=='_x not
+R4042:4042 Coq_Log.terms_constraints <> :::x_'=='_x not
+R4016:4020 Coq_Log.terms_constraints <> OTerm constr
+R4024:4025 Coq_Log.rewritings <> lf:70 var
+R4022:4022 Coq_Log.rewritings <> f:69 var
+R4032:4036 Coq_Log.terms_constraints <> OTerm constr
+R4040:4041 Coq_Log.rewritings <> lg:72 var
+R4038:4038 Coq_Log.rewritings <> g:71 var
+binder 4142:4142 <> f:76
+binder 4144:4145 <> l1:77
+binder 4147:4148 <> l2:78
+binder 4150:4150 <> c:79
+binder 4152:4154 <> ll1:80
+binder 4156:4158 <> ll2:81
+R4226:4244 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4266:4308 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4309:4314 Coq_Log.rewritings <> stepEq:32 ind
+R4319:4319 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R4338:4341 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R4352:4352 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R4320:4323 Coq_Log.terms_constraints <> map2 def
+R4336:4337 Coq_Log.rewritings <> l2:78 var
+R4333:4334 Coq_Log.rewritings <> l1:77 var
+R4325:4331 Coq_Log.terms_constraints <> buildEq def
+R4345:4348 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R4342:4344 Coq_Log.rewritings <> ll1:80 var
+R4349:4351 Coq_Log.rewritings <> ll2:81 var
+R4316:4316 Coq_Log.rewritings <> c:79 var
+R4254:4256 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4245:4250 Coq.Init.Datatypes <> length def
+R4252:4253 Coq_Log.rewritings <> l1:77 var
+R4257:4262 Coq.Init.Datatypes <> length def
+R4264:4265 Coq_Log.rewritings <> l2:78 var
+R4176:4184 Coq_Log.rewritings <> decompose ind
+R4223:4225 Coq_Log.rewritings <> ll2:81 var
+R4219:4221 Coq_Log.rewritings <> ll1:80 var
+R4217:4217 Coq_Log.rewritings <> c:79 var
+R4187:4187 Coq_Log.terms_constraints <> :::x_'=='_x not
+R4198:4203 Coq_Log.terms_constraints <> :::x_'=='_x not
+R4214:4214 Coq_Log.terms_constraints <> :::x_'=='_x not
+R4188:4192 Coq_Log.terms_constraints <> OTerm constr
+R4196:4197 Coq_Log.rewritings <> l1:77 var
+R4194:4194 Coq_Log.rewritings <> f:76 var
+R4204:4208 Coq_Log.terms_constraints <> OTerm constr
+R4212:4213 Coq_Log.rewritings <> l2:78 var
+R4210:4210 Coq_Log.rewritings <> f:76 var
+binder 4383:4383 <> t:82
+binder 4385:4386 <> t':83
+binder 4388:4388 <> s:84
+binder 4390:4391 <> s':85
+binder 4393:4393 <> c:86
+binder 4395:4396 <> l1:87
+binder 4398:4399 <> l2:88
+R4465:4485 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4519:4541 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4542:4547 Coq_Log.rewritings <> stepEq:32 ind
+R4552:4552 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4560:4563 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4584:4584 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4554:4557 Coq_Log.terms_constraints <> :::x_'=='_x not
+R4553:4553 Coq_Log.rewritings <> t:82 var
+R4558:4559 Coq_Log.rewritings <> t':83 var
+R4564:4565 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4573:4576 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4583:4583 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4567:4570 Coq_Log.terms_constraints <> :::x_'=='_x not
+R4566:4566 Coq_Log.rewritings <> s:84 var
+R4571:4572 Coq_Log.rewritings <> s':85 var
+R4579:4580 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R4577:4578 Coq_Log.rewritings <> l1:87 var
+R4581:4582 Coq_Log.rewritings <> l2:88 var
+R4549:4549 Coq_Log.rewritings <> c:86 var
+R4486:4499 Coq_Log.rewritings <> condition_Eq_9 ind
+R4511:4514 Coq_Log.terms_constraints <> tail def
+R4516:4517 Coq_Log.rewritings <> s':85 var
+R4502:4505 Coq_Log.terms_constraints <> tail def
+R4507:4507 Coq_Log.rewritings <> s:84 var
+R4419:4427 Coq_Log.rewritings <> decompose ind
+R4463:4464 Coq_Log.rewritings <> l2:88 var
+R4460:4461 Coq_Log.rewritings <> l1:87 var
+R4458:4458 Coq_Log.rewritings <> c:86 var
+R4430:4430 Coq_Log.terms_constraints <> :::x_'=='_x not
+R4439:4444 Coq_Log.terms_constraints <> :::x_'=='_x not
+R4455:4455 Coq_Log.terms_constraints <> :::x_'=='_x not
+R4431:4434 Coq_Log.terms_constraints <> SetC constr
+R4438:4438 Coq_Log.rewritings <> s:84 var
+R4436:4436 Coq_Log.rewritings <> t:82 var
+R4445:4448 Coq_Log.terms_constraints <> SetC constr
+R4453:4454 Coq_Log.rewritings <> s':85 var
+R4450:4451 Coq_Log.rewritings <> t':83 var
+binder 4615:4615 <> t:89
+binder 4617:4618 <> t':90
+binder 4620:4620 <> s:91
+binder 4622:4623 <> s':92
+binder 4625:4625 <> c:93
+binder 4627:4628 <> l1:94
+binder 4630:4631 <> l2:95
+R4697:4717 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4751:4773 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4774:4779 Coq_Log.rewritings <> stepEq:32 ind
+R4784:4784 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4792:4795 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4824:4824 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4786:4789 Coq_Log.terms_constraints <> :::x_'=='_x not
+R4785:4785 Coq_Log.rewritings <> t:89 var
+R4790:4791 Coq_Log.rewritings <> t':90 var
+R4796:4796 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4813:4816 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4823:4823 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4797:4797 Coq_Log.terms_constraints <> :::x_'=='_x not
+R4806:4810 Coq_Log.terms_constraints <> :::x_'=='_x not
+R4798:4801 Coq_Log.terms_constraints <> SetC constr
+R4805:4805 Coq_Log.rewritings <> s:91 var
+R4803:4803 Coq_Log.rewritings <> t:89 var
+R4811:4812 Coq_Log.rewritings <> s':92 var
+R4819:4820 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R4817:4818 Coq_Log.rewritings <> l1:94 var
+R4821:4822 Coq_Log.rewritings <> l2:95 var
+R4781:4781 Coq_Log.rewritings <> c:93 var
+R4718:4731 Coq_Log.rewritings <> condition_Eq_9 ind
+R4743:4746 Coq_Log.terms_constraints <> tail def
+R4748:4749 Coq_Log.rewritings <> s':92 var
+R4734:4737 Coq_Log.terms_constraints <> tail def
+R4739:4739 Coq_Log.rewritings <> s:91 var
+R4651:4659 Coq_Log.rewritings <> decompose ind
+R4695:4696 Coq_Log.rewritings <> l2:95 var
+R4692:4693 Coq_Log.rewritings <> l1:94 var
+R4690:4690 Coq_Log.rewritings <> c:93 var
+R4662:4662 Coq_Log.terms_constraints <> :::x_'=='_x not
+R4671:4676 Coq_Log.terms_constraints <> :::x_'=='_x not
+R4687:4687 Coq_Log.terms_constraints <> :::x_'=='_x not
+R4663:4666 Coq_Log.terms_constraints <> SetC constr
+R4670:4670 Coq_Log.rewritings <> s:91 var
+R4668:4668 Coq_Log.rewritings <> t:89 var
+R4677:4680 Coq_Log.terms_constraints <> SetC constr
+R4685:4686 Coq_Log.rewritings <> s':92 var
+R4682:4683 Coq_Log.rewritings <> t':90 var
+binder 4855:4855 <> t:96
+binder 4857:4858 <> t':97
+binder 4860:4860 <> s:98
+binder 4862:4863 <> s':99
+binder 4865:4865 <> c:100
+binder 4867:4868 <> l1:101
+binder 4870:4871 <> l2:102
+R4937:4957 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4991:5013 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5014:5019 Coq_Log.rewritings <> stepEq:32 ind
+R5024:5024 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5032:5035 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5068:5068 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5026:5029 Coq_Log.terms_constraints <> :::x_'=='_x not
+R5025:5025 Coq_Log.rewritings <> t:96 var
+R5030:5031 Coq_Log.rewritings <> t':97 var
+R5036:5037 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5055:5060 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5067:5067 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5039:5043 Coq_Log.terms_constraints <> :::x_'=='_x not
+R5054:5054 Coq_Log.terms_constraints <> :::x_'=='_x not
+R5038:5038 Coq_Log.rewritings <> s:98 var
+R5044:5047 Coq_Log.terms_constraints <> SetC constr
+R5052:5053 Coq_Log.rewritings <> s':99 var
+R5049:5050 Coq_Log.rewritings <> t':97 var
+R5063:5064 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R5061:5062 Coq_Log.rewritings <> l1:101 var
+R5065:5066 Coq_Log.rewritings <> l2:102 var
+R5021:5021 Coq_Log.rewritings <> c:100 var
+R4958:4971 Coq_Log.rewritings <> condition_Eq_9 ind
+R4983:4986 Coq_Log.terms_constraints <> tail def
+R4988:4989 Coq_Log.rewritings <> s':99 var
+R4974:4977 Coq_Log.terms_constraints <> tail def
+R4979:4979 Coq_Log.rewritings <> s:98 var
+R4891:4899 Coq_Log.rewritings <> decompose ind
+R4935:4936 Coq_Log.rewritings <> l2:102 var
+R4932:4933 Coq_Log.rewritings <> l1:101 var
+R4930:4930 Coq_Log.rewritings <> c:100 var
+R4902:4902 Coq_Log.terms_constraints <> :::x_'=='_x not
+R4911:4916 Coq_Log.terms_constraints <> :::x_'=='_x not
+R4927:4927 Coq_Log.terms_constraints <> :::x_'=='_x not
+R4903:4906 Coq_Log.terms_constraints <> SetC constr
+R4910:4910 Coq_Log.rewritings <> s:98 var
+R4908:4908 Coq_Log.rewritings <> t:96 var
+R4917:4920 Coq_Log.terms_constraints <> SetC constr
+R4925:4926 Coq_Log.rewritings <> s':99 var
+R4922:4923 Coq_Log.rewritings <> t':97 var
+binder 5099:5099 <> t:103
+binder 5101:5102 <> t':104
+binder 5104:5104 <> s:105
+binder 5106:5107 <> s':106
+binder 5109:5109 <> c:107
+binder 5111:5111 <> N:108
+binder 5113:5114 <> l1:109
+binder 5116:5117 <> l2:110
+R5183:5203 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5237:5257 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5258:5258 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5281:5302 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5303:5303 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5328:5349 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5350:5350 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5363:5416 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5417:5422 Coq_Log.rewritings <> stepEq:32 ind
+R5427:5427 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5450:5454 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5429:5433 Coq_Log.terms_constraints <> :::x_'=='_x not
+R5449:5449 Coq_Log.terms_constraints <> :::x_'=='_x not
+R5428:5428 Coq_Log.rewritings <> s:105 var
+R5434:5437 Coq_Log.terms_constraints <> SetC constr
+R5443:5445 Coq_Log.terms_constraints <> Var constr
+R5447:5447 Coq_Log.rewritings <> N:108 var
+R5439:5440 Coq_Log.rewritings <> t':104 var
+R5455:5455 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5478:5481 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5456:5456 Coq_Log.terms_constraints <> :::x_'=='_x not
+R5471:5475 Coq_Log.terms_constraints <> :::x_'=='_x not
+R5457:5460 Coq_Log.terms_constraints <> SetC constr
+R5465:5467 Coq_Log.terms_constraints <> Var constr
+R5469:5469 Coq_Log.rewritings <> N:108 var
+R5462:5462 Coq_Log.rewritings <> t:103 var
+R5476:5477 Coq_Log.rewritings <> s':106 var
+R5482:5482 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5496:5499 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5506:5506 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5483:5487 Coq_Log.terms_constraints <> IsSet constr
+R5490:5492 Coq_Log.terms_constraints <> Var constr
+R5494:5494 Coq_Log.rewritings <> N:108 var
+R5502:5503 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R5500:5501 Coq_Log.rewritings <> l1:109 var
+R5504:5505 Coq_Log.rewritings <> l2:110 var
+R5424:5424 Coq_Log.rewritings <> c:107 var
+R5351:5358 Coq_Log.terms_constraints <> isFreshC def
+R5362:5362 Coq_Log.rewritings <> c:107 var
+R5360:5360 Coq_Log.rewritings <> N:108 var
+R5304:5311 Coq_Log.terms_constraints <> isFreshL def
+R5318:5319 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5316:5317 Coq_Log.rewritings <> s':106 var
+R5322:5323 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5320:5321 Coq_Log.rewritings <> t':104 var
+R5324:5326 Coq.Init.Datatypes <> nil constr
+R5313:5313 Coq_Log.rewritings <> N:108 var
+R5259:5266 Coq_Log.terms_constraints <> isFreshL def
+R5272:5273 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5271:5271 Coq_Log.rewritings <> s:105 var
+R5275:5276 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5274:5274 Coq_Log.rewritings <> t:103 var
+R5277:5279 Coq.Init.Datatypes <> nil constr
+R5268:5268 Coq_Log.rewritings <> N:108 var
+R5204:5217 Coq_Log.rewritings <> condition_Eq_9 ind
+R5229:5232 Coq_Log.terms_constraints <> tail def
+R5234:5235 Coq_Log.rewritings <> s':106 var
+R5220:5223 Coq_Log.terms_constraints <> tail def
+R5225:5225 Coq_Log.rewritings <> s:105 var
+R5137:5145 Coq_Log.rewritings <> decompose ind
+R5181:5182 Coq_Log.rewritings <> l2:110 var
+R5178:5179 Coq_Log.rewritings <> l1:109 var
+R5176:5176 Coq_Log.rewritings <> c:107 var
+R5148:5148 Coq_Log.terms_constraints <> :::x_'=='_x not
+R5157:5162 Coq_Log.terms_constraints <> :::x_'=='_x not
+R5173:5173 Coq_Log.terms_constraints <> :::x_'=='_x not
+R5149:5152 Coq_Log.terms_constraints <> SetC constr
+R5156:5156 Coq_Log.rewritings <> s:105 var
+R5154:5154 Coq_Log.rewritings <> t:103 var
+R5163:5166 Coq_Log.terms_constraints <> SetC constr
+R5171:5172 Coq_Log.rewritings <> s':106 var
+R5168:5169 Coq_Log.rewritings <> t':104 var
+binder 5538:5540 <> lt1:111
+binder 5542:5544 <> lt2:112
+binder 5546:5546 <> v:113
+binder 5548:5548 <> c:114
+binder 5550:5550 <> j:115
+binder 5552:5553 <> t0:116
+binder 5555:5556 <> tj:117
+binder 5558:5559 <> l1:118
+binder 5561:5562 <> l2:119
+R5651:5672 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5698:5719 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5745:5768 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5769:5774 Coq_Log.rewritings <> stepEq:32 ind
+R5781:5782 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R5779:5780 Coq_Log.rewritings <> l1:118 var
+R5785:5789 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R5927:5927 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R5783:5784 Coq_Log.rewritings <> l2:119 var
+R5790:5790 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5799:5835 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5791:5792 Coq_Log.terms_constraints <> Eq constr
+R5797:5798 Coq_Log.rewritings <> tj:117 var
+R5794:5795 Coq_Log.rewritings <> t0:116 var
+R5836:5836 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5919:5923 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5837:5838 Coq_Log.terms_constraints <> Eq constr
+R5881:5888 Coq_Log.terms_constraints <> listSetC def
+R5912:5914 Coq_Log.terms_constraints <> Var constr
+R5916:5916 Coq_Log.rewritings <> v:113 var
+R5891:5902 Coq_Log.terms_constraints <> deleteElmntj def
+R5906:5908 Coq_Log.rewritings <> lt2:112 var
+R5904:5904 Coq_Log.rewritings <> j:115 var
+R5841:5848 Coq_Log.terms_constraints <> listSetC def
+R5872:5874 Coq_Log.terms_constraints <> Var constr
+R5876:5876 Coq_Log.rewritings <> v:113 var
+R5851:5862 Coq_Log.terms_constraints <> deleteElmntj def
+R5866:5868 Coq_Log.rewritings <> lt1:111 var
+R5924:5926 Coq.Init.Datatypes <> nil constr
+R5776:5776 Coq_Log.rewritings <> c:114 var
+R5735:5737 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5720:5728 Coq.Lists.List <> nth_error def
+R5734:5734 Coq_Log.rewritings <> j:115 var
+R5730:5732 Coq_Log.rewritings <> lt2:112 var
+R5738:5741 Coq.Init.Datatypes <> Some constr
+R5743:5744 Coq_Log.rewritings <> tj:117 var
+R5688:5690 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5673:5681 Coq.Lists.List <> nth_error def
+R5683:5685 Coq_Log.rewritings <> lt1:111 var
+R5691:5694 Coq.Init.Datatypes <> Some constr
+R5696:5697 Coq_Log.rewritings <> t0:116 var
+R5583:5591 Coq_Log.rewritings <> decompose ind
+R5649:5650 Coq_Log.rewritings <> l2:119 var
+R5646:5647 Coq_Log.rewritings <> l1:118 var
+R5644:5644 Coq_Log.rewritings <> c:114 var
+R5594:5594 Coq_Log.terms_constraints <> :::x_'=='_x not
+R5615:5620 Coq_Log.terms_constraints <> :::x_'=='_x not
+R5641:5641 Coq_Log.terms_constraints <> :::x_'=='_x not
+R5595:5602 Coq_Log.terms_constraints <> listSetC def
+R5609:5611 Coq_Log.terms_constraints <> Var constr
+R5613:5613 Coq_Log.rewritings <> v:113 var
+R5604:5606 Coq_Log.rewritings <> lt1:111 var
+R5621:5628 Coq_Log.terms_constraints <> listSetC def
+R5635:5637 Coq_Log.terms_constraints <> Var constr
+R5639:5639 Coq_Log.rewritings <> v:113 var
+R5630:5632 Coq_Log.rewritings <> lt2:112 var
+binder 5959:5961 <> lt1:120
+binder 5963:5965 <> lt2:121
+binder 5967:5967 <> v:122
+binder 5969:5969 <> c:123
+binder 5971:5971 <> j:124
+binder 5973:5974 <> t0:125
+binder 5976:5977 <> tj:126
+binder 5979:5980 <> l1:127
+binder 5982:5983 <> l2:128
+R6072:6093 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6119:6140 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6166:6187 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6188:6193 Coq_Log.rewritings <> stepEq:32 ind
+R6200:6201 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R6198:6199 Coq_Log.rewritings <> l1:127 var
+R6204:6206 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R6327:6327 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R6202:6203 Coq_Log.rewritings <> l2:128 var
+R6207:6207 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R6216:6252 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R6208:6209 Coq_Log.terms_constraints <> Eq constr
+R6214:6215 Coq_Log.rewritings <> tj:126 var
+R6211:6212 Coq_Log.rewritings <> t0:125 var
+R6253:6253 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R6319:6323 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R6254:6255 Coq_Log.terms_constraints <> Eq constr
+R6281:6288 Coq_Log.terms_constraints <> listSetC def
+R6312:6314 Coq_Log.terms_constraints <> Var constr
+R6316:6316 Coq_Log.rewritings <> v:122 var
+R6291:6302 Coq_Log.terms_constraints <> deleteElmntj def
+R6306:6308 Coq_Log.rewritings <> lt2:121 var
+R6304:6304 Coq_Log.rewritings <> j:124 var
+R6258:6265 Coq_Log.terms_constraints <> listSetC def
+R6272:6274 Coq_Log.terms_constraints <> Var constr
+R6276:6276 Coq_Log.rewritings <> v:122 var
+R6267:6269 Coq_Log.rewritings <> lt1:120 var
+R6324:6326 Coq.Init.Datatypes <> nil constr
+R6195:6195 Coq_Log.rewritings <> c:123 var
+R6156:6158 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6141:6149 Coq.Lists.List <> nth_error def
+R6155:6155 Coq_Log.rewritings <> j:124 var
+R6151:6153 Coq_Log.rewritings <> lt2:121 var
+R6159:6162 Coq.Init.Datatypes <> Some constr
+R6164:6165 Coq_Log.rewritings <> tj:126 var
+R6109:6111 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6094:6102 Coq.Lists.List <> nth_error def
+R6104:6106 Coq_Log.rewritings <> lt1:120 var
+R6112:6115 Coq.Init.Datatypes <> Some constr
+R6117:6118 Coq_Log.rewritings <> t0:125 var
+R6004:6012 Coq_Log.rewritings <> decompose ind
+R6070:6071 Coq_Log.rewritings <> l2:128 var
+R6067:6068 Coq_Log.rewritings <> l1:127 var
+R6065:6065 Coq_Log.rewritings <> c:123 var
+R6015:6015 Coq_Log.terms_constraints <> :::x_'=='_x not
+R6036:6041 Coq_Log.terms_constraints <> :::x_'=='_x not
+R6062:6062 Coq_Log.terms_constraints <> :::x_'=='_x not
+R6016:6023 Coq_Log.terms_constraints <> listSetC def
+R6030:6032 Coq_Log.terms_constraints <> Var constr
+R6034:6034 Coq_Log.rewritings <> v:122 var
+R6025:6027 Coq_Log.rewritings <> lt1:120 var
+R6042:6049 Coq_Log.terms_constraints <> listSetC def
+R6056:6058 Coq_Log.terms_constraints <> Var constr
+R6060:6060 Coq_Log.rewritings <> v:122 var
+R6051:6053 Coq_Log.rewritings <> lt2:121 var
+binder 6359:6361 <> lt1:129
+binder 6363:6365 <> lt2:130
+binder 6367:6367 <> v:131
+binder 6369:6369 <> c:132
+binder 6371:6371 <> j:133
+binder 6373:6374 <> t0:134
+binder 6376:6377 <> tj:135
+binder 6379:6380 <> l1:136
+binder 6382:6383 <> l2:137
+R6472:6493 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6519:6540 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6566:6589 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6590:6595 Coq_Log.rewritings <> stepEq:32 ind
+R6602:6603 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R6600:6601 Coq_Log.rewritings <> l1:136 var
+R6606:6608 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R6733:6734 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R6604:6605 Coq_Log.rewritings <> l2:137 var
+R6609:6609 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R6618:6658 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R6610:6611 Coq_Log.terms_constraints <> Eq constr
+R6616:6617 Coq_Log.rewritings <> tj:135 var
+R6613:6614 Coq_Log.rewritings <> t0:134 var
+R6659:6659 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R6725:6729 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R6660:6661 Coq_Log.terms_constraints <> Eq constr
+R6704:6711 Coq_Log.terms_constraints <> listSetC def
+R6718:6720 Coq_Log.terms_constraints <> Var constr
+R6722:6722 Coq_Log.rewritings <> v:131 var
+R6713:6715 Coq_Log.rewritings <> lt2:130 var
+R6664:6671 Coq_Log.terms_constraints <> listSetC def
+R6695:6697 Coq_Log.terms_constraints <> Var constr
+R6699:6699 Coq_Log.rewritings <> v:131 var
+R6674:6685 Coq_Log.terms_constraints <> deleteElmntj def
+R6689:6691 Coq_Log.rewritings <> lt1:129 var
+R6730:6732 Coq.Init.Datatypes <> nil constr
+R6597:6597 Coq_Log.rewritings <> c:132 var
+R6556:6558 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6541:6549 Coq.Lists.List <> nth_error def
+R6555:6555 Coq_Log.rewritings <> j:133 var
+R6551:6553 Coq_Log.rewritings <> lt2:130 var
+R6559:6562 Coq.Init.Datatypes <> Some constr
+R6564:6565 Coq_Log.rewritings <> tj:135 var
+R6509:6511 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6494:6502 Coq.Lists.List <> nth_error def
+R6504:6506 Coq_Log.rewritings <> lt1:129 var
+R6512:6515 Coq.Init.Datatypes <> Some constr
+R6517:6518 Coq_Log.rewritings <> t0:134 var
+R6404:6412 Coq_Log.rewritings <> decompose ind
+R6470:6471 Coq_Log.rewritings <> l2:137 var
+R6467:6468 Coq_Log.rewritings <> l1:136 var
+R6465:6465 Coq_Log.rewritings <> c:132 var
+R6415:6415 Coq_Log.terms_constraints <> :::x_'=='_x not
+R6436:6441 Coq_Log.terms_constraints <> :::x_'=='_x not
+R6462:6462 Coq_Log.terms_constraints <> :::x_'=='_x not
+R6416:6423 Coq_Log.terms_constraints <> listSetC def
+R6430:6432 Coq_Log.terms_constraints <> Var constr
+R6434:6434 Coq_Log.rewritings <> v:131 var
+R6425:6427 Coq_Log.rewritings <> lt1:129 var
+R6442:6449 Coq_Log.terms_constraints <> listSetC def
+R6456:6458 Coq_Log.terms_constraints <> Var constr
+R6460:6460 Coq_Log.rewritings <> v:131 var
+R6451:6453 Coq_Log.rewritings <> lt2:130 var
+binder 6766:6768 <> lt1:138
+binder 6770:6772 <> lt2:139
+binder 6774:6774 <> v:140
+binder 6776:6776 <> c:141
+binder 6778:6778 <> j:142
+binder 6780:6781 <> t0:143
+binder 6783:6784 <> tj:144
+binder 6786:6786 <> w:145
+binder 6788:6789 <> l1:146
+binder 6791:6792 <> l2:147
+R6881:6902 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6928:6949 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6975:6996 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6997:6997 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7012:7015 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7016:7016 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7031:7053 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7054:7054 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7067:7089 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7096:7149 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7150:7155 Coq_Log.rewritings <> stepEq:32 ind
+R7162:7163 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R7160:7161 Coq_Log.rewritings <> l1:146 var
+R7166:7168 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R7362:7362 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R7164:7165 Coq_Log.rewritings <> l2:147 var
+R7169:7170 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7199:7234 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7171:7171 Coq_Log.terms_constraints <> :::x_'=='_x not
+R7177:7182 Coq_Log.terms_constraints <> :::x_'=='_x not
+R7198:7198 Coq_Log.terms_constraints <> :::x_'=='_x not
+R7172:7174 Coq_Log.terms_constraints <> Var constr
+R7176:7176 Coq_Log.rewritings <> v:140 var
+R7183:7186 Coq_Log.terms_constraints <> SetC constr
+R7192:7194 Coq_Log.terms_constraints <> Var constr
+R7196:7196 Coq_Log.rewritings <> w:145 var
+R7188:7189 Coq_Log.rewritings <> t0:143 var
+R7235:7235 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7301:7339 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7236:7237 Coq_Log.terms_constraints <> Eq constr
+R7280:7287 Coq_Log.terms_constraints <> listSetC def
+R7294:7296 Coq_Log.terms_constraints <> Var constr
+R7298:7298 Coq_Log.rewritings <> w:145 var
+R7289:7291 Coq_Log.rewritings <> lt2:139 var
+R7240:7247 Coq_Log.terms_constraints <> listSetC def
+R7271:7273 Coq_Log.terms_constraints <> Var constr
+R7275:7275 Coq_Log.rewritings <> w:145 var
+R7250:7261 Coq_Log.terms_constraints <> deleteElmntj def
+R7265:7267 Coq_Log.rewritings <> lt1:138 var
+R7340:7340 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7354:7358 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7341:7345 Coq_Log.terms_constraints <> IsSet constr
+R7348:7350 Coq_Log.terms_constraints <> Var constr
+R7352:7352 Coq_Log.rewritings <> w:145 var
+R7359:7361 Coq.Init.Datatypes <> nil constr
+R7157:7157 Coq_Log.rewritings <> c:141 var
+R7091:7094 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R7090:7090 Coq_Log.rewritings <> v:140 var
+R7095:7095 Coq_Log.rewritings <> w:145 var
+R7055:7062 Coq_Log.terms_constraints <> isFreshC def
+R7066:7066 Coq_Log.rewritings <> c:141 var
+R7064:7064 Coq_Log.rewritings <> w:145 var
+R7017:7024 Coq_Log.terms_constraints <> isFreshL def
+R7028:7030 Coq_Log.rewritings <> lt2:139 var
+R7026:7026 Coq_Log.rewritings <> w:145 var
+R6998:7005 Coq_Log.terms_constraints <> isFreshL def
+R7009:7011 Coq_Log.rewritings <> lt1:138 var
+R7007:7007 Coq_Log.rewritings <> w:145 var
+R6965:6967 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6950:6958 Coq.Lists.List <> nth_error def
+R6964:6964 Coq_Log.rewritings <> j:142 var
+R6960:6962 Coq_Log.rewritings <> lt2:139 var
+R6968:6971 Coq.Init.Datatypes <> Some constr
+R6973:6974 Coq_Log.rewritings <> tj:144 var
+R6918:6920 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6903:6911 Coq.Lists.List <> nth_error def
+R6913:6915 Coq_Log.rewritings <> lt1:138 var
+R6921:6924 Coq.Init.Datatypes <> Some constr
+R6926:6927 Coq_Log.rewritings <> t0:143 var
+R6813:6821 Coq_Log.rewritings <> decompose ind
+R6879:6880 Coq_Log.rewritings <> l2:147 var
+R6876:6877 Coq_Log.rewritings <> l1:146 var
+R6874:6874 Coq_Log.rewritings <> c:141 var
+R6824:6824 Coq_Log.terms_constraints <> :::x_'=='_x not
+R6845:6850 Coq_Log.terms_constraints <> :::x_'=='_x not
+R6871:6871 Coq_Log.terms_constraints <> :::x_'=='_x not
+R6825:6832 Coq_Log.terms_constraints <> listSetC def
+R6839:6841 Coq_Log.terms_constraints <> Var constr
+R6843:6843 Coq_Log.rewritings <> v:140 var
+R6834:6836 Coq_Log.rewritings <> lt1:138 var
+R6851:6858 Coq_Log.terms_constraints <> listSetC def
+R6865:6867 Coq_Log.terms_constraints <> Var constr
+R6869:6869 Coq_Log.rewritings <> v:140 var
+R6860:6862 Coq_Log.rewritings <> lt2:139 var
+binder 7392:7392 <> X:148
+binder 7394:7394 <> f:149
+binder 7396:7397 <> l1:150
+binder 7399:7399 <> c:151
+binder 7401:7403 <> ll1:152
+binder 7405:7407 <> ll2:153
+R7471:7490 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7491:7491 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7504:7526 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7527:7532 Coq_Log.rewritings <> stepEq:32 ind
+R7536:7536 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R7543:7543 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R7537:7542 Coq_Log.terms_constraints <> FalseC constr
+R7534:7534 Coq_Log.rewritings <> c:151 var
+R7492:7499 Coq_Log.terms_constraints <> isSetInC def
+R7503:7503 Coq_Log.rewritings <> c:151 var
+R7501:7501 Coq_Log.rewritings <> X:148 var
+R7426:7434 Coq_Log.rewritings <> decompose ind
+R7468:7470 Coq_Log.rewritings <> ll2:153 var
+R7464:7466 Coq_Log.rewritings <> ll1:152 var
+R7462:7462 Coq_Log.rewritings <> c:151 var
+R7437:7437 Coq_Log.terms_constraints <> :::x_'=='_x not
+R7443:7448 Coq_Log.terms_constraints <> :::x_'=='_x not
+R7459:7459 Coq_Log.terms_constraints <> :::x_'=='_x not
+R7438:7440 Coq_Log.terms_constraints <> Var constr
+R7442:7442 Coq_Log.rewritings <> X:148 var
+R7449:7453 Coq_Log.terms_constraints <> OTerm constr
+R7457:7458 Coq_Log.rewritings <> l1:150 var
+R7455:7455 Coq_Log.rewritings <> f:149 var
+ind 7723:7729 <> stepMem
+constr 7775:7782 <> stepMem1
+constr 7903:7912 <> stepMem2_1
+constr 8055:8064 <> stepMem2_2
+constr 8207:8214 <> stepMem3
+R7744:7747 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7758:7761 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7748:7757 Coq_Log.terms_constraints <> constraint def
+R7734:7743 Coq_Log.terms_constraints <> constraint def
+binder 7793:7793 <> t:156
+binder 7795:7795 <> c:157
+binder 7797:7798 <> l1:158
+binder 7800:7801 <> l2:159
+R7853:7874 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7875:7881 Coq_Log.rewritings <> stepMem:154 ind
+R7885:7885 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R7892:7892 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R7886:7891 Coq_Log.terms_constraints <> FalseC constr
+R7883:7883 Coq_Log.rewritings <> c:157 var
+R7820:7828 Coq_Log.rewritings <> decompose ind
+R7851:7852 Coq_Log.rewritings <> l2:159 var
+R7848:7849 Coq_Log.rewritings <> l1:158 var
+R7846:7846 Coq_Log.rewritings <> c:157 var
+R7832:7835 Coq_Log.terms_constraints <> :::x_':s'_x not
+R7831:7831 Coq_Log.rewritings <> t:156 var
+R7836:7843 Coq_Log.terms_constraints <> EmptySet constr
+binder 7923:7923 <> r:160
+binder 7925:7925 <> s:161
+binder 7927:7927 <> t:162
+binder 7929:7929 <> c:163
+binder 7931:7932 <> l1:164
+binder 7934:7935 <> l2:165
+R7991:8014 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8015:8021 Coq_Log.rewritings <> stepMem:154 ind
+R8026:8026 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R8033:8036 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R8043:8043 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R8028:8031 Coq_Log.terms_constraints <> :::x_'=='_x not
+R8027:8027 Coq_Log.rewritings <> r:160 var
+R8032:8032 Coq_Log.rewritings <> s:161 var
+R8039:8040 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R8037:8038 Coq_Log.rewritings <> l1:164 var
+R8041:8042 Coq_Log.rewritings <> l2:165 var
+R8023:8023 Coq_Log.rewritings <> c:163 var
+R7956:7964 Coq_Log.rewritings <> decompose ind
+R7989:7990 Coq_Log.rewritings <> l2:165 var
+R7986:7987 Coq_Log.rewritings <> l1:164 var
+R7984:7984 Coq_Log.rewritings <> c:163 var
+R7968:7972 Coq_Log.terms_constraints <> :::x_':s'_x not
+R7981:7981 Coq_Log.terms_constraints <> :::x_':s'_x not
+R7967:7967 Coq_Log.rewritings <> r:160 var
+R7973:7976 Coq_Log.terms_constraints <> SetC constr
+R7980:7980 Coq_Log.rewritings <> t:162 var
+R7978:7978 Coq_Log.rewritings <> s:161 var
+binder 8075:8075 <> r:166
+binder 8077:8077 <> s:167
+binder 8079:8079 <> t:168
+binder 8081:8081 <> c:169
+binder 8083:8084 <> l1:170
+binder 8086:8087 <> l2:171
+R8143:8166 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8167:8173 Coq_Log.rewritings <> stepMem:154 ind
+R8178:8178 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R8185:8188 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R8195:8195 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R8180:8183 Coq_Log.terms_constraints <> :::x_':s'_x not
+R8179:8179 Coq_Log.rewritings <> r:166 var
+R8184:8184 Coq_Log.rewritings <> t:168 var
+R8191:8192 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R8189:8190 Coq_Log.rewritings <> l1:170 var
+R8193:8194 Coq_Log.rewritings <> l2:171 var
+R8175:8175 Coq_Log.rewritings <> c:169 var
+R8108:8116 Coq_Log.rewritings <> decompose ind
+R8141:8142 Coq_Log.rewritings <> l2:171 var
+R8138:8139 Coq_Log.rewritings <> l1:170 var
+R8136:8136 Coq_Log.rewritings <> c:169 var
+R8120:8124 Coq_Log.terms_constraints <> :::x_':s'_x not
+R8133:8133 Coq_Log.terms_constraints <> :::x_':s'_x not
+R8119:8119 Coq_Log.rewritings <> r:166 var
+R8125:8128 Coq_Log.terms_constraints <> SetC constr
+R8132:8132 Coq_Log.rewritings <> t:168 var
+R8130:8130 Coq_Log.rewritings <> s:167 var
+binder 8225:8225 <> t:172
+binder 8227:8227 <> X:173
+binder 8229:8229 <> N:174
+binder 8231:8231 <> c:175
+binder 8233:8234 <> l1:176
+binder 8236:8237 <> l2:177
+R8268:8287 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8300:8319 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8326:8345 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8378:8399 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8400:8406 Coq_Log.rewritings <> stepMem:154 ind
+R8411:8411 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R8418:8422 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R8414:8415 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R8412:8413 Coq_Log.rewritings <> l1:176 var
+R8416:8417 Coq_Log.rewritings <> l2:177 var
+R8423:8423 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R8449:8452 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R8466:8466 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R8429:8433 Coq_Log.terms_constraints <> :::x_'=='_x not
+R8448:8448 Coq_Log.terms_constraints <> :::x_'=='_x not
+R8424:8426 Coq_Log.terms_constraints <> Var constr
+R8428:8428 Coq_Log.rewritings <> X:173 var
+R8434:8437 Coq_Log.terms_constraints <> SetC constr
+R8442:8444 Coq_Log.terms_constraints <> Var constr
+R8446:8446 Coq_Log.rewritings <> N:174 var
+R8439:8439 Coq_Log.rewritings <> t:172 var
+R8453:8457 Coq_Log.terms_constraints <> IsSet constr
+R8460:8462 Coq_Log.terms_constraints <> Var constr
+R8464:8464 Coq_Log.rewritings <> N:174 var
+R8408:8408 Coq_Log.rewritings <> c:175 var
+R8346:8354 Coq_Log.rewritings <> decompose ind
+R8376:8377 Coq_Log.rewritings <> l2:177 var
+R8373:8374 Coq_Log.rewritings <> l1:176 var
+R8371:8371 Coq_Log.rewritings <> c:175 var
+R8358:8362 Coq_Log.terms_constraints <> :::x_':s'_x not
+R8368:8368 Coq_Log.terms_constraints <> :::x_':s'_x not
+R8357:8357 Coq_Log.rewritings <> t:172 var
+R8363:8365 Coq_Log.terms_constraints <> Var constr
+R8367:8367 Coq_Log.rewritings <> X:173 var
+R8321:8324 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R8320:8320 Coq_Log.rewritings <> N:174 var
+R8325:8325 Coq_Log.rewritings <> X:173 var
+R8288:8295 Coq_Log.terms_constraints <> isFreshT def
+R8299:8299 Coq_Log.rewritings <> t:172 var
+R8297:8297 Coq_Log.rewritings <> N:174 var
+R8256:8263 Coq_Log.terms_constraints <> isFreshC def
+R8267:8267 Coq_Log.rewritings <> c:175 var
+R8265:8265 Coq_Log.rewritings <> N:174 var
+ind 8650:8656 <> stepNeq
+constr 8702:8709 <> stepNeq1
+constr 9526:9533 <> stepNeq2
+constr 9801:9808 <> stepNeq3
+constr 9975:9982 <> stepNeq4
+constr 10160:10167 <> stepNeq5
+constr 10343:10350 <> stepNeq6
+constr 10540:10547 <> stepNeq7
+constr 10807:10816 <> stepNeq8_1
+constr 11143:11152 <> stepNeq8_2
+R8671:8674 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8685:8688 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8675:8684 Coq_Log.terms_constraints <> constraint def
+R8661:8670 Coq_Log.terms_constraints <> constraint def
+binder 8721:8722 <> t1:180
+binder 8724:8725 <> t2:181
+binder 8727:8727 <> c:182
+binder 8729:8731 <> ll1:183
+binder 8733:8735 <> ll2:184
+R8785:8804 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9447:9493 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9494:9500 Coq_Log.rewritings <> stepNeq:178 ind
+R9508:9511 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R9505:9507 Coq_Log.rewritings <> ll1:183 var
+R9512:9514 Coq_Log.rewritings <> ll2:184 var
+R9502:9502 Coq_Log.rewritings <> c:182 var
+R8805:8805 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R8928:8948 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R8806:8812 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R8814:8815 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 8813:8813 <> f:185
+R8816:8822 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R8825:8826 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 8823:8824 <> l1:186
+R8827:8833 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R8835:8836 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 8834:8834 <> g:187
+R8837:8843 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R8846:8847 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 8844:8845 <> l2:188
+R8865:8868 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R8850:8853 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8864:8864 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8848:8849 Coq_Log.rewritings <> t1:180 var
+R8854:8858 Coq_Log.terms_constraints <> OTerm constr
+R8862:8863 Coq_Log.rewritings <> l1:186 var
+R8860:8860 Coq_Log.rewritings <> f:185 var
+R8886:8890 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R8927:8927 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R8871:8874 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8885:8885 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8869:8870 Coq_Log.rewritings <> t2:181 var
+R8875:8879 Coq_Log.terms_constraints <> OTerm constr
+R8883:8884 Coq_Log.rewritings <> l2:188 var
+R8881:8881 Coq_Log.rewritings <> g:187 var
+R8891:8891 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R8898:8903 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R8926:8926 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R8893:8896 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R8892:8892 Coq_Log.rewritings <> f:185 var
+R8897:8897 Coq_Log.rewritings <> g:187 var
+R8913:8916 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R8904:8909 Coq.Init.Datatypes <> length def
+R8911:8912 Coq_Log.rewritings <> l1:186 var
+R8917:8922 Coq.Init.Datatypes <> length def
+R8924:8925 Coq_Log.rewritings <> l2:188 var
+R8949:8950 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R9004:9024 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R8964:8968 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9003:9003 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R8953:8955 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8951:8952 Coq_Log.rewritings <> t1:180 var
+R8956:8963 Coq_Log.terms_constraints <> EmptySet constr
+R8969:8975 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R8977:8978 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 8976:8976 <> f:189
+R8979:8985 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R8987:8988 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 8986:8986 <> l:190
+R8991:8993 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8989:8990 Coq_Log.rewritings <> t2:181 var
+R8994:8998 Coq_Log.terms_constraints <> OTerm constr
+R9002:9002 Coq_Log.rewritings <> l:190 var
+R9000:9000 Coq_Log.rewritings <> f:189 var
+R9025:9026 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R9080:9100 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R9027:9027 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9062:9066 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9028:9034 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R9036:9037 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 9035:9035 <> f:191
+R9038:9044 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R9046:9047 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 9045:9045 <> l:192
+R9050:9052 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9048:9049 Coq_Log.rewritings <> t1:180 var
+R9053:9057 Coq_Log.terms_constraints <> OTerm constr
+R9061:9061 Coq_Log.rewritings <> l:192 var
+R9059:9059 Coq_Log.rewritings <> f:191 var
+R9069:9071 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9067:9068 Coq_Log.rewritings <> t2:181 var
+R9072:9079 Coq_Log.terms_constraints <> EmptySet constr
+R9101:9102 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R9182:9202 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R9103:9103 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9141:9146 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9181:9181 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9104:9110 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R9113:9114 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 9111:9112 <> t3:193
+R9115:9121 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R9124:9125 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 9122:9123 <> t4:194
+R9128:9130 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9126:9127 Coq_Log.rewritings <> t1:180 var
+R9131:9134 Coq_Log.terms_constraints <> SetC constr
+R9139:9140 Coq_Log.rewritings <> t4:194 var
+R9136:9137 Coq_Log.rewritings <> t3:193 var
+R9147:9153 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R9155:9156 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 9154:9154 <> f:195
+R9157:9163 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R9165:9166 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 9164:9164 <> l:196
+R9169:9171 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9167:9168 Coq_Log.rewritings <> t2:181 var
+R9172:9176 Coq_Log.terms_constraints <> OTerm constr
+R9180:9180 Coq_Log.rewritings <> l:196 var
+R9178:9178 Coq_Log.rewritings <> f:195 var
+R9203:9204 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R9284:9304 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R9205:9205 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9240:9245 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9283:9283 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9206:9212 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R9214:9215 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 9213:9213 <> f:197
+R9216:9222 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R9224:9225 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 9223:9223 <> l:198
+R9228:9230 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9226:9227 Coq_Log.rewritings <> t1:180 var
+R9231:9235 Coq_Log.terms_constraints <> OTerm constr
+R9239:9239 Coq_Log.rewritings <> l:198 var
+R9237:9237 Coq_Log.rewritings <> f:197 var
+R9246:9252 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R9255:9256 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 9253:9254 <> t3:199
+R9257:9263 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R9266:9267 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 9264:9265 <> t4:200
+R9270:9272 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9268:9269 Coq_Log.rewritings <> t2:181 var
+R9273:9276 Coq_Log.terms_constraints <> SetC constr
+R9281:9282 Coq_Log.rewritings <> t4:200 var
+R9278:9279 Coq_Log.rewritings <> t3:199 var
+R9305:9306 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R9365:9387 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R9446:9446 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R9307:9307 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9321:9326 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9364:9364 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9310:9312 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9308:9309 Coq_Log.rewritings <> t1:180 var
+R9313:9320 Coq_Log.terms_constraints <> EmptySet constr
+R9327:9333 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R9336:9337 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 9334:9335 <> t3:201
+R9338:9344 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R9347:9348 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 9345:9346 <> t4:202
+R9351:9353 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9349:9350 Coq_Log.rewritings <> t2:181 var
+R9354:9357 Coq_Log.terms_constraints <> SetC constr
+R9362:9363 Coq_Log.rewritings <> t4:202 var
+R9359:9360 Coq_Log.rewritings <> t3:201 var
+R9388:9388 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9426:9431 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9445:9445 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9389:9395 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R9398:9399 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 9396:9397 <> t3:203
+R9400:9406 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R9409:9410 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 9407:9408 <> t4:204
+R9413:9415 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9411:9412 Coq_Log.rewritings <> t1:180 var
+R9416:9419 Coq_Log.terms_constraints <> SetC constr
+R9424:9425 Coq_Log.rewritings <> t4:204 var
+R9421:9422 Coq_Log.rewritings <> t3:203 var
+R9434:9436 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9432:9433 Coq_Log.rewritings <> t2:181 var
+R9437:9444 Coq_Log.terms_constraints <> EmptySet constr
+R8754:8762 Coq_Log.rewritings <> decompose ind
+R8782:8784 Coq_Log.rewritings <> ll2:184 var
+R8778:8780 Coq_Log.rewritings <> ll1:183 var
+R8776:8776 Coq_Log.rewritings <> c:182 var
+R8767:8771 Coq_Log.terms_constraints <> :::x_'\=='_x not
+R8765:8766 Coq_Log.rewritings <> t1:180 var
+R8772:8773 Coq_Log.rewritings <> t2:181 var
+binder 9544:9544 <> f:205
+binder 9546:9547 <> l1:206
+binder 9549:9550 <> l2:207
+binder 9552:9552 <> c:208
+binder 9554:9554 <> j:209
+binder 9556:9558 <> t1j:210
+binder 9560:9562 <> t2j:211
+binder 9564:9566 <> ll1:212
+binder 9568:9570 <> ll2:213
+R9640:9659 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9685:9704 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9730:9751 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9752:9758 Coq_Log.rewritings <> stepNeq:178 ind
+R9763:9763 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R9775:9778 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R9789:9789 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R9764:9766 Coq_Log.terms_constraints <> Neq constr
+R9772:9774 Coq_Log.rewritings <> t2j:211 var
+R9768:9770 Coq_Log.rewritings <> t1j:210 var
+R9782:9785 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R9779:9781 Coq_Log.rewritings <> ll1:212 var
+R9786:9788 Coq_Log.rewritings <> ll2:213 var
+R9760:9760 Coq_Log.rewritings <> c:208 var
+R9719:9721 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9705:9713 Coq.Lists.List <> nth_error def
+R9718:9718 Coq_Log.rewritings <> j:209 var
+R9715:9716 Coq_Log.rewritings <> l2:207 var
+R9722:9725 Coq.Init.Datatypes <> Some constr
+R9727:9729 Coq_Log.rewritings <> t2j:211 var
+R9674:9676 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9660:9668 Coq.Lists.List <> nth_error def
+R9673:9673 Coq_Log.rewritings <> j:209 var
+R9670:9671 Coq_Log.rewritings <> l1:206 var
+R9677:9680 Coq.Init.Datatypes <> Some constr
+R9682:9684 Coq_Log.rewritings <> t1j:210 var
+R9589:9597 Coq_Log.rewritings <> decompose ind
+R9637:9639 Coq_Log.rewritings <> ll2:213 var
+R9633:9635 Coq_Log.rewritings <> ll1:212 var
+R9631:9631 Coq_Log.rewritings <> c:208 var
+R9600:9600 Coq_Log.terms_constraints <> :::x_'\=='_x not
+R9611:9617 Coq_Log.terms_constraints <> :::x_'\=='_x not
+R9628:9628 Coq_Log.terms_constraints <> :::x_'\=='_x not
+R9601:9605 Coq_Log.terms_constraints <> OTerm constr
+R9609:9610 Coq_Log.rewritings <> l1:206 var
+R9607:9607 Coq_Log.rewritings <> f:205 var
+R9618:9622 Coq_Log.terms_constraints <> OTerm constr
+R9626:9627 Coq_Log.rewritings <> l2:207 var
+R9624:9624 Coq_Log.rewritings <> f:205 var
+binder 9819:9819 <> s:214
+binder 9821:9821 <> c:215
+binder 9823:9824 <> l1:216
+binder 9826:9827 <> l2:217
+R9873:9892 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9893:9893 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9924:9946 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9947:9953 Coq_Log.rewritings <> stepNeq:178 ind
+R9957:9957 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R9964:9964 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R9958:9963 Coq_Log.terms_constraints <> FalseC constr
+R9955:9955 Coq_Log.rewritings <> c:215 var
+R9894:9894 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R9907:9910 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R9923:9923 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R9895:9904 Coq_Log.terms_constraints <> isVariable def
+R9906:9906 Coq_Log.rewritings <> s:214 var
+R9911:9920 Coq_Log.terms_constraints <> isConstant def
+R9922:9922 Coq_Log.rewritings <> s:214 var
+R9846:9854 Coq_Log.rewritings <> decompose ind
+R9871:9872 Coq_Log.rewritings <> l2:217 var
+R9868:9869 Coq_Log.rewritings <> l1:216 var
+R9866:9866 Coq_Log.rewritings <> c:215 var
+R9857:9859 Coq_Log.terms_constraints <> Neq constr
+R9863:9863 Coq_Log.rewritings <> s:214 var
+R9861:9861 Coq_Log.rewritings <> s:214 var
+binder 9993:9993 <> X:218
+binder 9995:9995 <> t:219
+binder 9997:9997 <> c:220
+binder 9999:10000 <> l1:221
+binder 10002:10003 <> l2:222
+R10056:10075 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10091:10112 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10113:10119 Coq_Log.rewritings <> stepNeq:178 ind
+R10124:10124 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R10138:10141 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R10148:10148 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R10125:10125 Coq_Log.terms_constraints <> :::x_'\=='_x not
+R10131:10136 Coq_Log.terms_constraints <> :::x_'\=='_x not
+R10126:10128 Coq_Log.terms_constraints <> Var constr
+R10130:10130 Coq_Log.rewritings <> X:218 var
+R10137:10137 Coq_Log.rewritings <> t:219 var
+R10144:10145 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R10142:10143 Coq_Log.rewritings <> l1:221 var
+R10146:10147 Coq_Log.rewritings <> l2:222 var
+R10121:10121 Coq_Log.rewritings <> c:220 var
+R10076:10077 Coq.Init.Logic <> ::type_scope:'~'_x not
+R10090:10090 Coq.Init.Logic <> ::type_scope:'~'_x not
+R10078:10087 Coq_Log.terms_constraints <> isVariable def
+R10089:10089 Coq_Log.rewritings <> t:219 var
+R10022:10030 Coq_Log.rewritings <> decompose ind
+R10054:10055 Coq_Log.rewritings <> l2:222 var
+R10051:10052 Coq_Log.rewritings <> l1:221 var
+R10049:10049 Coq_Log.rewritings <> c:220 var
+R10035:10040 Coq_Log.terms_constraints <> :::x_'\=='_x not
+R10046:10046 Coq_Log.terms_constraints <> :::x_'\=='_x not
+R10034:10034 Coq_Log.rewritings <> t:219 var
+R10041:10043 Coq_Log.terms_constraints <> Var constr
+R10045:10045 Coq_Log.rewritings <> X:218 var
+binder 10178:10178 <> X:223
+binder 10180:10180 <> l:224
+binder 10182:10182 <> f:225
+binder 10184:10184 <> c:226
+binder 10186:10187 <> l1:227
+binder 10189:10190 <> l2:228
+R10253:10272 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10291:10312 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10313:10319 Coq_Log.rewritings <> stepNeq:178 ind
+R10326:10329 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R10324:10325 Coq_Log.rewritings <> l1:227 var
+R10330:10331 Coq_Log.rewritings <> l2:228 var
+R10321:10321 Coq_Log.rewritings <> c:226 var
+R10273:10286 Coq_Log.terms_constraints <> occurCheckList def
+R10290:10290 Coq_Log.rewritings <> l:224 var
+R10288:10288 Coq_Log.rewritings <> X:223 var
+R10209:10217 Coq_Log.rewritings <> decompose ind
+R10251:10252 Coq_Log.rewritings <> l2:228 var
+R10248:10249 Coq_Log.rewritings <> l1:227 var
+R10246:10246 Coq_Log.rewritings <> c:226 var
+R10221:10223 Coq_Log.terms_constraints <> Neq constr
+R10234:10238 Coq_Log.terms_constraints <> OTerm constr
+R10242:10242 Coq_Log.rewritings <> l:224 var
+R10240:10240 Coq_Log.rewritings <> f:225 var
+R10226:10228 Coq_Log.terms_constraints <> Var constr
+R10230:10230 Coq_Log.rewritings <> X:223 var
+binder 10361:10361 <> X:229
+binder 10363:10363 <> t:230
+binder 10365:10365 <> s:231
+binder 10367:10367 <> c:232
+binder 10369:10370 <> l1:233
+binder 10372:10373 <> l2:234
+R10435:10454 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10488:10509 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10510:10516 Coq_Log.rewritings <> stepNeq:178 ind
+R10523:10526 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R10521:10522 Coq_Log.rewritings <> l1:233 var
+R10527:10528 Coq_Log.rewritings <> l2:234 var
+R10518:10518 Coq_Log.rewritings <> c:232 var
+R10455:10468 Coq_Log.terms_constraints <> occurCheckList def
+R10473:10482 Coq_Log.terms_constraints <> SetCToList def
+R10486:10486 Coq_Log.rewritings <> s:231 var
+R10484:10484 Coq_Log.rewritings <> t:230 var
+R10470:10470 Coq_Log.rewritings <> X:229 var
+R10392:10400 Coq_Log.rewritings <> decompose ind
+R10433:10434 Coq_Log.rewritings <> l2:234 var
+R10430:10431 Coq_Log.rewritings <> l1:233 var
+R10428:10428 Coq_Log.rewritings <> c:232 var
+R10404:10406 Coq_Log.terms_constraints <> Neq constr
+R10417:10420 Coq_Log.terms_constraints <> SetC constr
+R10424:10424 Coq_Log.rewritings <> s:231 var
+R10422:10422 Coq_Log.rewritings <> t:230 var
+R10409:10411 Coq_Log.terms_constraints <> Var constr
+R10413:10413 Coq_Log.rewritings <> X:229 var
+binder 10558:10558 <> v:235
+binder 10560:10561 <> lt:236
+binder 10563:10563 <> c:237
+binder 10565:10565 <> j:238
+binder 10567:10568 <> tj:239
+binder 10570:10571 <> l1:240
+binder 10573:10574 <> l2:241
+R10646:10665 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10690:10709 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10732:10753 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10754:10760 Coq_Log.rewritings <> stepNeq:178 ind
+R10765:10765 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R10781:10786 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R10795:10795 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R10766:10769 Coq_Log.terms_constraints <> Nmem constr
+R10775:10777 Coq_Log.terms_constraints <> Var constr
+R10779:10779 Coq_Log.rewritings <> v:235 var
+R10771:10772 Coq_Log.rewritings <> tj:239 var
+R10789:10792 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R10787:10788 Coq_Log.rewritings <> l1:240 var
+R10793:10794 Coq_Log.rewritings <> l2:241 var
+R10762:10762 Coq_Log.rewritings <> c:237 var
+R10710:10711 Coq.Init.Logic <> ::type_scope:'~'_x not
+R10731:10731 Coq.Init.Logic <> ::type_scope:'~'_x not
+R10712:10725 Coq_Log.terms_constraints <> occurCheckList def
+R10729:10730 Coq_Log.rewritings <> lt:236 var
+R10727:10727 Coq_Log.rewritings <> v:235 var
+R10680:10682 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10666:10674 Coq.Lists.List <> nth_error def
+R10679:10679 Coq_Log.rewritings <> j:238 var
+R10676:10677 Coq_Log.rewritings <> lt:236 var
+R10683:10686 Coq.Init.Datatypes <> Some constr
+R10688:10689 Coq_Log.rewritings <> tj:239 var
+R10593:10601 Coq_Log.rewritings <> decompose ind
+R10644:10645 Coq_Log.rewritings <> l2:241 var
+R10641:10642 Coq_Log.rewritings <> l1:240 var
+R10639:10639 Coq_Log.rewritings <> c:237 var
+R10604:10606 Coq_Log.terms_constraints <> Neq constr
+R10617:10624 Coq_Log.terms_constraints <> listSetC def
+R10630:10632 Coq_Log.terms_constraints <> Var constr
+R10634:10634 Coq_Log.rewritings <> v:235 var
+R10626:10627 Coq_Log.rewritings <> lt:236 var
+R10609:10611 Coq_Log.terms_constraints <> Var constr
+R10613:10613 Coq_Log.rewritings <> v:235 var
+binder 10827:10828 <> t1:242
+binder 10830:10831 <> s1:243
+binder 10833:10834 <> t2:244
+binder 10836:10837 <> s2:245
+binder 10839:10839 <> c:246
+binder 10841:10841 <> N:247
+binder 10843:10844 <> l1:248
+binder 10846:10847 <> l2:249
+R10918:10939 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10952:10973 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10992:11013 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11032:11055 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11056:11062 Coq_Log.rewritings <> stepNeq:178 ind
+R11067:11067 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R11092:11094 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R11068:11070 Coq_Log.terms_constraints <> Mem constr
+R11081:11084 Coq_Log.terms_constraints <> SetC constr
+R11089:11090 Coq_Log.rewritings <> s1:243 var
+R11086:11087 Coq_Log.rewritings <> t1:242 var
+R11073:11075 Coq_Log.terms_constraints <> Var constr
+R11077:11077 Coq_Log.rewritings <> N:247 var
+R11095:11095 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R11121:11124 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R11131:11131 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R11096:11099 Coq_Log.terms_constraints <> Nmem constr
+R11110:11113 Coq_Log.terms_constraints <> SetC constr
+R11118:11119 Coq_Log.rewritings <> s2:245 var
+R11115:11116 Coq_Log.rewritings <> t2:244 var
+R11102:11104 Coq_Log.terms_constraints <> Var constr
+R11106:11106 Coq_Log.rewritings <> N:247 var
+R11127:11128 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R11125:11126 Coq_Log.rewritings <> l1:248 var
+R11129:11130 Coq_Log.rewritings <> l2:249 var
+R11064:11064 Coq_Log.rewritings <> c:246 var
+R11014:11021 Coq_Log.terms_constraints <> isFreshL def
+R11025:11025 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R11028:11028 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R11031:11031 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R11026:11027 Coq_Log.rewritings <> s2:245 var
+R11029:11030 Coq_Log.rewritings <> t2:244 var
+R11023:11023 Coq_Log.rewritings <> N:247 var
+R10974:10981 Coq_Log.terms_constraints <> isFreshL def
+R10985:10985 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R10988:10988 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R10991:10991 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R10986:10987 Coq_Log.rewritings <> s1:243 var
+R10989:10990 Coq_Log.rewritings <> t1:242 var
+R10983:10983 Coq_Log.rewritings <> N:247 var
+R10940:10947 Coq_Log.terms_constraints <> isFreshC def
+R10951:10951 Coq_Log.rewritings <> c:246 var
+R10949:10949 Coq_Log.rewritings <> N:247 var
+R10868:10876 Coq_Log.rewritings <> decompose ind
+R10916:10917 Coq_Log.rewritings <> l2:249 var
+R10913:10914 Coq_Log.rewritings <> l1:248 var
+R10911:10911 Coq_Log.rewritings <> c:246 var
+R10880:10882 Coq_Log.terms_constraints <> Neq constr
+R10898:10901 Coq_Log.terms_constraints <> SetC constr
+R10906:10907 Coq_Log.rewritings <> s2:245 var
+R10903:10904 Coq_Log.rewritings <> t2:244 var
+R10885:10888 Coq_Log.terms_constraints <> SetC constr
+R10893:10894 Coq_Log.rewritings <> s1:243 var
+R10890:10891 Coq_Log.rewritings <> t1:242 var
+binder 11163:11164 <> t1:250
+binder 11166:11167 <> s1:251
+binder 11169:11170 <> t2:252
+binder 11172:11173 <> s2:253
+binder 11175:11175 <> c:254
+binder 11177:11177 <> N:255
+binder 11179:11180 <> l1:256
+binder 11182:11183 <> l2:257
+R11254:11275 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11288:11309 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11328:11349 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11368:11391 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11392:11398 Coq_Log.rewritings <> stepNeq:178 ind
+R11403:11403 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R11428:11432 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R11404:11406 Coq_Log.terms_constraints <> Mem constr
+R11417:11420 Coq_Log.terms_constraints <> SetC constr
+R11425:11426 Coq_Log.rewritings <> s2:253 var
+R11422:11423 Coq_Log.rewritings <> t2:252 var
+R11409:11411 Coq_Log.terms_constraints <> Var constr
+R11413:11413 Coq_Log.rewritings <> N:255 var
+R11433:11433 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R11459:11464 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R11471:11471 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R11434:11437 Coq_Log.terms_constraints <> Nmem constr
+R11448:11451 Coq_Log.terms_constraints <> SetC constr
+R11456:11457 Coq_Log.rewritings <> s1:251 var
+R11453:11454 Coq_Log.rewritings <> t1:250 var
+R11440:11442 Coq_Log.terms_constraints <> Var constr
+R11444:11444 Coq_Log.rewritings <> N:255 var
+R11467:11468 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R11465:11466 Coq_Log.rewritings <> l1:256 var
+R11469:11470 Coq_Log.rewritings <> l2:257 var
+R11400:11400 Coq_Log.rewritings <> c:254 var
+R11350:11357 Coq_Log.terms_constraints <> isFreshL def
+R11361:11361 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R11364:11364 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R11367:11367 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R11362:11363 Coq_Log.rewritings <> s2:253 var
+R11365:11366 Coq_Log.rewritings <> t2:252 var
+R11359:11359 Coq_Log.rewritings <> N:255 var
+R11310:11317 Coq_Log.terms_constraints <> isFreshL def
+R11321:11321 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R11324:11324 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R11327:11327 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R11322:11323 Coq_Log.rewritings <> s1:251 var
+R11325:11326 Coq_Log.rewritings <> t1:250 var
+R11319:11319 Coq_Log.rewritings <> N:255 var
+R11276:11283 Coq_Log.terms_constraints <> isFreshC def
+R11287:11287 Coq_Log.rewritings <> c:254 var
+R11285:11285 Coq_Log.rewritings <> N:255 var
+R11204:11212 Coq_Log.rewritings <> decompose ind
+R11252:11253 Coq_Log.rewritings <> l2:257 var
+R11249:11250 Coq_Log.rewritings <> l1:256 var
+R11247:11247 Coq_Log.rewritings <> c:254 var
+R11216:11218 Coq_Log.terms_constraints <> Neq constr
+R11234:11237 Coq_Log.terms_constraints <> SetC constr
+R11242:11243 Coq_Log.rewritings <> s2:253 var
+R11239:11240 Coq_Log.rewritings <> t2:252 var
+R11221:11224 Coq_Log.terms_constraints <> SetC constr
+R11229:11230 Coq_Log.rewritings <> s1:251 var
+R11226:11227 Coq_Log.rewritings <> t1:250 var
+ind 11664:11671 <> stepNmem
+constr 11717:11725 <> stepNmem1
+constr 11850:11858 <> stepNmem2
+constr 12015:12023 <> stepNmem3
+R11686:11689 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11700:11703 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11690:11699 Coq_Log.terms_constraints <> constraint def
+R11676:11685 Coq_Log.terms_constraints <> constraint def
+binder 11736:11736 <> t:260
+binder 11738:11738 <> c:261
+binder 11740:11741 <> l1:262
+binder 11743:11744 <> l2:263
+R11798:11820 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11821:11828 Coq_Log.rewritings <> stepNmem:258 ind
+R11835:11836 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R11833:11834 Coq_Log.rewritings <> l1:262 var
+R11837:11838 Coq_Log.rewritings <> l2:263 var
+R11830:11830 Coq_Log.rewritings <> c:261 var
+R11764:11772 Coq_Log.rewritings <> decompose ind
+R11796:11797 Coq_Log.rewritings <> l2:263 var
+R11793:11794 Coq_Log.rewritings <> l1:262 var
+R11791:11791 Coq_Log.rewritings <> c:261 var
+R11776:11780 Coq_Log.terms_constraints <> :::x_'\:s'_x not
+R11775:11775 Coq_Log.rewritings <> t:260 var
+R11781:11788 Coq_Log.terms_constraints <> EmptySet constr
+binder 11869:11869 <> r:264
+binder 11871:11871 <> s:265
+binder 11873:11873 <> t:266
+binder 11875:11875 <> c:267
+binder 11877:11878 <> l1:268
+binder 11880:11881 <> l2:269
+R11937:11959 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11960:11967 Coq_Log.rewritings <> stepNmem:258 ind
+R11972:11972 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R11980:11983 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R12003:12003 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R11974:11978 Coq_Log.terms_constraints <> :::x_'\=='_x not
+R11973:11973 Coq_Log.rewritings <> r:264 var
+R11979:11979 Coq_Log.rewritings <> t:266 var
+R11984:11984 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R11992:11995 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R12002:12002 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R11986:11990 Coq_Log.terms_constraints <> :::x_'\:s'_x not
+R11985:11985 Coq_Log.rewritings <> r:264 var
+R11991:11991 Coq_Log.rewritings <> s:265 var
+R11998:11999 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R11996:11997 Coq_Log.rewritings <> l1:268 var
+R12000:12001 Coq_Log.rewritings <> l2:269 var
+R11969:11969 Coq_Log.rewritings <> c:267 var
+R11901:11909 Coq_Log.rewritings <> decompose ind
+R11935:11936 Coq_Log.rewritings <> l2:269 var
+R11932:11933 Coq_Log.rewritings <> l1:268 var
+R11930:11930 Coq_Log.rewritings <> c:267 var
+R11913:11918 Coq_Log.terms_constraints <> :::x_'\:s'_x not
+R11927:11927 Coq_Log.terms_constraints <> :::x_'\:s'_x not
+R11912:11912 Coq_Log.rewritings <> r:264 var
+R11919:11922 Coq_Log.terms_constraints <> SetC constr
+R11926:11926 Coq_Log.rewritings <> s:265 var
+R11924:11924 Coq_Log.rewritings <> t:266 var
+binder 12034:12034 <> t:270
+binder 12036:12036 <> c:271
+binder 12038:12038 <> X:272
+binder 12040:12041 <> l1:273
+binder 12043:12044 <> l2:274
+R12097:12117 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12132:12154 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12155:12162 Coq_Log.rewritings <> stepNmem:258 ind
+R12169:12170 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R12167:12168 Coq_Log.rewritings <> l1:273 var
+R12171:12172 Coq_Log.rewritings <> l2:274 var
+R12164:12164 Coq_Log.rewritings <> c:271 var
+R12118:12127 Coq_Log.terms_constraints <> occurCheck def
+R12131:12131 Coq_Log.rewritings <> t:270 var
+R12129:12129 Coq_Log.rewritings <> X:272 var
+R12064:12072 Coq_Log.rewritings <> decompose ind
+R12095:12096 Coq_Log.rewritings <> l2:274 var
+R12092:12093 Coq_Log.rewritings <> l1:273 var
+R12090:12090 Coq_Log.rewritings <> c:271 var
+R12076:12081 Coq_Log.terms_constraints <> :::x_'\:s'_x not
+R12087:12087 Coq_Log.terms_constraints <> :::x_'\:s'_x not
+R12075:12075 Coq_Log.rewritings <> t:270 var
+R12082:12084 Coq_Log.terms_constraints <> Var constr
+R12086:12086 Coq_Log.rewritings <> X:272 var
+ind 12314:12319 <> stepSC
+constr 12365:12371 <> stepSC1
+constr 12488:12494 <> stepSC2
+constr 12632:12638 <> stepSC3
+R12334:12337 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12348:12351 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12338:12347 Coq_Log.terms_constraints <> constraint def
+R12324:12333 Coq_Log.terms_constraints <> constraint def
+binder 12382:12382 <> c:277
+binder 12384:12385 <> l1:278
+binder 12387:12388 <> l2:279
+R12440:12460 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12461:12466 Coq_Log.rewritings <> stepSC:275 ind
+R12473:12474 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R12471:12472 Coq_Log.rewritings <> l1:278 var
+R12475:12476 Coq_Log.rewritings <> l2:279 var
+R12468:12468 Coq_Log.rewritings <> c:277 var
+R12406:12414 Coq_Log.rewritings <> decompose ind
+R12438:12439 Coq_Log.rewritings <> l2:279 var
+R12435:12436 Coq_Log.rewritings <> l1:278 var
+R12433:12433 Coq_Log.rewritings <> c:277 var
+R12417:12421 Coq_Log.terms_constraints <> IsSet constr
+R12423:12430 Coq_Log.terms_constraints <> EmptySet constr
+binder 12505:12505 <> t:280
+binder 12507:12507 <> s:281
+binder 12509:12509 <> c:282
+binder 12511:12512 <> l1:283
+binder 12514:12515 <> l2:284
+R12569:12589 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12590:12595 Coq_Log.rewritings <> stepSC:275 ind
+R12602:12605 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R12600:12601 Coq_Log.rewritings <> l1:283 var
+R12615:12618 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R12606:12606 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R12614:12614 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R12607:12611 Coq_Log.terms_constraints <> IsSet constr
+R12613:12613 Coq_Log.rewritings <> s:281 var
+R12619:12620 Coq_Log.rewritings <> l2:284 var
+R12597:12597 Coq_Log.rewritings <> c:282 var
+R12533:12541 Coq_Log.rewritings <> decompose ind
+R12567:12568 Coq_Log.rewritings <> l2:284 var
+R12564:12565 Coq_Log.rewritings <> l1:283 var
+R12562:12562 Coq_Log.rewritings <> c:282 var
+R12544:12548 Coq_Log.terms_constraints <> IsSet constr
+R12551:12554 Coq_Log.terms_constraints <> SetC constr
+R12558:12558 Coq_Log.rewritings <> s:281 var
+R12556:12556 Coq_Log.rewritings <> t:280 var
+binder 12649:12649 <> f:285
+binder 12651:12651 <> l:286
+binder 12653:12653 <> c:287
+binder 12655:12656 <> l1:288
+binder 12658:12659 <> l2:289
+R12714:12734 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12735:12740 Coq_Log.rewritings <> stepSC:275 ind
+R12744:12744 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R12751:12751 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R12745:12750 Coq_Log.terms_constraints <> FalseC constr
+R12742:12742 Coq_Log.rewritings <> c:287 var
+R12677:12685 Coq_Log.rewritings <> decompose ind
+R12712:12713 Coq_Log.rewritings <> l2:289 var
+R12709:12710 Coq_Log.rewritings <> l1:288 var
+R12707:12707 Coq_Log.rewritings <> c:287 var
+R12688:12692 Coq_Log.terms_constraints <> IsSet constr
+R12695:12699 Coq_Log.terms_constraints <> OTerm constr
+R12703:12703 Coq_Log.rewritings <> l:286 var
+R12701:12701 Coq_Log.rewritings <> f:285 var
+ind 13003:13006 <> step
+constr 13051:13055 <> step1
+constr 13120:13124 <> step2
+constr 13190:13194 <> step3
+constr 13260:13264 <> step4
+constr 13331:13335 <> step5
+R13020:13023 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13034:13037 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13024:13033 Coq_Log.terms_constraints <> constraint def
+R13010:13019 Coq_Log.terms_constraints <> constraint def
+binder 13066:13066 <> c:292
+binder 13068:13069 <> c':293
+R13098:13100 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13101:13104 Coq_Log.rewritings <> step:290 ind
+R13108:13109 Coq_Log.rewritings <> c':293 var
+R13106:13106 Coq_Log.rewritings <> c:292 var
+R13087:13092 Coq_Log.rewritings <> stepEq ind
+R13096:13097 Coq_Log.rewritings <> c':293 var
+R13094:13094 Coq_Log.rewritings <> c:292 var
+binder 13135:13135 <> c:294
+binder 13137:13138 <> c':295
+R13168:13170 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13171:13174 Coq_Log.rewritings <> step:290 ind
+R13178:13179 Coq_Log.rewritings <> c':295 var
+R13176:13176 Coq_Log.rewritings <> c:294 var
+R13156:13162 Coq_Log.rewritings <> stepMem ind
+R13166:13167 Coq_Log.rewritings <> c':295 var
+R13164:13164 Coq_Log.rewritings <> c:294 var
+binder 13205:13205 <> c:296
+binder 13207:13208 <> c':297
+R13238:13240 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13241:13244 Coq_Log.rewritings <> step:290 ind
+R13248:13249 Coq_Log.rewritings <> c':297 var
+R13246:13246 Coq_Log.rewritings <> c:296 var
+R13226:13232 Coq_Log.rewritings <> stepNeq ind
+R13236:13237 Coq_Log.rewritings <> c':297 var
+R13234:13234 Coq_Log.rewritings <> c:296 var
+binder 13275:13275 <> c:298
+binder 13277:13278 <> c':299
+R13309:13311 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13312:13315 Coq_Log.rewritings <> step:290 ind
+R13319:13320 Coq_Log.rewritings <> c':299 var
+R13317:13317 Coq_Log.rewritings <> c:298 var
+R13296:13303 Coq_Log.rewritings <> stepNmem ind
+R13307:13308 Coq_Log.rewritings <> c':299 var
+R13305:13305 Coq_Log.rewritings <> c:298 var
+binder 13346:13346 <> c:300
+binder 13348:13349 <> c':301
+R13378:13379 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13380:13383 Coq_Log.rewritings <> step:290 ind
+R13387:13388 Coq_Log.rewritings <> c':301 var
+R13385:13385 Coq_Log.rewritings <> c:300 var
+R13367:13372 Coq_Log.rewritings <> stepSC ind
+R13376:13377 Coq_Log.rewritings <> c':301 var
+R13374:13374 Coq_Log.rewritings <> c:300 var
+R13465:13479 Coq.Classes.RelationClasses <> <> lib
+R13498:13506 Coq.Relations.Relations <> <> lib
+R13525:13542 Coq.Wellfounded.Transitive_Closure <> <> lib
+def 13559:13566 <> stepStar
+R13571:13585 Coq.Relations.Relation_Operators <> clos_refl_trans ind
+R13590:13593 Coq_Log.rewritings <> step ind

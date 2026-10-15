@@ -1,0 +1,19 @@
+-R theories Coq_Log
+
+-arg -w -arg -notation-overridden
+-arg -w -arg -redundant-canonical-projection
+-arg -w -arg -projection-no-head-constant
+-arg -w -arg -ambiguous-paths
+-arg -w -arg -uniform-inheritance
+
+theories/preliminaries.v
+theories/terms_constraints.v
+theories/substitution.v
+theories/rewritings.v
+theories/list_variables.v
+theories/depths.v
+theories/valuation.v
+theories/interpretation.v
+theories/satisfiability.v
+theories/sort_complete.v
+

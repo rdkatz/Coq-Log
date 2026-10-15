@@ -1,0 +1,3710 @@
+DIGEST 51fb8d8c88d6e892f17ec494defb7827
+FCoq_Log.terms_constraints
+R482:486 Coq.Arith.Arith <> <> lib
+R488:491 Coq.Lists.List <> <> lib
+R493:501 Coq.Logic.Decidable <> <> lib
+R522:534 Coq_Log.preliminaries <> <> lib
+def 712:720 <> index_set
+R725:727 Coq.Init.Datatypes <> nat ind
+ind 741:750 <> log_symbol
+constr 762:765 <> LogS
+R778:781 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R782:791 Coq_Log.terms_constraints <> log_symbol:1 ind
+R769:777 Coq_Log.terms_constraints <> index_set def
+ind 805:816 <> log_variable
+constr 828:831 <> LogV
+R844:847 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R848:859 Coq_Log.terms_constraints <> log_variable:3 ind
+R835:843 Coq_Log.terms_constraints <> index_set def
+prf 871:883 <> eq_symbol_dec
+R905:914 Coq_Log.terms_constraints <> log_symbol ind
+binder 897:898 <> s1:5
+binder 900:901 <> s2:6
+R917:917 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R925:929 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R938:938 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R920:922 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R918:919 Coq_Log.terms_constraints <> s1:5 var
+R923:924 Coq_Log.terms_constraints <> s2:6 var
+R932:935 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R930:931 Coq_Log.terms_constraints <> s1:5 var
+R936:937 Coq_Log.terms_constraints <> s2:6 var
+R973:982 Coq.Arith.Peano_dec <> eq_nat_dec syndef
+R973:982 Coq.Arith.Peano_dec <> eq_nat_dec syndef
+prf 1000:1014 <> eq_variable_dec
+R1036:1047 Coq_Log.terms_constraints <> log_variable ind
+binder 1028:1029 <> v1:7
+binder 1031:1032 <> v2:8
+R1050:1050 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1058:1062 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1071:1071 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1053:1055 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1051:1052 Coq_Log.terms_constraints <> v1:7 var
+R1056:1057 Coq_Log.terms_constraints <> v2:8 var
+R1065:1068 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R1063:1064 Coq_Log.terms_constraints <> v1:7 var
+R1069:1070 Coq_Log.terms_constraints <> v2:8 var
+R1106:1115 Coq.Arith.Peano_dec <> eq_nat_dec syndef
+R1106:1115 Coq.Arith.Peano_dec <> eq_nat_dec syndef
+ind 1280:1283 <> term
+constr 1299:1301 <> Var
+constr 1331:1334 <> SetC
+constr 1364:1368 <> OTerm
+constr 1409:1416 <> EmptySet
+R1317:1320 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1321:1324 Coq_Log.terms_constraints <> term:9 ind
+R1305:1316 Coq_Log.terms_constraints <> log_variable ind
+R1342:1345 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1350:1353 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1354:1357 Coq_Log.terms_constraints <> term:9 ind
+R1346:1349 Coq_Log.terms_constraints <> term:9 ind
+R1338:1341 Coq_Log.terms_constraints <> term:9 ind
+R1382:1385 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1395:1398 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1399:1402 Coq_Log.terms_constraints <> term:9 ind
+R1386:1389 Coq.Init.Datatypes <> list ind
+R1391:1394 Coq_Log.terms_constraints <> term:9 ind
+R1372:1381 Coq_Log.terms_constraints <> log_symbol ind
+R1420:1423 Coq_Log.terms_constraints <> term:9 ind
+def 1440:1444 <> Const
+binder 1446:1446 <> s:11
+R1451:1455 Coq_Log.terms_constraints <> OTerm constr
+R1459:1461 Coq.Init.Datatypes <> nil constr
+R1457:1457 Coq_Log.terms_constraints <> s:11 var
+R1494:1497 Coq_Log.terms_constraints <> SetC constr
+not 1476:1476 <> :::'{{'_x_'|'_x_'}}'
+R1540:1542 Coq_Log.terms_constraints <> Var constr
+R1545:1548 Coq_Log.terms_constraints <> LogV constr
+not 1529:1529 <> :::'\V'_x
+R1590:1593 Coq_Log.terms_constraints <> LogS constr
+not 1579:1579 <> :::'\S'_x
+R1634:1638 Coq_Log.terms_constraints <> Const def
+R1641:1644 Coq_Log.terms_constraints <> LogS constr
+not 1623:1623 <> :::'\C'_x
+prf 1674:1685 <> eq_const_dec
+R1708:1717 Coq_Log.terms_constraints <> log_symbol ind
+binder 1700:1701 <> s1:12
+binder 1703:1704 <> s2:13
+R1721:1721 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1745:1749 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1774:1774 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1722:1722 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1731:1735 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1744:1744 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1723:1727 Coq_Log.terms_constraints <> Const def
+R1729:1730 Coq_Log.terms_constraints <> s1:12 var
+R1736:1740 Coq_Log.terms_constraints <> Const def
+R1742:1743 Coq_Log.terms_constraints <> s2:13 var
+R1750:1750 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R1759:1764 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R1773:1773 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R1751:1755 Coq_Log.terms_constraints <> Const def
+R1757:1758 Coq_Log.terms_constraints <> s1:12 var
+R1765:1769 Coq_Log.terms_constraints <> Const def
+R1771:1772 Coq_Log.terms_constraints <> s2:13 var
+R1807:1819 Coq_Log.terms_constraints <> eq_symbol_dec thm
+R1807:1819 Coq_Log.terms_constraints <> eq_symbol_dec thm
+def 1931:1935 <> sizet
+R1942:1945 Coq_Log.terms_constraints <> term ind
+binder 1938:1938 <> t:14
+R1950:1952 Coq.Init.Datatypes <> nat ind
+R1966:1966 Coq_Log.terms_constraints <> t:14 var
+R1978:1980 Coq_Log.terms_constraints <> Var constr
+R1994:1997 Coq_Log.terms_constraints <> SetC constr
+R2022:2025 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R2034:2034 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R2009:2012 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R2021:2021 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R2013:2017 Coq_Log.terms_constraints <> sizet:15 def
+R2026:2030 Coq_Log.terms_constraints <> sizet:15 def
+R2041:2045 Coq_Log.terms_constraints <> OTerm constr
+R2107:2110 Coq.Init.Datatypes <> list ind
+R2112:2115 Coq_Log.terms_constraints <> term ind
+binder 2103:2103 <> l:17
+R2131:2133 Coq.Init.Datatypes <> nat ind
+R2156:2156 Coq_Log.terms_constraints <> l:17 var
+R2177:2179 Coq.Init.Datatypes <> nil constr
+R2201:2204 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2218:2220 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R2211:2215 Coq_Log.terms_constraints <> sizet:15 def
+R2217:2217 Coq_Log.terms_constraints <> t:14 var
+R2221:2229 Coq_Log.terms_constraints <> size_list:18 var
+binder 2065:2073 <> size_list:20
+R2263:2265 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R2266:2274 Coq_Log.terms_constraints <> size_list:20 var
+R2283:2290 Coq_Log.terms_constraints <> EmptySet constr
+prf 2314:2324 <> sizet_gte_1
+binder 2326:2326 <> t:21
+R2334:2336 Coq.Init.Logic <> ::type_scope:'~'_x not
+R2349:2349 Coq.Init.Logic <> ::type_scope:'~'_x not
+R2344:2347 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R2337:2341 Coq_Log.terms_constraints <> sizet def
+R2343:2343 Coq_Log.terms_constraints <> t:21 var
+R2390:2398 Coq.Arith.Lt <> lt_not_le thm
+R2407:2414 Coq.Arith.Lt <> neq_0_lt thm
+R2423:2425 Coq.Init.Peano <> O_S thm
+R2390:2398 Coq.Arith.Lt <> lt_not_le thm
+R2390:2398 Coq.Arith.Lt <> lt_not_le thm
+R2390:2398 Coq.Arith.Lt <> lt_not_le thm
+R2390:2398 Coq.Arith.Lt <> lt_not_le thm
+R2407:2414 Coq.Arith.Lt <> neq_0_lt thm
+R2407:2414 Coq.Arith.Lt <> neq_0_lt thm
+R2407:2414 Coq.Arith.Lt <> neq_0_lt thm
+R2407:2414 Coq.Arith.Lt <> neq_0_lt thm
+R2423:2425 Coq.Init.Peano <> O_S thm
+R2423:2425 Coq.Init.Peano <> O_S thm
+R2423:2425 Coq.Init.Peano <> O_S thm
+R2423:2425 Coq.Init.Peano <> O_S thm
+prf 2443:2452 <> le_1_sizet
+binder 2454:2454 <> t:22
+R2462:2465 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R2466:2470 Coq_Log.terms_constraints <> sizet def
+R2472:2472 Coq_Log.terms_constraints <> t:22 var
+R2509:2512 Coq.Init.Peano <> le_n constr
+R2509:2512 Coq.Init.Peano <> le_n constr
+R2524:2529 Coq.Arith.Le <> le_n_S thm
+R2538:2543 Coq.Arith.Le <> le_0_n syndef
+R2524:2529 Coq.Arith.Le <> le_n_S thm
+R2538:2543 Coq.Arith.Le <> le_0_n syndef
+R2555:2560 Coq.Arith.Le <> le_n_S thm
+R2569:2574 Coq.Arith.Le <> le_0_n syndef
+R2555:2560 Coq.Arith.Le <> le_n_S thm
+R2569:2574 Coq.Arith.Le <> le_0_n syndef
+R2586:2589 Coq.Init.Peano <> le_n constr
+R2586:2589 Coq.Init.Peano <> le_n constr
+prf 2607:2617 <> sizet_OTerm
+binder 2619:2619 <> s:23
+binder 2621:2622 <> lt:24
+binder 2624:2624 <> n:25
+R2656:2665 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2701:2701 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 2673:2673 <> t:26
+R2683:2686 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2687:2687 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R2695:2699 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R2688:2692 Coq_Log.terms_constraints <> sizet def
+R2694:2694 Coq_Log.terms_constraints <> t:26 var
+R2700:2700 Coq_Log.terms_constraints <> n:25 var
+R2676:2677 Coq.Lists.List <> In def
+R2681:2682 Coq_Log.terms_constraints <> lt:24 var
+R2679:2679 Coq_Log.terms_constraints <> t:26 var
+R2649:2652 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R2631:2635 Coq_Log.terms_constraints <> sizet def
+R2638:2642 Coq_Log.terms_constraints <> OTerm constr
+R2646:2647 Coq_Log.terms_constraints <> lt:24 var
+R2644:2644 Coq_Log.terms_constraints <> s:23 var
+R2653:2653 Coq.Init.Datatypes <> S constr
+R2655:2655 Coq_Log.terms_constraints <> n:25 var
+R2828:2836 Coq.Init.Peano <> plus_Sn_m thm
+R2828:2836 Coq.Init.Peano <> plus_Sn_m thm
+R2828:2836 Coq.Init.Peano <> plus_Sn_m thm
+R2856:2861 Coq.Arith.Le <> le_S_n thm
+R2856:2861 Coq.Arith.Le <> le_S_n thm
+R2878:2885 Coq_Log.preliminaries <> le_add_l thm
+R2878:2885 Coq_Log.preliminaries <> le_add_l thm
+R2940:2948 Coq.Init.Peano <> plus_n_Sm thm
+R2940:2948 Coq.Init.Peano <> plus_n_Sm thm
+R2940:2948 Coq.Init.Peano <> plus_n_Sm thm
+R2973:2980 Coq_Log.preliminaries <> le_add_r thm
+R2973:2980 Coq_Log.preliminaries <> le_add_r thm
+prf 3008:3017 <> sizet_SetC
+binder 3019:3020 <> t1:27
+binder 3022:3023 <> t2:28
+binder 3025:3025 <> n:29
+R3057:3065 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3066:3066 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R3080:3085 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R3099:3099 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R3075:3078 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R3067:3071 Coq_Log.terms_constraints <> sizet def
+R3073:3074 Coq_Log.terms_constraints <> t1:27 var
+R3079:3079 Coq_Log.terms_constraints <> n:29 var
+R3094:3097 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R3086:3090 Coq_Log.terms_constraints <> sizet def
+R3092:3093 Coq_Log.terms_constraints <> t2:28 var
+R3098:3098 Coq_Log.terms_constraints <> n:29 var
+R3050:3053 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R3032:3036 Coq_Log.terms_constraints <> sizet def
+R3039:3042 Coq_Log.terms_constraints <> SetC constr
+R3047:3048 Coq_Log.terms_constraints <> t2:28 var
+R3044:3045 Coq_Log.terms_constraints <> t1:27 var
+R3054:3054 Coq.Init.Datatypes <> S constr
+R3056:3056 Coq_Log.terms_constraints <> n:29 var
+R3157:3162 Coq.Arith.Le <> le_S_n thm
+R3157:3162 Coq.Arith.Le <> le_S_n thm
+R3157:3162 Coq.Arith.Le <> le_S_n thm
+R3179:3187 Coq.Init.Peano <> plus_Sn_m thm
+R3179:3187 Coq.Init.Peano <> plus_Sn_m thm
+R3179:3187 Coq.Init.Peano <> plus_Sn_m thm
+R3214:3221 Coq_Log.preliminaries <> le_add_l thm
+R3214:3221 Coq_Log.preliminaries <> le_add_l thm
+R3247:3255 Coq.Init.Peano <> plus_n_Sm thm
+R3247:3255 Coq.Init.Peano <> plus_n_Sm thm
+R3247:3255 Coq.Init.Peano <> plus_n_Sm thm
+R3282:3289 Coq_Log.preliminaries <> le_add_r thm
+R3282:3289 Coq_Log.preliminaries <> le_add_r thm
+prf 3319:3330 <> OTerm_eq_iff
+binder 3332:3333 <> s1:30
+binder 3335:3336 <> s2:31
+binder 3338:3340 <> lt1:32
+binder 3342:3344 <> lt2:33
+R3352:3352 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R3380:3386 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R3411:3411 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R3365:3367 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3353:3357 Coq_Log.terms_constraints <> OTerm constr
+R3362:3364 Coq_Log.terms_constraints <> lt1:32 var
+R3359:3360 Coq_Log.terms_constraints <> s1:30 var
+R3368:3372 Coq_Log.terms_constraints <> OTerm constr
+R3377:3379 Coq_Log.terms_constraints <> lt2:33 var
+R3374:3375 Coq_Log.terms_constraints <> s2:31 var
+R3387:3387 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R3395:3400 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R3410:3410 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R3390:3392 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3388:3389 Coq_Log.terms_constraints <> s1:30 var
+R3393:3394 Coq_Log.terms_constraints <> s2:31 var
+R3404:3406 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3401:3403 Coq_Log.terms_constraints <> lt1:32 var
+R3407:3409 Coq_Log.terms_constraints <> lt2:33 var
+prf 3521:3531 <> eq_term_dec
+R3554:3557 Coq_Log.terms_constraints <> term ind
+binder 3546:3547 <> t1:34
+binder 3549:3550 <> t2:35
+R3561:3561 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R3569:3573 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R3582:3582 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R3564:3566 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3562:3563 Coq_Log.terms_constraints <> t1:34 var
+R3567:3568 Coq_Log.terms_constraints <> t2:35 var
+R3576:3579 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R3574:3575 Coq_Log.terms_constraints <> t1:34 var
+R3580:3581 Coq_Log.terms_constraints <> t2:35 var
+R3667:3669 Coq.Init.Datatypes <> nat ind
+binder 3663:3663 <> n:36
+binder 3683:3684 <> t1:37
+binder 3686:3687 <> t2:38
+R3690:3690 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3721:3726 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3749:3749 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3727:3727 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R3735:3739 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R3748:3748 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R3730:3732 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3728:3729 Coq_Log.terms_constraints <> t1:37 var
+R3733:3734 Coq_Log.terms_constraints <> t2:38 var
+R3742:3745 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R3740:3741 Coq_Log.terms_constraints <> t1:37 var
+R3746:3747 Coq_Log.terms_constraints <> t2:38 var
+R3691:3691 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R3715:3719 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R3692:3692 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R3701:3705 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R3714:3714 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R3693:3697 Coq_Log.terms_constraints <> sizet def
+R3699:3700 Coq_Log.terms_constraints <> t1:37 var
+R3706:3710 Coq_Log.terms_constraints <> sizet def
+R3712:3713 Coq_Log.terms_constraints <> t2:38 var
+R3720:3720 Coq_Log.terms_constraints <> n:36 var
+R3667:3669 Coq.Init.Datatypes <> nat ind
+binder 3663:3663 <> n:39
+binder 3683:3684 <> t1:40
+binder 3686:3687 <> t2:41
+R3690:3690 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3721:3726 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3749:3749 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3727:3727 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R3735:3739 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R3748:3748 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R3730:3732 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3728:3729 Coq_Log.terms_constraints <> t1:40 var
+R3733:3734 Coq_Log.terms_constraints <> t2:41 var
+R3742:3745 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R3740:3741 Coq_Log.terms_constraints <> t1:40 var
+R3746:3747 Coq_Log.terms_constraints <> t2:41 var
+R3691:3691 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R3715:3719 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R3692:3692 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R3701:3705 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R3714:3714 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R3693:3697 Coq_Log.terms_constraints <> sizet def
+R3699:3700 Coq_Log.terms_constraints <> t1:40 var
+R3706:3710 Coq_Log.terms_constraints <> sizet def
+R3712:3713 Coq_Log.terms_constraints <> t2:41 var
+R3720:3720 Coq_Log.terms_constraints <> n:39 var
+binder 3775:3775 <> n:42
+R3781:3781 Coq_Log.terms_constraints <> n:42 var
+binder 3775:3775 <> n:43
+R3781:3781 Coq_Log.terms_constraints <> n:43 var
+R3809:3811 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R3800:3804 Coq_Log.terms_constraints <> sizet def
+R3812:3816 Coq_Log.terms_constraints <> sizet def
+R3809:3811 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R3800:3804 Coq_Log.terms_constraints <> sizet def
+R3812:3816 Coq_Log.terms_constraints <> sizet def
+R3838:3841 Coq.Init.Peano <> le_n constr
+R3838:3841 Coq.Init.Peano <> le_n constr
+R3931:3934 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R3923:3927 Coq_Log.terms_constraints <> sizet def
+R3953:3963 Coq_Log.terms_constraints <> sizet_gte_1 thm
+R3931:3934 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R3923:3927 Coq_Log.terms_constraints <> sizet def
+R3953:3963 Coq_Log.terms_constraints <> sizet_gte_1 thm
+R3953:3963 Coq_Log.terms_constraints <> sizet_gte_1 thm
+R3980:3987 Coq_Log.preliminaries <> le_add_l thm
+R3980:3987 Coq_Log.preliminaries <> le_add_l thm
+R4125:4139 Coq_Log.terms_constraints <> eq_variable_dec thm
+R4125:4139 Coq_Log.terms_constraints <> eq_variable_dec thm
+R4205:4207 Coq.Init.Logic <> not def
+R4368:4368 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R4412:4416 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R4388:4391 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R4411:4411 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R4377:4379 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R4369:4373 Coq_Log.terms_constraints <> sizet def
+R4380:4384 Coq_Log.terms_constraints <> sizet def
+R4400:4402 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R4392:4396 Coq_Log.terms_constraints <> sizet def
+R4403:4407 Coq_Log.terms_constraints <> sizet def
+R4368:4368 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R4412:4416 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R4388:4391 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R4411:4411 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R4377:4379 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R4369:4373 Coq_Log.terms_constraints <> sizet def
+R4380:4384 Coq_Log.terms_constraints <> sizet def
+R4400:4402 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R4392:4396 Coq_Log.terms_constraints <> sizet def
+R4403:4407 Coq_Log.terms_constraints <> sizet def
+R4434:4441 Coq.Arith.Le <> le_Sn_le thm
+R4452:4460 Coq.Init.Peano <> plus_n_Sm thm
+R4469:4474 Coq.Arith.Le <> le_S_n thm
+R4434:4441 Coq.Arith.Le <> le_Sn_le thm
+R4452:4460 Coq.Init.Peano <> plus_n_Sm thm
+R4452:4460 Coq.Init.Peano <> plus_n_Sm thm
+R4469:4474 Coq.Arith.Le <> le_S_n thm
+R4510:4510 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R4518:4522 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R4531:4531 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R4513:4515 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4525:4528 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R4510:4510 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R4518:4522 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R4531:4531 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R4513:4515 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4525:4528 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R4569:4576 Coq_Log.preliminaries <> le_add_r thm
+R4579:4583 Coq_Log.terms_constraints <> sizet def
+R4569:4576 Coq_Log.preliminaries <> le_add_r thm
+R4579:4583 Coq_Log.terms_constraints <> sizet def
+R4606:4618 Coq.Arith.PeanoNat Nat add_assoc thm
+R4606:4618 Coq.Arith.PeanoNat Nat add_assoc thm
+R4606:4618 Coq.Arith.PeanoNat Nat add_assoc thm
+R4635:4642 Coq_Log.preliminaries <> le_add_l thm
+R4647:4651 Coq_Log.terms_constraints <> sizet def
+R4635:4642 Coq_Log.preliminaries <> le_add_l thm
+R4647:4651 Coq_Log.terms_constraints <> sizet def
+R4682:4682 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4726:4729 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4771:4771 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4702:4705 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R4725:4725 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R4691:4693 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R4683:4687 Coq_Log.terms_constraints <> sizet def
+R4694:4698 Coq_Log.terms_constraints <> sizet def
+R4714:4716 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R4706:4710 Coq_Log.terms_constraints <> sizet def
+R4717:4721 Coq_Log.terms_constraints <> sizet def
+R4760:4762 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R4749:4751 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R4738:4740 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R4730:4734 Coq_Log.terms_constraints <> sizet def
+R4741:4745 Coq_Log.terms_constraints <> sizet def
+R4752:4756 Coq_Log.terms_constraints <> sizet def
+R4763:4767 Coq_Log.terms_constraints <> sizet def
+R4682:4682 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4726:4729 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4771:4771 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4702:4705 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R4725:4725 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R4691:4693 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R4683:4687 Coq_Log.terms_constraints <> sizet def
+R4694:4698 Coq_Log.terms_constraints <> sizet def
+R4714:4716 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R4706:4710 Coq_Log.terms_constraints <> sizet def
+R4717:4721 Coq_Log.terms_constraints <> sizet def
+R4760:4762 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R4749:4751 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R4738:4740 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R4730:4734 Coq_Log.terms_constraints <> sizet def
+R4741:4745 Coq_Log.terms_constraints <> sizet def
+R4752:4756 Coq_Log.terms_constraints <> sizet def
+R4763:4767 Coq_Log.terms_constraints <> sizet def
+R4849:4849 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R4857:4861 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R4870:4870 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R4852:4854 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4864:4867 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R4849:4849 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R4857:4861 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R4870:4870 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R4852:4854 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4864:4867 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R4908:4915 Coq_Log.preliminaries <> le_add_r thm
+R4918:4922 Coq_Log.terms_constraints <> sizet def
+R4908:4915 Coq_Log.preliminaries <> le_add_r thm
+R4918:4922 Coq_Log.terms_constraints <> sizet def
+R4945:4957 Coq.Arith.PeanoNat Nat add_assoc thm
+R4945:4957 Coq.Arith.PeanoNat Nat add_assoc thm
+R4945:4957 Coq.Arith.PeanoNat Nat add_assoc thm
+R4974:4981 Coq_Log.preliminaries <> le_add_l thm
+R4986:4990 Coq_Log.terms_constraints <> sizet def
+R4974:4981 Coq_Log.preliminaries <> le_add_l thm
+R4986:4990 Coq_Log.terms_constraints <> sizet def
+R5021:5021 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5065:5068 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5110:5110 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5041:5044 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R5064:5064 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R5030:5032 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R5022:5026 Coq_Log.terms_constraints <> sizet def
+R5033:5037 Coq_Log.terms_constraints <> sizet def
+R5053:5055 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R5045:5049 Coq_Log.terms_constraints <> sizet def
+R5056:5060 Coq_Log.terms_constraints <> sizet def
+R5099:5101 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R5088:5090 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R5077:5079 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R5069:5073 Coq_Log.terms_constraints <> sizet def
+R5080:5084 Coq_Log.terms_constraints <> sizet def
+R5091:5095 Coq_Log.terms_constraints <> sizet def
+R5102:5106 Coq_Log.terms_constraints <> sizet def
+R5021:5021 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5065:5068 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5110:5110 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5041:5044 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R5064:5064 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R5030:5032 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R5022:5026 Coq_Log.terms_constraints <> sizet def
+R5033:5037 Coq_Log.terms_constraints <> sizet def
+R5053:5055 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R5045:5049 Coq_Log.terms_constraints <> sizet def
+R5056:5060 Coq_Log.terms_constraints <> sizet def
+R5099:5101 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R5088:5090 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R5077:5079 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R5069:5073 Coq_Log.terms_constraints <> sizet def
+R5080:5084 Coq_Log.terms_constraints <> sizet def
+R5091:5095 Coq_Log.terms_constraints <> sizet def
+R5102:5106 Coq_Log.terms_constraints <> sizet def
+R5467:5478 Coq_Log.terms_constraints <> eq_const_dec thm
+R5467:5478 Coq_Log.terms_constraints <> eq_const_dec thm
+R5647:5656 Coq.Arith.Peano_dec <> eq_nat_dec syndef
+R5647:5656 Coq.Arith.Peano_dec <> eq_nat_dec syndef
+R5709:5709 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R5716:5720 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R5728:5728 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R5712:5714 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5723:5726 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R5709:5709 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R5716:5720 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R5728:5728 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R5712:5714 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5723:5726 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R5766:5771 Coq.Arith.Le <> le_S_n thm
+R5785:5793 Coq.Init.Peano <> plus_Sn_m thm
+R5766:5771 Coq.Arith.Le <> le_S_n thm
+R5785:5793 Coq.Init.Peano <> plus_Sn_m thm
+R5785:5793 Coq.Init.Peano <> plus_Sn_m thm
+R5872:5874 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R5841:5845 Coq_Log.terms_constraints <> sizet def
+R5848:5852 Coq_Log.terms_constraints <> OTerm constr
+R5864:5867 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5855:5857 Coq_Log.terms_constraints <> :::'\S'_x not
+R5875:5879 Coq_Log.terms_constraints <> sizet def
+R5882:5886 Coq_Log.terms_constraints <> OTerm constr
+R5897:5900 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5889:5891 Coq_Log.terms_constraints <> :::'\S'_x not
+R5817:5828 Coq.Arith.PeanoNat Nat le_trans thm
+R5872:5874 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R5841:5845 Coq_Log.terms_constraints <> sizet def
+R5848:5852 Coq_Log.terms_constraints <> OTerm constr
+R5864:5867 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5855:5857 Coq_Log.terms_constraints <> :::'\S'_x not
+R5875:5879 Coq_Log.terms_constraints <> sizet def
+R5882:5886 Coq_Log.terms_constraints <> OTerm constr
+R5897:5900 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5889:5891 Coq_Log.terms_constraints <> :::'\S'_x not
+R5817:5828 Coq.Arith.PeanoNat Nat le_trans thm
+R5948:5961 Coq.Arith.Plus <> plus_le_compat thm
+R5978:5983 Coq.Arith.Le <> le_n_S thm
+R5993:5996 Coq.Init.Peano <> le_S constr
+R6006:6014 Coq.Arith.Plus <> le_plus_l thm
+R5948:5961 Coq.Arith.Plus <> plus_le_compat thm
+R5978:5983 Coq.Arith.Le <> le_n_S thm
+R5993:5996 Coq.Init.Peano <> le_S constr
+R6006:6014 Coq.Arith.Plus <> le_plus_l thm
+R6006:6014 Coq.Arith.Plus <> le_plus_l thm
+R6096:6096 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R6129:6133 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R6167:6167 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R6112:6114 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6097:6101 Coq_Log.terms_constraints <> OTerm constr
+R6104:6106 Coq_Log.terms_constraints <> :::'\S'_x not
+R6115:6119 Coq_Log.terms_constraints <> OTerm constr
+R6122:6124 Coq_Log.terms_constraints <> :::'\S'_x not
+R6149:6152 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R6134:6138 Coq_Log.terms_constraints <> OTerm constr
+R6141:6143 Coq_Log.terms_constraints <> :::'\S'_x not
+R6153:6157 Coq_Log.terms_constraints <> OTerm constr
+R6160:6162 Coq_Log.terms_constraints <> :::'\S'_x not
+R6096:6096 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R6129:6133 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R6167:6167 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R6112:6114 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6097:6101 Coq_Log.terms_constraints <> OTerm constr
+R6104:6106 Coq_Log.terms_constraints <> :::'\S'_x not
+R6115:6119 Coq_Log.terms_constraints <> OTerm constr
+R6122:6124 Coq_Log.terms_constraints <> :::'\S'_x not
+R6149:6152 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R6134:6138 Coq_Log.terms_constraints <> OTerm constr
+R6141:6143 Coq_Log.terms_constraints <> :::'\S'_x not
+R6153:6157 Coq_Log.terms_constraints <> OTerm constr
+R6160:6162 Coq_Log.terms_constraints <> :::'\S'_x not
+R6208:6213 Coq.Arith.Le <> le_S_n thm
+R6227:6235 Coq.Init.Peano <> plus_Sn_m thm
+R6208:6213 Coq.Arith.Le <> le_S_n thm
+R6227:6235 Coq.Init.Peano <> plus_Sn_m thm
+R6227:6235 Coq.Init.Peano <> plus_Sn_m thm
+R6311:6313 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R6286:6290 Coq_Log.terms_constraints <> sizet def
+R6293:6297 Coq_Log.terms_constraints <> OTerm constr
+R6303:6306 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R6314:6318 Coq_Log.terms_constraints <> sizet def
+R6321:6325 Coq_Log.terms_constraints <> OTerm constr
+R6332:6335 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R6262:6273 Coq.Arith.PeanoNat Nat le_trans thm
+R6311:6313 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R6286:6290 Coq_Log.terms_constraints <> sizet def
+R6293:6297 Coq_Log.terms_constraints <> OTerm constr
+R6303:6306 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R6314:6318 Coq_Log.terms_constraints <> sizet def
+R6321:6325 Coq_Log.terms_constraints <> OTerm constr
+R6332:6335 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R6262:6273 Coq.Arith.PeanoNat Nat le_trans thm
+R6386:6399 Coq.Arith.Plus <> plus_le_compat thm
+R6416:6421 Coq.Arith.Le <> le_n_S thm
+R6431:6434 Coq.Init.Peano <> le_S constr
+R6446:6457 Coq.Arith.PeanoNat Nat add_comm thm
+R6468:6471 Coq_Log.preliminaries <> S_eq thm
+R6498:6511 Coq.Arith.Plus <> plus_le_compat thm
+R6521:6524 Coq.Init.Peano <> le_n constr
+R6534:6543 Coq_Log.terms_constraints <> le_1_sizet thm
+R6553:6556 Coq.Init.Peano <> le_n constr
+R6566:6575 Coq_Log.terms_constraints <> le_1_sizet thm
+R6386:6399 Coq.Arith.Plus <> plus_le_compat thm
+R6416:6421 Coq.Arith.Le <> le_n_S thm
+R6431:6434 Coq.Init.Peano <> le_S constr
+R6446:6457 Coq.Arith.PeanoNat Nat add_comm thm
+R6446:6457 Coq.Arith.PeanoNat Nat add_comm thm
+R6446:6457 Coq.Arith.PeanoNat Nat add_comm thm
+R6446:6457 Coq.Arith.PeanoNat Nat add_comm thm
+R6468:6471 Coq_Log.preliminaries <> S_eq thm
+R6468:6471 Coq_Log.preliminaries <> S_eq thm
+R6468:6471 Coq_Log.preliminaries <> S_eq thm
+R6468:6471 Coq_Log.preliminaries <> S_eq thm
+R6498:6511 Coq.Arith.Plus <> plus_le_compat thm
+R6498:6511 Coq.Arith.Plus <> plus_le_compat thm
+R6521:6524 Coq.Init.Peano <> le_n constr
+R6534:6543 Coq_Log.terms_constraints <> le_1_sizet thm
+R6553:6556 Coq.Init.Peano <> le_n constr
+R6566:6575 Coq_Log.terms_constraints <> le_1_sizet thm
+ind 7131:7149 <> primitiveConstraint
+constr 7166:7167 <> Eq
+constr 7212:7214 <> Neq
+constr 7259:7261 <> Mem
+constr 7306:7309 <> Nmem
+constr 7354:7359 <> FalseC
+constr 7388:7392 <> IsSet
+R7175:7178 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7183:7186 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7187:7205 Coq_Log.terms_constraints <> primitiveConstraint:44 ind
+R7179:7182 Coq_Log.terms_constraints <> term ind
+R7171:7174 Coq_Log.terms_constraints <> term ind
+R7222:7225 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7230:7233 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7234:7252 Coq_Log.terms_constraints <> primitiveConstraint:44 ind
+R7226:7229 Coq_Log.terms_constraints <> term ind
+R7218:7221 Coq_Log.terms_constraints <> term ind
+R7269:7272 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7277:7280 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7281:7299 Coq_Log.terms_constraints <> primitiveConstraint:44 ind
+R7273:7276 Coq_Log.terms_constraints <> term ind
+R7265:7268 Coq_Log.terms_constraints <> term ind
+R7317:7320 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7325:7328 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7329:7347 Coq_Log.terms_constraints <> primitiveConstraint:44 ind
+R7321:7324 Coq_Log.terms_constraints <> term ind
+R7313:7316 Coq_Log.terms_constraints <> term ind
+R7363:7381 Coq_Log.terms_constraints <> primitiveConstraint:44 ind
+R7400:7403 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7404:7422 Coq_Log.terms_constraints <> primitiveConstraint:44 ind
+R7396:7399 Coq_Log.terms_constraints <> term ind
+R7442:7443 Coq_Log.terms_constraints <> Eq constr
+not 7434:7434 <> :::x_'=='_x
+R7497:7499 Coq_Log.terms_constraints <> Neq constr
+not 7488:7488 <> :::x_'\=='_x
+R7552:7554 Coq_Log.terms_constraints <> Mem constr
+not 7544:7544 <> :::x_':s'_x
+R7608:7611 Coq_Log.terms_constraints <> Nmem constr
+not 7599:7599 <> :::x_'\:s'_x
+prf 7658:7669 <> eq_primc_dec
+R7691:7709 Coq_Log.terms_constraints <> primitiveConstraint ind
+binder 7684:7684 <> t:46
+binder 7686:7687 <> t0:47
+R7713:7713 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R7720:7724 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R7732:7732 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R7715:7717 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7714:7714 Coq_Log.terms_constraints <> t:46 var
+R7718:7719 Coq_Log.terms_constraints <> t0:47 var
+R7725:7725 Coq.Init.Logic <> ::type_scope:'~'_x not
+R7727:7729 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7726:7726 Coq_Log.terms_constraints <> t:46 var
+R7730:7731 Coq_Log.terms_constraints <> t0:47 var
+R7767:7777 Coq_Log.terms_constraints <> eq_term_dec thm
+R7767:7777 Coq_Log.terms_constraints <> eq_term_dec thm
+R7767:7777 Coq_Log.terms_constraints <> eq_term_dec thm
+R7767:7777 Coq_Log.terms_constraints <> eq_term_dec thm
+R7767:7777 Coq_Log.terms_constraints <> eq_term_dec thm
+R7767:7777 Coq_Log.terms_constraints <> eq_term_dec thm
+R7767:7777 Coq_Log.terms_constraints <> eq_term_dec thm
+R7767:7777 Coq_Log.terms_constraints <> eq_term_dec thm
+R7767:7777 Coq_Log.terms_constraints <> eq_term_dec thm
+R7767:7777 Coq_Log.terms_constraints <> eq_term_dec thm
+def 7800:7809 <> constraint
+R7814:7817 Coq.Init.Datatypes <> list ind
+R7819:7837 Coq_Log.terms_constraints <> primitiveConstraint ind
+prf 7849:7865 <> eq_constraint_dec
+R7887:7896 Coq_Log.terms_constraints <> constraint def
+binder 7880:7880 <> t:48
+binder 7882:7883 <> t0:49
+R7900:7900 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R7907:7911 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R7919:7919 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R7902:7904 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7901:7901 Coq_Log.terms_constraints <> t:48 var
+R7905:7906 Coq_Log.terms_constraints <> t0:49 var
+R7912:7912 Coq.Init.Logic <> ::type_scope:'~'_x not
+R7914:7916 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7913:7913 Coq_Log.terms_constraints <> t:48 var
+R7917:7918 Coq_Log.terms_constraints <> t0:49 var
+R7954:7965 Coq_Log.terms_constraints <> eq_primc_dec thm
+R7954:7965 Coq_Log.terms_constraints <> eq_primc_dec thm
+def 8136:8145 <> occurCheck
+R8152:8163 Coq_Log.terms_constraints <> log_variable ind
+binder 8148:8148 <> v:50
+R8171:8174 Coq_Log.terms_constraints <> term ind
+binder 8167:8167 <> t:51
+R8196:8196 Coq_Log.terms_constraints <> t:51 var
+R8208:8210 Coq_Log.terms_constraints <> Var constr
+R8219:8221 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8218:8218 Coq_Log.terms_constraints <> v:50 var
+R8230:8233 Coq_Log.terms_constraints <> SetC constr
+R8244:8244 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R8260:8265 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R8281:8281 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R8245:8254 Coq_Log.terms_constraints <> occurCheck:52 def
+R8256:8256 Coq_Log.terms_constraints <> v:50 var
+R8266:8275 Coq_Log.terms_constraints <> occurCheck:52 def
+R8277:8277 Coq_Log.terms_constraints <> v:50 var
+R8288:8292 Coq_Log.terms_constraints <> OTerm constr
+R8359:8370 Coq_Log.terms_constraints <> log_variable ind
+binder 8356:8356 <> v:54
+R8377:8380 Coq.Init.Datatypes <> list ind
+R8382:8385 Coq_Log.terms_constraints <> term ind
+binder 8374:8374 <> l:55
+R8420:8420 Coq_Log.terms_constraints <> l:55 var
+R8437:8439 Coq.Init.Datatypes <> nil constr
+R8444:8448 Coq.Init.Logic <> False ind
+R8461:8464 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R8471:8471 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R8486:8491 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R8511:8511 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R8472:8481 Coq_Log.terms_constraints <> occurCheck:52 def
+R8485:8485 Coq_Log.terms_constraints <> t:51 var
+R8483:8483 Coq_Log.terms_constraints <> v:54 var
+R8492:8505 Coq_Log.terms_constraints <> occurCheckList:56 var
+R8507:8507 Coq_Log.terms_constraints <> v:54 var
+binder 8311:8324 <> occurCheckList:58
+R8533:8546 Coq_Log.terms_constraints <> occurCheckList:58 var
+R8548:8548 Coq_Log.terms_constraints <> v:50 var
+R8557:8564 Coq_Log.terms_constraints <> EmptySet constr
+R8569:8573 Coq.Init.Logic <> False ind
+def 8684:8697 <> occurCheckList
+R8704:8715 Coq_Log.terms_constraints <> log_variable ind
+binder 8700:8700 <> v:59
+R8723:8726 Coq.Init.Datatypes <> list ind
+R8728:8731 Coq_Log.terms_constraints <> term ind
+binder 8719:8719 <> l:60
+R8764:8764 Coq_Log.terms_constraints <> l:60 var
+R8776:8778 Coq.Init.Datatypes <> nil constr
+R8783:8787 Coq.Init.Logic <> False ind
+R8795:8798 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R8805:8805 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R8820:8825 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R8845:8845 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R8806:8815 Coq_Log.terms_constraints <> occurCheck def
+R8817:8817 Coq_Log.terms_constraints <> v:59 var
+R8826:8839 Coq_Log.terms_constraints <> occurCheckList:61 def
+R8841:8841 Coq_Log.terms_constraints <> v:59 var
+def 8956:8967 <> occurCheckPC
+R8974:8985 Coq_Log.terms_constraints <> log_variable ind
+binder 8970:8970 <> v:63
+R8994:9012 Coq_Log.terms_constraints <> primitiveConstraint ind
+binder 8989:8990 <> pc:64
+R9034:9035 Coq_Log.terms_constraints <> pc:64 var
+R9049:9052 Coq_Log.terms_constraints <> :::x_'=='_x not
+R9059:9059 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R9075:9080 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R9096:9096 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R9060:9069 Coq_Log.terms_constraints <> occurCheck def
+R9071:9071 Coq_Log.terms_constraints <> v:63 var
+R9081:9090 Coq_Log.terms_constraints <> occurCheck def
+R9092:9092 Coq_Log.terms_constraints <> v:63 var
+R9105:9109 Coq_Log.terms_constraints <> :::x_'\=='_x not
+R9116:9116 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R9132:9137 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R9153:9153 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R9117:9126 Coq_Log.terms_constraints <> occurCheck def
+R9128:9128 Coq_Log.terms_constraints <> v:63 var
+R9138:9147 Coq_Log.terms_constraints <> occurCheck def
+R9149:9149 Coq_Log.terms_constraints <> v:63 var
+R9162:9165 Coq_Log.terms_constraints <> :::x_':s'_x not
+R9172:9172 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R9188:9193 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R9209:9209 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R9173:9182 Coq_Log.terms_constraints <> occurCheck def
+R9184:9184 Coq_Log.terms_constraints <> v:63 var
+R9194:9203 Coq_Log.terms_constraints <> occurCheck def
+R9205:9205 Coq_Log.terms_constraints <> v:63 var
+R9218:9222 Coq_Log.terms_constraints <> :::x_'\:s'_x not
+R9229:9229 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R9245:9250 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R9266:9266 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R9230:9239 Coq_Log.terms_constraints <> occurCheck def
+R9241:9241 Coq_Log.terms_constraints <> v:63 var
+R9251:9260 Coq_Log.terms_constraints <> occurCheck def
+R9262:9262 Coq_Log.terms_constraints <> v:63 var
+R9273:9278 Coq_Log.terms_constraints <> FalseC constr
+R9283:9287 Coq.Init.Logic <> False ind
+R9294:9298 Coq_Log.terms_constraints <> IsSet constr
+R9305:9314 Coq_Log.terms_constraints <> occurCheck def
+R9316:9316 Coq_Log.terms_constraints <> v:63 var
+def 9412:9422 <> occurCheckC
+R9429:9440 Coq_Log.terms_constraints <> log_variable ind
+binder 9425:9425 <> v:66
+R9448:9457 Coq_Log.terms_constraints <> constraint def
+binder 9444:9444 <> c:67
+R9479:9479 Coq_Log.terms_constraints <> c:67 var
+R9491:9493 Coq.Init.Datatypes <> nil constr
+R9498:9502 Coq.Init.Logic <> False ind
+R9510:9513 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R9519:9519 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R9536:9541 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R9557:9557 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R9520:9531 Coq_Log.terms_constraints <> occurCheckPC def
+R9533:9533 Coq_Log.terms_constraints <> v:66 var
+R9542:9552 Coq_Log.terms_constraints <> occurCheckC:68 def
+R9554:9554 Coq_Log.terms_constraints <> v:66 var
+def 9614:9624 <> boccurCheck
+R9631:9642 Coq_Log.terms_constraints <> log_variable ind
+binder 9627:9627 <> v:70
+R9650:9653 Coq_Log.terms_constraints <> term ind
+binder 9646:9646 <> t:71
+R9658:9661 Coq.Init.Datatypes <> bool ind
+R9675:9675 Coq_Log.terms_constraints <> t:71 var
+R9687:9689 Coq_Log.terms_constraints <> Var constr
+R9701:9715 Coq_Log.terms_constraints <> eq_variable_dec thm
+R9717:9717 Coq_Log.terms_constraints <> v:70 var
+R9768:9772 Coq.Init.Datatypes <> false constr
+R9743:9746 Coq.Init.Datatypes <> true constr
+R9779:9782 Coq_Log.terms_constraints <> SetC constr
+R9796:9806 Coq_Log.terms_constraints <> boccurCheck:72 def
+R9808:9808 Coq_Log.terms_constraints <> v:70 var
+R9866:9876 Coq_Log.terms_constraints <> boccurCheck:72 def
+R9878:9878 Coq_Log.terms_constraints <> v:70 var
+R9837:9840 Coq.Init.Datatypes <> true constr
+R9888:9892 Coq_Log.terms_constraints <> OTerm constr
+R9962:9973 Coq_Log.terms_constraints <> log_variable ind
+binder 9958:9958 <> v:74
+R9981:9984 Coq.Init.Datatypes <> list ind
+R9986:9989 Coq_Log.terms_constraints <> term ind
+binder 9977:9977 <> l:75
+R10005:10008 Coq.Init.Datatypes <> bool ind
+R10026:10026 Coq_Log.terms_constraints <> l:75 var
+R10042:10044 Coq.Init.Datatypes <> nil constr
+R10049:10053 Coq.Init.Datatypes <> false constr
+R10065:10068 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R10078:10088 Coq_Log.terms_constraints <> boccurCheck:72 def
+R10092:10092 Coq_Log.terms_constraints <> t:71 var
+R10090:10090 Coq_Log.terms_constraints <> v:74 var
+R10149:10163 Coq_Log.terms_constraints <> boccurCheckList:76 var
+R10165:10165 Coq_Log.terms_constraints <> v:74 var
+R10119:10122 Coq.Init.Datatypes <> true constr
+binder 9911:9925 <> boccurCheckList:78
+R10192:10206 Coq_Log.terms_constraints <> boccurCheckList:78 var
+R10208:10208 Coq_Log.terms_constraints <> v:70 var
+R10217:10224 Coq_Log.terms_constraints <> EmptySet constr
+R10229:10233 Coq.Init.Datatypes <> false constr
+def 10255:10269 <> boccurCheckList
+R10276:10287 Coq_Log.terms_constraints <> log_variable ind
+binder 10272:10272 <> v:79
+R10295:10298 Coq.Init.Datatypes <> list ind
+R10300:10303 Coq_Log.terms_constraints <> term ind
+binder 10291:10291 <> l:80
+R10319:10322 Coq.Init.Datatypes <> bool ind
+R10340:10340 Coq_Log.terms_constraints <> l:80 var
+R10356:10358 Coq.Init.Datatypes <> nil constr
+R10363:10367 Coq.Init.Datatypes <> false constr
+R10379:10382 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R10392:10402 Coq_Log.terms_constraints <> boccurCheck def
+R10404:10404 Coq_Log.terms_constraints <> v:79 var
+R10463:10477 Coq_Log.terms_constraints <> boccurCheckList:81 def
+R10479:10479 Coq_Log.terms_constraints <> v:79 var
+R10433:10436 Coq.Init.Datatypes <> true constr
+prf 10505:10518 <> in_occurCheckC
+binder 10520:10520 <> v:83
+binder 10522:10523 <> pc:84
+binder 10525:10525 <> c:85
+R10539:10542 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10560:10568 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10569:10579 Coq_Log.terms_constraints <> occurCheckC def
+R10583:10583 Coq_Log.terms_constraints <> c:85 var
+R10581:10581 Coq_Log.terms_constraints <> v:83 var
+R10543:10554 Coq_Log.terms_constraints <> occurCheckPC def
+R10558:10559 Coq_Log.terms_constraints <> pc:84 var
+R10556:10556 Coq_Log.terms_constraints <> v:83 var
+R10532:10533 Coq.Lists.List <> In def
+R10538:10538 Coq_Log.terms_constraints <> c:85 var
+R10535:10536 Coq_Log.terms_constraints <> pc:84 var
+prf 10729:10744 <> incl_occurCheckC
+binder 10746:10746 <> v:86
+binder 10748:10749 <> c1:87
+binder 10751:10752 <> c2:88
+R10769:10772 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10789:10797 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10798:10808 Coq_Log.terms_constraints <> occurCheckC def
+R10812:10813 Coq_Log.terms_constraints <> c2:88 var
+R10810:10810 Coq_Log.terms_constraints <> v:86 var
+R10773:10783 Coq_Log.terms_constraints <> occurCheckC def
+R10787:10788 Coq_Log.terms_constraints <> c1:87 var
+R10785:10785 Coq_Log.terms_constraints <> v:86 var
+R10759:10762 Coq.Lists.List <> incl def
+R10767:10768 Coq_Log.terms_constraints <> c2:88 var
+R10764:10765 Coq_Log.terms_constraints <> c1:87 var
+R10895:10907 Coq.Lists.List <> incl_cons_inv thm
+R10895:10907 Coq.Lists.List <> incl_cons_inv thm
+R10961:10974 Coq_Log.terms_constraints <> in_occurCheckC thm
+R10961:10974 Coq_Log.terms_constraints <> in_occurCheckC thm
+prf 11017:11034 <> occurCheckC_exists
+binder 11036:11036 <> v:89
+binder 11038:11038 <> c:90
+R11060:11064 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R11045:11055 Coq_Log.terms_constraints <> occurCheckC def
+R11059:11059 Coq_Log.terms_constraints <> c:90 var
+R11057:11057 Coq_Log.terms_constraints <> v:89 var
+R11065:11071 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R11074:11075 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 11072:11073 <> pc:91
+R11083:11086 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R11076:11077 Coq.Lists.List <> In def
+R11082:11082 Coq_Log.terms_constraints <> c:90 var
+R11079:11080 Coq_Log.terms_constraints <> pc:91 var
+R11087:11098 Coq_Log.terms_constraints <> occurCheckPC def
+R11102:11103 Coq_Log.terms_constraints <> pc:91 var
+R11100:11100 Coq_Log.terms_constraints <> v:89 var
+R11349:11355 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R11380:11381 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R11361:11379 Coq_Log.terms_constraints <> primitiveConstraint ind
+binder 11356:11357 <> pc:92
+R11390:11393 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R11382:11383 Coq.Lists.List <> In def
+R11385:11386 Coq_Log.terms_constraints <> pc:92 var
+R11394:11405 Coq_Log.terms_constraints <> occurCheckPC def
+R11409:11410 Coq_Log.terms_constraints <> pc:92 var
+R11349:11355 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R11380:11381 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R11361:11379 Coq_Log.terms_constraints <> primitiveConstraint ind
+binder 11356:11357 <> pc:93
+R11390:11393 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R11382:11383 Coq.Lists.List <> In def
+R11385:11386 Coq_Log.terms_constraints <> pc:93 var
+R11394:11405 Coq_Log.terms_constraints <> occurCheckPC def
+R11409:11410 Coq_Log.terms_constraints <> pc:93 var
+prf 11678:11698 <> occurCheckList_exists
+binder 11700:11700 <> v:94
+binder 11702:11703 <> lt:95
+R11729:11733 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R11710:11723 Coq_Log.terms_constraints <> occurCheckList def
+R11727:11728 Coq_Log.terms_constraints <> lt:95 var
+R11725:11725 Coq_Log.terms_constraints <> v:94 var
+R11734:11740 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R11742:11743 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 11741:11741 <> t:96
+R11751:11754 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R11744:11745 Coq.Lists.List <> In def
+R11749:11750 Coq_Log.terms_constraints <> lt:95 var
+R11747:11747 Coq_Log.terms_constraints <> t:96 var
+R11755:11764 Coq_Log.terms_constraints <> occurCheck def
+R11768:11768 Coq_Log.terms_constraints <> t:96 var
+R11766:11766 Coq_Log.terms_constraints <> v:94 var
+R12014:12020 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R12022:12023 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 12021:12021 <> t:97
+R12032:12035 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R12024:12025 Coq.Lists.List <> In def
+R12027:12027 Coq_Log.terms_constraints <> t:97 var
+R12036:12045 Coq_Log.terms_constraints <> occurCheck def
+R12049:12049 Coq_Log.terms_constraints <> t:97 var
+R12014:12020 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R12022:12023 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 12021:12021 <> t:98
+R12032:12035 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R12024:12025 Coq.Lists.List <> In def
+R12027:12027 Coq_Log.terms_constraints <> t:98 var
+R12036:12045 Coq_Log.terms_constraints <> occurCheck def
+R12049:12049 Coq_Log.terms_constraints <> t:98 var
+prf 12313:12326 <> occurCheck_dec
+binder 12328:12328 <> v:99
+binder 12330:12330 <> t:100
+R12338:12338 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R12353:12357 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R12374:12374 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R12339:12348 Coq_Log.terms_constraints <> occurCheck def
+R12352:12352 Coq_Log.terms_constraints <> t:100 var
+R12350:12350 Coq_Log.terms_constraints <> v:99 var
+R12358:12359 Coq.Init.Logic <> ::type_scope:'~'_x not
+R12360:12369 Coq_Log.terms_constraints <> occurCheck def
+R12373:12373 Coq_Log.terms_constraints <> t:100 var
+R12371:12371 Coq_Log.terms_constraints <> v:99 var
+R12405:12407 Coq.Init.Datatypes <> nat ind
+binder 12401:12401 <> n:101
+binder 12421:12422 <> t':102
+R12425:12425 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12441:12445 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12446:12446 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R12462:12466 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R12484:12484 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R12447:12456 Coq_Log.terms_constraints <> occurCheck def
+R12460:12461 Coq_Log.terms_constraints <> t':102 var
+R12467:12468 Coq.Init.Logic <> ::type_scope:'~'_x not
+R12469:12478 Coq_Log.terms_constraints <> occurCheck def
+R12482:12483 Coq_Log.terms_constraints <> t':102 var
+R12426:12426 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R12435:12439 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R12427:12431 Coq_Log.terms_constraints <> sizet def
+R12433:12434 Coq_Log.terms_constraints <> t':102 var
+R12440:12440 Coq_Log.terms_constraints <> n:101 var
+R12405:12407 Coq.Init.Datatypes <> nat ind
+binder 12401:12401 <> n:103
+binder 12421:12422 <> t':104
+R12425:12425 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12441:12445 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12446:12446 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R12462:12466 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R12484:12484 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R12447:12456 Coq_Log.terms_constraints <> occurCheck def
+R12460:12461 Coq_Log.terms_constraints <> t':104 var
+R12467:12468 Coq.Init.Logic <> ::type_scope:'~'_x not
+R12469:12478 Coq_Log.terms_constraints <> occurCheck def
+R12482:12483 Coq_Log.terms_constraints <> t':104 var
+R12426:12426 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R12435:12439 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R12427:12431 Coq_Log.terms_constraints <> sizet def
+R12433:12434 Coq_Log.terms_constraints <> t':104 var
+R12440:12440 Coq_Log.terms_constraints <> n:103 var
+binder 12510:12510 <> n:105
+R12516:12516 Coq_Log.terms_constraints <> n:105 var
+binder 12510:12510 <> n:106
+R12516:12516 Coq_Log.terms_constraints <> n:106 var
+R12535:12539 Coq_Log.terms_constraints <> sizet def
+R12535:12539 Coq_Log.terms_constraints <> sizet def
+R12559:12562 Coq.Init.Peano <> le_n constr
+R12559:12562 Coq.Init.Peano <> le_n constr
+R12643:12646 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R12635:12639 Coq_Log.terms_constraints <> sizet def
+R12658:12668 Coq_Log.terms_constraints <> sizet_gte_1 thm
+R12643:12646 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R12635:12639 Coq_Log.terms_constraints <> sizet def
+R12658:12668 Coq_Log.terms_constraints <> sizet_gte_1 thm
+R12743:12757 Coq_Log.terms_constraints <> eq_variable_dec thm
+R12743:12757 Coq_Log.terms_constraints <> eq_variable_dec thm
+R12801:12810 Coq_Log.terms_constraints <> sizet_SetC thm
+R12801:12810 Coq_Log.terms_constraints <> sizet_SetC thm
+R12841:12841 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R12857:12861 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R12879:12879 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R12842:12851 Coq_Log.terms_constraints <> occurCheck def
+R12862:12863 Coq.Init.Logic <> ::type_scope:'~'_x not
+R12864:12873 Coq_Log.terms_constraints <> occurCheck def
+R12841:12841 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R12857:12861 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R12879:12879 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R12842:12851 Coq_Log.terms_constraints <> occurCheck def
+R12862:12863 Coq.Init.Logic <> ::type_scope:'~'_x not
+R12864:12873 Coq_Log.terms_constraints <> occurCheck def
+R12926:12926 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R12942:12946 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R12964:12964 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R12927:12936 Coq_Log.terms_constraints <> occurCheck def
+R12947:12948 Coq.Init.Logic <> ::type_scope:'~'_x not
+R12949:12958 Coq_Log.terms_constraints <> occurCheck def
+R12926:12926 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R12942:12946 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R12964:12964 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R12927:12936 Coq_Log.terms_constraints <> occurCheck def
+R12947:12948 Coq.Init.Logic <> ::type_scope:'~'_x not
+R12949:12958 Coq_Log.terms_constraints <> occurCheck def
+R13253:13253 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R13270:13274 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R13293:13293 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R13254:13263 Coq_Log.terms_constraints <> occurCheck def
+R13275:13276 Coq.Init.Logic <> ::type_scope:'~'_x not
+R13277:13286 Coq_Log.terms_constraints <> occurCheck def
+R13253:13253 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R13270:13274 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R13293:13293 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R13254:13263 Coq_Log.terms_constraints <> occurCheck def
+R13275:13276 Coq.Init.Logic <> ::type_scope:'~'_x not
+R13277:13286 Coq_Log.terms_constraints <> occurCheck def
+R13330:13340 Coq_Log.terms_constraints <> sizet_OTerm thm
+R13330:13340 Coq_Log.terms_constraints <> sizet_OTerm thm
+R13368:13372 Coq.Lists.List <> in_eq thm
+R13368:13372 Coq.Lists.List <> in_eq thm
+R13395:13395 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R13422:13426 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R13455:13455 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R13396:13405 Coq_Log.terms_constraints <> occurCheck def
+R13410:13414 Coq_Log.terms_constraints <> OTerm constr
+R13427:13428 Coq.Init.Logic <> ::type_scope:'~'_x not
+R13429:13438 Coq_Log.terms_constraints <> occurCheck def
+R13443:13447 Coq_Log.terms_constraints <> OTerm constr
+R13395:13395 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R13422:13426 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R13455:13455 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R13396:13405 Coq_Log.terms_constraints <> occurCheck def
+R13410:13414 Coq_Log.terms_constraints <> OTerm constr
+R13427:13428 Coq.Init.Logic <> ::type_scope:'~'_x not
+R13429:13438 Coq_Log.terms_constraints <> occurCheck def
+R13443:13447 Coq_Log.terms_constraints <> OTerm constr
+R13491:13496 Coq.Arith.Le <> le_S_n thm
+R13491:13496 Coq.Arith.Le <> le_S_n thm
+R13532:13536 Coq_Log.terms_constraints <> sizet def
+R13539:13543 Coq_Log.terms_constraints <> OTerm constr
+R13551:13554 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R13512:13519 Coq.Arith.Le <> le_trans syndef
+R13532:13536 Coq_Log.terms_constraints <> sizet def
+R13539:13543 Coq_Log.terms_constraints <> OTerm constr
+R13551:13554 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R13512:13519 Coq.Arith.Le <> le_trans syndef
+R13599:13604 Coq.Arith.Le <> le_n_S thm
+R13599:13604 Coq.Arith.Le <> le_n_S thm
+R13622:13630 Coq.Arith.Plus <> plus_comm syndef
+R13622:13630 Coq.Arith.Plus <> plus_comm syndef
+R13622:13630 Coq.Arith.Plus <> plus_comm syndef
+R13648:13651 Coq_Log.preliminaries <> S_eq thm
+R13648:13651 Coq_Log.preliminaries <> S_eq thm
+R13648:13651 Coq_Log.preliminaries <> S_eq thm
+R13667:13680 Coq.Arith.Plus <> plus_le_compat thm
+R13693:13696 Coq.Init.Peano <> le_n constr
+R13667:13680 Coq.Arith.Plus <> plus_le_compat thm
+R13693:13696 Coq.Init.Peano <> le_n constr
+R13693:13696 Coq.Init.Peano <> le_n constr
+R13716:13725 Coq_Log.terms_constraints <> le_1_sizet thm
+R13716:13725 Coq_Log.terms_constraints <> le_1_sizet thm
+prf 13941:13958 <> occurCheckList_dec
+binder 13960:13960 <> v:107
+binder 13962:13963 <> lt:108
+R13971:13971 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R13991:13995 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R14017:14017 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R13972:13985 Coq_Log.terms_constraints <> occurCheckList def
+R13989:13990 Coq_Log.terms_constraints <> lt:108 var
+R13987:13987 Coq_Log.terms_constraints <> v:107 var
+R13996:13997 Coq.Init.Logic <> ::type_scope:'~'_x not
+R13998:14011 Coq_Log.terms_constraints <> occurCheckList def
+R14015:14016 Coq_Log.terms_constraints <> lt:108 var
+R14013:14013 Coq_Log.terms_constraints <> v:107 var
+R14080:14093 Coq_Log.terms_constraints <> occurCheck_dec thm
+R14080:14093 Coq_Log.terms_constraints <> occurCheck_dec thm
+def 14415:14424 <> isVariable
+R14431:14434 Coq_Log.terms_constraints <> term ind
+binder 14427:14427 <> t:109
+R14456:14456 Coq_Log.terms_constraints <> t:109 var
+R14468:14470 Coq_Log.terms_constraints <> Var constr
+R14477:14480 Coq.Init.Logic <> True ind
+R14492:14496 Coq.Init.Logic <> False ind
+def 14576:14582 <> isEmpty
+R14589:14592 Coq_Log.terms_constraints <> term ind
+binder 14585:14585 <> t:111
+R14614:14614 Coq_Log.terms_constraints <> t:111 var
+R14626:14633 Coq_Log.terms_constraints <> EmptySet constr
+R14638:14641 Coq.Init.Logic <> True ind
+R14653:14657 Coq.Init.Logic <> False ind
+def 14735:14744 <> isConstant
+R14751:14754 Coq_Log.terms_constraints <> term ind
+binder 14747:14747 <> t:113
+R14776:14776 Coq_Log.terms_constraints <> t:113 var
+R14788:14792 Coq_Log.terms_constraints <> OTerm constr
+R14796:14798 Coq.Init.Datatypes <> nil constr
+R14803:14806 Coq.Init.Logic <> True ind
+R14818:14822 Coq.Init.Logic <> False ind
+def 14898:14904 <> setTerm
+R14911:14914 Coq_Log.terms_constraints <> term ind
+binder 14907:14907 <> t:115
+R14947:14947 Coq_Log.terms_constraints <> t:115 var
+R14959:14961 Coq_Log.terms_constraints <> Var constr
+R14968:14972 Coq.Init.Logic <> False ind
+R14979:14982 Coq_Log.terms_constraints <> SetC constr
+R14993:14999 Coq_Log.terms_constraints <> setTerm:116 def
+R15009:15013 Coq_Log.terms_constraints <> OTerm constr
+R15022:15026 Coq.Init.Logic <> False ind
+R15033:15040 Coq_Log.terms_constraints <> EmptySet constr
+R15045:15048 Coq.Init.Logic <> True ind
+def 15120:15127 <> isSetInC
+R15134:15145 Coq_Log.terms_constraints <> log_variable ind
+binder 15130:15130 <> v:118
+R15153:15162 Coq_Log.terms_constraints <> constraint def
+binder 15149:15149 <> c:119
+R15171:15172 Coq.Lists.List <> In def
+R15190:15190 Coq_Log.terms_constraints <> c:119 var
+R15175:15179 Coq_Log.terms_constraints <> IsSet constr
+R15182:15184 Coq_Log.terms_constraints <> Var constr
+R15186:15186 Coq_Log.terms_constraints <> v:118 var
+def 15245:15248 <> map2
+binder 15251:15251 <> A:120
+binder 15253:15253 <> B:121
+binder 15255:15255 <> C:122
+R15271:15274 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15276:15279 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15280:15280 Coq_Log.terms_constraints <> C:122 var
+R15275:15275 Coq_Log.terms_constraints <> B:121 var
+R15270:15270 Coq_Log.terms_constraints <> A:120 var
+binder 15266:15266 <> f:123
+R15289:15292 Coq.Init.Datatypes <> list ind
+R15294:15294 Coq_Log.terms_constraints <> A:120 var
+binder 15284:15285 <> l1:124
+R15303:15306 Coq.Init.Datatypes <> list ind
+R15308:15308 Coq_Log.terms_constraints <> B:121 var
+binder 15298:15299 <> l2:125
+R15313:15316 Coq.Init.Datatypes <> list ind
+R15318:15318 Coq_Log.terms_constraints <> C:122 var
+R15332:15333 Coq_Log.terms_constraints <> l1:124 var
+R15345:15347 Coq.Init.Datatypes <> nil constr
+R15352:15354 Coq.Init.Datatypes <> nil constr
+R15363:15366 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R15396:15397 Coq_Log.terms_constraints <> l2:125 var
+R15423:15425 Coq.Init.Datatypes <> nil constr
+R15430:15432 Coq.Init.Datatypes <> nil constr
+R15483:15486 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R15493:15493 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R15501:15506 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R15519:15519 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R15494:15494 Coq_Log.terms_constraints <> f:123 var
+R15507:15510 Coq_Log.terms_constraints <> map2:126 def
+R15512:15512 Coq_Log.terms_constraints <> f:123 var
+def 15628:15634 <> buildEq
+R15645:15648 Coq_Log.terms_constraints <> term ind
+binder 15637:15638 <> t1:129
+binder 15640:15641 <> t2:130
+R15656:15659 Coq_Log.terms_constraints <> :::x_'=='_x not
+R15654:15655 Coq_Log.terms_constraints <> t1:129 var
+R15660:15661 Coq_Log.terms_constraints <> t2:130 var
+def 15748:15751 <> tail
+R15758:15761 Coq_Log.terms_constraints <> term ind
+binder 15754:15754 <> t:131
+R15766:15771 Coq.Init.Datatypes <> option ind
+R15773:15776 Coq_Log.terms_constraints <> term ind
+R15791:15791 Coq_Log.terms_constraints <> t:131 var
+R15803:15805 Coq_Log.terms_constraints <> Var constr
+R15812:15815 Coq.Init.Datatypes <> Some constr
+R15818:15820 Coq_Log.terms_constraints <> Var constr
+R15830:15833 Coq_Log.terms_constraints <> SetC constr
+R15843:15846 Coq_Log.terms_constraints <> tail:132 def
+R15856:15860 Coq_Log.terms_constraints <> OTerm constr
+R15869:15872 Coq.Init.Datatypes <> None constr
+R15879:15886 Coq_Log.terms_constraints <> EmptySet constr
+R15891:15894 Coq.Init.Datatypes <> Some constr
+R15896:15903 Coq_Log.terms_constraints <> EmptySet constr
+def 15995:16006 <> listElements
+R16013:16016 Coq_Log.terms_constraints <> term ind
+binder 16009:16009 <> t:134
+R16021:16024 Coq.Init.Datatypes <> list ind
+R16026:16029 Coq_Log.terms_constraints <> term ind
+R16043:16043 Coq_Log.terms_constraints <> t:134 var
+R16055:16057 Coq_Log.terms_constraints <> Var constr
+R16064:16066 Coq.Init.Datatypes <> nil constr
+R16073:16076 Coq_Log.terms_constraints <> SetC constr
+R16092:16096 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R16113:16113 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R16097:16108 Coq_Log.terms_constraints <> listElements:135 def
+R16120:16124 Coq_Log.terms_constraints <> OTerm constr
+R16133:16135 Coq.Init.Datatypes <> nil constr
+R16142:16149 Coq_Log.terms_constraints <> EmptySet constr
+R16154:16156 Coq.Init.Datatypes <> nil constr
+def 16243:16252 <> SetCToList
+R16263:16266 Coq_Log.terms_constraints <> term ind
+binder 16255:16256 <> t1:137
+binder 16258:16259 <> t2:138
+R16271:16274 Coq.Init.Datatypes <> list ind
+R16276:16279 Coq_Log.terms_constraints <> term ind
+R16299:16310 Coq_Log.terms_constraints <> listElements def
+R16312:16313 Coq_Log.terms_constraints <> t2:138 var
+binder 16291:16294 <> lAux:139
+R16320:16323 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R16318:16319 Coq_Log.terms_constraints <> t1:137 var
+R16324:16327 Coq_Log.terms_constraints <> lAux:139 var
+def 16419:16430 <> LastFromSetC
+R16437:16440 Coq_Log.terms_constraints <> term ind
+binder 16433:16433 <> t:140
+R16445:16448 Coq_Log.terms_constraints <> term ind
+R16462:16462 Coq_Log.terms_constraints <> t:140 var
+R16474:16476 Coq_Log.terms_constraints <> Var constr
+R16483:16485 Coq_Log.terms_constraints <> Var constr
+R16494:16497 Coq_Log.terms_constraints <> SetC constr
+R16508:16519 Coq_Log.terms_constraints <> LastFromSetC:141 def
+R16529:16533 Coq_Log.terms_constraints <> OTerm constr
+R16542:16546 Coq_Log.terms_constraints <> OTerm constr
+R16557:16564 Coq_Log.terms_constraints <> EmptySet constr
+R16569:16576 Coq_Log.terms_constraints <> EmptySet constr
+def 16664:16671 <> listSetC
+R16678:16681 Coq.Init.Datatypes <> list ind
+R16683:16686 Coq_Log.terms_constraints <> term ind
+binder 16674:16674 <> l:143
+R16694:16697 Coq_Log.terms_constraints <> term ind
+binder 16690:16690 <> t:144
+R16702:16705 Coq_Log.terms_constraints <> term ind
+R16719:16719 Coq_Log.terms_constraints <> l:143 var
+R16731:16733 Coq.Init.Datatypes <> nil constr
+R16738:16738 Coq_Log.terms_constraints <> t:144 var
+R16747:16750 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R16758:16761 Coq_Log.terms_constraints <> SetC constr
+R16767:16774 Coq_Log.terms_constraints <> listSetC:145 def
+R16779:16779 Coq_Log.terms_constraints <> t:144 var
+prf 16800:16816 <> sizet_in_listSetC
+binder 16818:16818 <> t:147
+binder 16820:16821 <> t':148
+binder 16823:16824 <> lt:149
+R16839:16842 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16851:16853 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R16843:16847 Coq_Log.terms_constraints <> sizet def
+R16849:16850 Coq_Log.terms_constraints <> t':148 var
+R16854:16858 Coq_Log.terms_constraints <> sizet def
+R16861:16868 Coq_Log.terms_constraints <> listSetC def
+R16873:16873 Coq_Log.terms_constraints <> t:147 var
+R16870:16871 Coq_Log.terms_constraints <> lt:149 var
+R16831:16832 Coq.Lists.List <> In def
+R16837:16838 Coq_Log.terms_constraints <> lt:149 var
+R16834:16835 Coq_Log.terms_constraints <> t':148 var
+R17028:17037 Coq.Arith.Lt <> le_lt_n_Sm thm
+R17028:17037 Coq.Arith.Lt <> le_lt_n_Sm thm
+R17049:17057 Coq.Arith.Plus <> le_plus_l thm
+R17049:17057 Coq.Arith.Plus <> le_plus_l thm
+R17136:17145 Coq.Arith.Lt <> le_lt_n_Sm thm
+R17136:17145 Coq.Arith.Lt <> le_lt_n_Sm thm
+R17159:17167 Coq.Arith.Plus <> le_plus_l thm
+R17159:17167 Coq.Arith.Plus <> le_plus_l thm
+R17188:17197 Coq.Arith.Lt <> le_lt_n_Sm thm
+R17188:17197 Coq.Arith.Lt <> le_lt_n_Sm thm
+R17213:17224 Coq.Arith.PeanoNat Nat add_comm thm
+R17213:17224 Coq.Arith.PeanoNat Nat add_comm thm
+R17213:17224 Coq.Arith.PeanoNat Nat add_comm thm
+R17238:17250 Coq.Arith.Plus <> le_plus_trans thm
+R17238:17250 Coq.Arith.Plus <> le_plus_trans thm
+R17264:17277 Coq.Arith.PeanoNat Nat lt_le_incl thm
+R17264:17277 Coq.Arith.PeanoNat Nat lt_le_incl thm
+prf 17316:17349 <> listSetC_listElements_LastFromSetC
+binder 17351:17352 <> t1:150
+binder 17354:17355 <> t2:151
+R17372:17374 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R17362:17365 Coq_Log.terms_constraints <> SetC constr
+R17370:17371 Coq_Log.terms_constraints <> t2:151 var
+R17367:17368 Coq_Log.terms_constraints <> t1:150 var
+R17375:17382 Coq_Log.terms_constraints <> listSetC def
+R17413:17424 Coq_Log.terms_constraints <> LastFromSetC def
+R17426:17427 Coq_Log.terms_constraints <> t2:151 var
+R17385:17396 Coq_Log.terms_constraints <> listElements def
+R17399:17402 Coq_Log.terms_constraints <> SetC constr
+R17407:17408 Coq_Log.terms_constraints <> t2:151 var
+R17404:17405 Coq_Log.terms_constraints <> t1:150 var
+R17459:17461 Coq.Init.Datatypes <> nat ind
+binder 17455:17455 <> n:152
+binder 17475:17476 <> t1:153
+binder 17478:17479 <> t2:154
+R17482:17482 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17513:17520 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17531:17533 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R17521:17524 Coq_Log.terms_constraints <> SetC constr
+R17529:17530 Coq_Log.terms_constraints <> t2:154 var
+R17526:17527 Coq_Log.terms_constraints <> t1:153 var
+R17534:17541 Coq_Log.terms_constraints <> listSetC def
+R17572:17583 Coq_Log.terms_constraints <> LastFromSetC def
+R17585:17586 Coq_Log.terms_constraints <> t2:154 var
+R17544:17555 Coq_Log.terms_constraints <> listElements def
+R17558:17561 Coq_Log.terms_constraints <> SetC constr
+R17566:17567 Coq_Log.terms_constraints <> t2:154 var
+R17563:17564 Coq_Log.terms_constraints <> t1:153 var
+R17483:17483 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R17507:17511 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R17484:17484 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R17493:17497 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R17506:17506 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R17485:17489 Coq_Log.terms_constraints <> sizet def
+R17491:17492 Coq_Log.terms_constraints <> t1:153 var
+R17498:17502 Coq_Log.terms_constraints <> sizet def
+R17504:17505 Coq_Log.terms_constraints <> t2:154 var
+R17512:17512 Coq_Log.terms_constraints <> n:152 var
+R17459:17461 Coq.Init.Datatypes <> nat ind
+binder 17455:17455 <> n:155
+binder 17475:17476 <> t1:156
+binder 17478:17479 <> t2:157
+R17482:17482 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17513:17520 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17531:17533 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R17521:17524 Coq_Log.terms_constraints <> SetC constr
+R17529:17530 Coq_Log.terms_constraints <> t2:157 var
+R17526:17527 Coq_Log.terms_constraints <> t1:156 var
+R17534:17541 Coq_Log.terms_constraints <> listSetC def
+R17572:17583 Coq_Log.terms_constraints <> LastFromSetC def
+R17585:17586 Coq_Log.terms_constraints <> t2:157 var
+R17544:17555 Coq_Log.terms_constraints <> listElements def
+R17558:17561 Coq_Log.terms_constraints <> SetC constr
+R17566:17567 Coq_Log.terms_constraints <> t2:157 var
+R17563:17564 Coq_Log.terms_constraints <> t1:156 var
+R17483:17483 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R17507:17511 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R17484:17484 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R17493:17497 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R17506:17506 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R17485:17489 Coq_Log.terms_constraints <> sizet def
+R17491:17492 Coq_Log.terms_constraints <> t1:156 var
+R17498:17502 Coq_Log.terms_constraints <> sizet def
+R17504:17505 Coq_Log.terms_constraints <> t2:157 var
+R17512:17512 Coq_Log.terms_constraints <> n:155 var
+binder 17613:17613 <> n:158
+R17619:17619 Coq_Log.terms_constraints <> n:158 var
+binder 17613:17613 <> n:159
+R17619:17619 Coq_Log.terms_constraints <> n:159 var
+R17646:17648 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R17638:17642 Coq_Log.terms_constraints <> sizet def
+R17649:17653 Coq_Log.terms_constraints <> sizet def
+R17646:17648 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R17638:17642 Coq_Log.terms_constraints <> sizet def
+R17649:17653 Coq_Log.terms_constraints <> sizet def
+R17674:17677 Coq.Init.Peano <> le_n constr
+R17674:17677 Coq.Init.Peano <> le_n constr
+R17770:17773 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R17761:17765 Coq_Log.terms_constraints <> sizet def
+R17792:17802 Coq_Log.terms_constraints <> sizet_gte_1 thm
+R17770:17773 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R17761:17765 Coq_Log.terms_constraints <> sizet def
+R17792:17802 Coq_Log.terms_constraints <> sizet_gte_1 thm
+R17792:17802 Coq_Log.terms_constraints <> sizet_gte_1 thm
+R17819:17826 Coq_Log.preliminaries <> le_add_l thm
+R17819:17826 Coq_Log.preliminaries <> le_add_l thm
+R17944:17946 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R17934:17937 Coq_Log.terms_constraints <> SetC constr
+R17947:17954 Coq_Log.terms_constraints <> listSetC def
+R17985:17996 Coq_Log.terms_constraints <> LastFromSetC def
+R17957:17968 Coq_Log.terms_constraints <> listElements def
+R17971:17974 Coq_Log.terms_constraints <> SetC constr
+R17944:17946 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R17934:17937 Coq_Log.terms_constraints <> SetC constr
+R17947:17954 Coq_Log.terms_constraints <> listSetC def
+R17985:17996 Coq_Log.terms_constraints <> LastFromSetC def
+R17957:17968 Coq_Log.terms_constraints <> listElements def
+R17971:17974 Coq_Log.terms_constraints <> SetC constr
+R18057:18062 Coq.Arith.Le <> le_S_n thm
+R18057:18062 Coq.Arith.Le <> le_S_n thm
+R18103:18105 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R18094:18098 Coq_Log.terms_constraints <> sizet def
+R18106:18110 Coq_Log.terms_constraints <> sizet def
+R18113:18114 Coq_Log.terms_constraints <> :::'{{'_x_'|'_x_'}}' not
+R18117:18119 Coq_Log.terms_constraints <> :::'{{'_x_'|'_x_'}}' not
+R18122:18123 Coq_Log.terms_constraints <> :::'{{'_x_'|'_x_'}}' not
+R18074:18081 Coq.Arith.Le <> le_trans syndef
+R18103:18105 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R18094:18098 Coq_Log.terms_constraints <> sizet def
+R18106:18110 Coq_Log.terms_constraints <> sizet def
+R18113:18114 Coq_Log.terms_constraints <> :::'{{'_x_'|'_x_'}}' not
+R18117:18119 Coq_Log.terms_constraints <> :::'{{'_x_'|'_x_'}}' not
+R18122:18123 Coq_Log.terms_constraints <> :::'{{'_x_'|'_x_'}}' not
+R18074:18081 Coq.Arith.Le <> le_trans syndef
+R18157:18165 Coq.Arith.Plus <> le_plus_r thm
+R18157:18165 Coq.Arith.Plus <> le_plus_r thm
+def 18251:18262 <> deleteElmntj
+binder 18265:18265 <> A:160
+R18280:18282 Coq.Init.Datatypes <> nat ind
+binder 18276:18276 <> j:161
+R18290:18293 Coq.Init.Datatypes <> list ind
+R18295:18295 Coq_Log.terms_constraints <> A:160 var
+binder 18286:18286 <> l:162
+R18311:18314 Coq.Init.Datatypes <> list ind
+R18316:18316 Coq_Log.terms_constraints <> A:160 var
+R18330:18330 Coq_Log.terms_constraints <> j:161 var
+R18363:18363 Coq_Log.terms_constraints <> l:162 var
+R18382:18384 Coq.Init.Datatypes <> nil constr
+R18389:18391 Coq.Init.Datatypes <> nil constr
+R18406:18409 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R18436:18436 Coq.Init.Datatypes <> S constr
+R18461:18461 Coq_Log.terms_constraints <> l:162 var
+R18482:18484 Coq.Init.Datatypes <> nil constr
+R18489:18491 Coq.Init.Datatypes <> nil constr
+R18508:18511 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R18518:18522 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R18539:18539 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R18523:18534 Coq_Log.terms_constraints <> deleteElmntj:163 def
+prf 18574:18589 <> setTerm_listSetC
+binder 18591:18591 <> t:167
+binder 18593:18594 <> lt:168
+R18610:18618 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18642:18645 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18655:18655 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18619:18625 Coq_Log.terms_constraints <> setTerm def
+R18628:18635 Coq_Log.terms_constraints <> listSetC def
+R18640:18640 Coq_Log.terms_constraints <> t:167 var
+R18637:18638 Coq_Log.terms_constraints <> lt:168 var
+R18646:18652 Coq_Log.terms_constraints <> setTerm def
+R18654:18654 Coq_Log.terms_constraints <> t:167 var
+R18603:18606 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R18601:18602 Coq_Log.terms_constraints <> lt:168 var
+R18607:18609 Coq.Init.Datatypes <> nil constr
+R18686:18688 Coq.Init.Datatypes <> nat ind
+binder 18682:18682 <> n:169
+binder 18702:18704 <> lt':170
+binder 18714:18715 <> t':171
+R18718:18718 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18734:18738 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18749:18782 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18808:18811 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18822:18822 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18783:18789 Coq_Log.terms_constraints <> setTerm def
+R18792:18799 Coq_Log.terms_constraints <> listSetC def
+R18805:18806 Coq_Log.terms_constraints <> t':171 var
+R18801:18803 Coq_Log.terms_constraints <> lt':170 var
+R18812:18818 Coq_Log.terms_constraints <> setTerm def
+R18820:18821 Coq_Log.terms_constraints <> t':171 var
+R18742:18745 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R18739:18741 Coq_Log.terms_constraints <> lt':170 var
+R18746:18748 Coq.Init.Datatypes <> nil constr
+R18729:18732 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R18719:18724 Coq.Init.Datatypes <> length def
+R18726:18728 Coq_Log.terms_constraints <> lt':170 var
+R18733:18733 Coq_Log.terms_constraints <> n:169 var
+R18686:18688 Coq.Init.Datatypes <> nat ind
+binder 18682:18682 <> n:172
+binder 18702:18704 <> lt':173
+binder 18714:18715 <> t':174
+R18718:18718 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18734:18738 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18749:18782 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18808:18811 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18822:18822 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18783:18789 Coq_Log.terms_constraints <> setTerm def
+R18792:18799 Coq_Log.terms_constraints <> listSetC def
+R18805:18806 Coq_Log.terms_constraints <> t':174 var
+R18801:18803 Coq_Log.terms_constraints <> lt':173 var
+R18812:18818 Coq_Log.terms_constraints <> setTerm def
+R18820:18821 Coq_Log.terms_constraints <> t':174 var
+R18742:18745 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R18739:18741 Coq_Log.terms_constraints <> lt':173 var
+R18746:18748 Coq.Init.Datatypes <> nil constr
+R18729:18732 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R18719:18724 Coq.Init.Datatypes <> length def
+R18726:18728 Coq_Log.terms_constraints <> lt':173 var
+R18733:18733 Coq_Log.terms_constraints <> n:172 var
+binder 18848:18848 <> n:175
+R18854:18854 Coq_Log.terms_constraints <> n:175 var
+binder 18848:18848 <> n:176
+R18854:18854 Coq_Log.terms_constraints <> n:176 var
+R18873:18878 Coq.Init.Datatypes <> length def
+R18873:18878 Coq.Init.Datatypes <> length def
+R18899:18902 Coq.Init.Peano <> le_n constr
+R18899:18902 Coq.Init.Peano <> le_n constr
+R18996:18998 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18999:19001 Coq.Init.Datatypes <> nil constr
+R18996:18998 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18999:19001 Coq.Init.Datatypes <> nil constr
+R19050:19068 Coq.Lists.List <> length_zero_iff_nil thm
+R19050:19068 Coq.Lists.List <> length_zero_iff_nil thm
+R19084:19093 Coq.Arith.PeanoNat Nat le_0_r thm
+R19084:19093 Coq.Arith.PeanoNat Nat le_0_r thm
+R19257:19259 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19224:19230 Coq_Log.terms_constraints <> setTerm def
+R19233:19240 Coq_Log.terms_constraints <> listSetC def
+R19245:19248 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R19260:19266 Coq_Log.terms_constraints <> setTerm def
+R19257:19259 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19224:19230 Coq_Log.terms_constraints <> setTerm def
+R19233:19240 Coq_Log.terms_constraints <> listSetC def
+R19245:19248 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R19260:19266 Coq_Log.terms_constraints <> setTerm def
+R19333:19338 Coq.Arith.Le <> le_S_n thm
+R19333:19338 Coq.Arith.Le <> le_S_n thm
+R19333:19338 Coq.Arith.Le <> le_S_n thm
+R19354:19365 Coq_Log.preliminaries <> cons_neq_nil thm
+R19354:19365 Coq_Log.preliminaries <> cons_neq_nil thm
+prf 19383:19403 <> listElements_listSetC
+binder 19405:19405 <> t:177
+binder 19407:19408 <> lt:178
+R19424:19432 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19461:19463 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19433:19444 Coq_Log.terms_constraints <> listElements def
+R19447:19454 Coq_Log.terms_constraints <> listSetC def
+R19459:19459 Coq_Log.terms_constraints <> t:177 var
+R19456:19457 Coq_Log.terms_constraints <> lt:178 var
+R19466:19470 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R19485:19485 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R19464:19465 Coq_Log.terms_constraints <> lt:178 var
+R19471:19482 Coq_Log.terms_constraints <> listElements def
+R19484:19484 Coq_Log.terms_constraints <> t:177 var
+R19417:19420 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R19415:19416 Coq_Log.terms_constraints <> lt:178 var
+R19421:19423 Coq.Init.Datatypes <> nil constr
+R19516:19518 Coq.Init.Datatypes <> nat ind
+binder 19512:19512 <> n:179
+binder 19532:19534 <> lt':180
+binder 19544:19545 <> t':181
+R19548:19548 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19564:19568 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19579:19612 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19643:19645 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19613:19624 Coq_Log.terms_constraints <> listElements def
+R19627:19634 Coq_Log.terms_constraints <> listSetC def
+R19640:19641 Coq_Log.terms_constraints <> t':181 var
+R19636:19638 Coq_Log.terms_constraints <> lt':180 var
+R19649:19653 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R19669:19669 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R19646:19648 Coq_Log.terms_constraints <> lt':180 var
+R19654:19665 Coq_Log.terms_constraints <> listElements def
+R19667:19668 Coq_Log.terms_constraints <> t':181 var
+R19572:19575 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R19569:19571 Coq_Log.terms_constraints <> lt':180 var
+R19576:19578 Coq.Init.Datatypes <> nil constr
+R19559:19562 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R19549:19554 Coq.Init.Datatypes <> length def
+R19556:19558 Coq_Log.terms_constraints <> lt':180 var
+R19563:19563 Coq_Log.terms_constraints <> n:179 var
+R19516:19518 Coq.Init.Datatypes <> nat ind
+binder 19512:19512 <> n:182
+binder 19532:19534 <> lt':183
+binder 19544:19545 <> t':184
+R19548:19548 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19564:19568 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19579:19612 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19643:19645 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19613:19624 Coq_Log.terms_constraints <> listElements def
+R19627:19634 Coq_Log.terms_constraints <> listSetC def
+R19640:19641 Coq_Log.terms_constraints <> t':184 var
+R19636:19638 Coq_Log.terms_constraints <> lt':183 var
+R19649:19653 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R19669:19669 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R19646:19648 Coq_Log.terms_constraints <> lt':183 var
+R19654:19665 Coq_Log.terms_constraints <> listElements def
+R19667:19668 Coq_Log.terms_constraints <> t':184 var
+R19572:19575 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R19569:19571 Coq_Log.terms_constraints <> lt':183 var
+R19576:19578 Coq.Init.Datatypes <> nil constr
+R19559:19562 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R19549:19554 Coq.Init.Datatypes <> length def
+R19556:19558 Coq_Log.terms_constraints <> lt':183 var
+R19563:19563 Coq_Log.terms_constraints <> n:182 var
+binder 19695:19695 <> n:185
+R19701:19701 Coq_Log.terms_constraints <> n:185 var
+binder 19695:19695 <> n:186
+R19701:19701 Coq_Log.terms_constraints <> n:186 var
+R19720:19725 Coq.Init.Datatypes <> length def
+R19720:19725 Coq.Init.Datatypes <> length def
+R19746:19749 Coq.Init.Peano <> le_n constr
+R19746:19749 Coq.Init.Peano <> le_n constr
+R19843:19845 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19846:19848 Coq.Init.Datatypes <> nil constr
+R19843:19845 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19846:19848 Coq.Init.Datatypes <> nil constr
+R19897:19915 Coq.Lists.List <> length_zero_iff_nil thm
+R19897:19915 Coq.Lists.List <> length_zero_iff_nil thm
+R19931:19940 Coq.Arith.PeanoNat Nat le_0_r thm
+R19931:19940 Coq.Arith.PeanoNat Nat le_0_r thm
+R20109:20111 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20071:20082 Coq_Log.terms_constraints <> listElements def
+R20085:20092 Coq_Log.terms_constraints <> listSetC def
+R20097:20100 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R20114:20117 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R20121:20124 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R20125:20136 Coq_Log.terms_constraints <> listElements def
+R20109:20111 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20071:20082 Coq_Log.terms_constraints <> listElements def
+R20085:20092 Coq_Log.terms_constraints <> listSetC def
+R20097:20100 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R20114:20117 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R20121:20124 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R20125:20136 Coq_Log.terms_constraints <> listElements def
+R20203:20208 Coq.Arith.Le <> le_S_n thm
+R20203:20208 Coq.Arith.Le <> le_S_n thm
+R20203:20208 Coq.Arith.Le <> le_S_n thm
+R20224:20235 Coq_Log.preliminaries <> cons_neq_nil thm
+R20224:20235 Coq_Log.preliminaries <> cons_neq_nil thm
+prf 20253:20282 <> listElements_listSetC_EmptySet
+binder 20286:20287 <> lt:187
+R20329:20331 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20294:20305 Coq_Log.terms_constraints <> listElements def
+R20308:20315 Coq_Log.terms_constraints <> listSetC def
+R20320:20327 Coq_Log.terms_constraints <> EmptySet constr
+R20317:20318 Coq_Log.terms_constraints <> lt:187 var
+R20332:20333 Coq_Log.terms_constraints <> lt:187 var
+R20392:20412 Coq_Log.terms_constraints <> listElements_listSetC thm
+R20392:20412 Coq_Log.terms_constraints <> listElements_listSetC thm
+R20392:20412 Coq_Log.terms_constraints <> listElements_listSetC thm
+R20392:20412 Coq_Log.terms_constraints <> listElements_listSetC thm
+R20445:20453 Coq.Lists.List <> app_nil_r thm
+R20445:20453 Coq.Lists.List <> app_nil_r thm
+R20445:20453 Coq.Lists.List <> app_nil_r thm
+prf 20471:20487 <> deleteElmntj_incl
+binder 20491:20491 <> A:188
+R20506:20508 Coq.Init.Datatypes <> nat ind
+binder 20502:20502 <> j:189
+R20516:20519 Coq.Init.Datatypes <> list ind
+R20521:20521 Coq_Log.terms_constraints <> A:188 var
+binder 20512:20512 <> l:190
+R20529:20532 Coq.Lists.List <> incl def
+R20553:20553 Coq_Log.terms_constraints <> l:190 var
+R20535:20546 Coq_Log.terms_constraints <> deleteElmntj def
+R20550:20550 Coq_Log.terms_constraints <> l:190 var
+R20548:20548 Coq_Log.terms_constraints <> j:189 var
+R20584:20586 Coq.Init.Datatypes <> nat ind
+binder 20580:20580 <> n:191
+R20605:20608 Coq.Init.Datatypes <> list ind
+binder 20600:20601 <> l':192
+binder 20620:20621 <> j':193
+R20624:20624 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20639:20643 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20644:20647 Coq.Lists.List <> incl def
+R20670:20671 Coq_Log.terms_constraints <> l':192 var
+R20650:20661 Coq_Log.terms_constraints <> deleteElmntj def
+R20666:20667 Coq_Log.terms_constraints <> l':192 var
+R20663:20664 Coq_Log.terms_constraints <> j':193 var
+R20634:20637 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R20625:20630 Coq.Init.Datatypes <> length def
+R20632:20633 Coq_Log.terms_constraints <> l':192 var
+R20638:20638 Coq_Log.terms_constraints <> n:191 var
+R20584:20586 Coq.Init.Datatypes <> nat ind
+binder 20580:20580 <> n:194
+R20605:20608 Coq.Init.Datatypes <> list ind
+binder 20600:20601 <> l':195
+binder 20620:20621 <> j':196
+R20624:20624 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20639:20643 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20644:20647 Coq.Lists.List <> incl def
+R20670:20671 Coq_Log.terms_constraints <> l':195 var
+R20650:20661 Coq_Log.terms_constraints <> deleteElmntj def
+R20666:20667 Coq_Log.terms_constraints <> l':195 var
+R20663:20664 Coq_Log.terms_constraints <> j':196 var
+R20634:20637 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R20625:20630 Coq.Init.Datatypes <> length def
+R20632:20633 Coq_Log.terms_constraints <> l':195 var
+R20638:20638 Coq_Log.terms_constraints <> n:194 var
+binder 20697:20697 <> n:197
+R20703:20703 Coq_Log.terms_constraints <> n:197 var
+binder 20697:20697 <> n:198
+R20703:20703 Coq_Log.terms_constraints <> n:198 var
+R20722:20727 Coq.Init.Datatypes <> length def
+R20722:20727 Coq.Init.Datatypes <> length def
+R20747:20750 Coq.Init.Peano <> le_n constr
+R20747:20750 Coq.Init.Peano <> le_n constr
+R20844:20846 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20847:20849 Coq.Init.Datatypes <> nil constr
+R20844:20846 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20847:20849 Coq.Init.Datatypes <> nil constr
+R20864:20882 Coq.Lists.List <> length_zero_iff_nil thm
+R20864:20882 Coq.Lists.List <> length_zero_iff_nil thm
+R20900:20909 Coq.Arith.PeanoNat Nat le_0_r thm
+R20900:20909 Coq.Arith.PeanoNat Nat le_0_r thm
+R20968:20977 Coq.Lists.List <> incl_nil_l thm
+R20968:20977 Coq.Lists.List <> incl_nil_l thm
+R20968:20977 Coq.Lists.List <> incl_nil_l thm
+R21028:21037 Coq.Lists.List <> incl_nil_l thm
+R21028:21037 Coq.Lists.List <> incl_nil_l thm
+R21028:21037 Coq.Lists.List <> incl_nil_l thm
+R21098:21104 Coq.Lists.List <> incl_tl thm
+R21098:21104 Coq.Lists.List <> incl_tl thm
+R21098:21104 Coq.Lists.List <> incl_tl thm
+R21135:21143 Coq.Lists.List <> incl_cons thm
+R21160:21164 Coq.Lists.List <> in_eq thm
+R21135:21143 Coq.Lists.List <> incl_cons thm
+R21160:21164 Coq.Lists.List <> in_eq thm
+R21160:21164 Coq.Lists.List <> in_eq thm
+R21178:21184 Coq.Lists.List <> incl_tl thm
+R21178:21184 Coq.Lists.List <> incl_tl thm
+R21219:21224 Coq.Arith.Le <> le_S_n thm
+R21219:21224 Coq.Arith.Le <> le_S_n thm
+prf 21242:21260 <> deleteElmntj_eq_nil
+binder 21263:21263 <> A:199
+R21278:21280 Coq.Init.Datatypes <> nat ind
+binder 21274:21274 <> j:200
+R21288:21291 Coq.Init.Datatypes <> list ind
+R21293:21293 Coq_Log.terms_constraints <> A:199 var
+binder 21284:21284 <> l:201
+R21301:21301 Coq_Log.terms_constraints <> A:199 var
+binder 21297:21297 <> a:202
+R21331:21334 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21359:21367 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21369:21371 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21368:21368 Coq_Log.terms_constraints <> l:201 var
+R21373:21376 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R21372:21372 Coq_Log.terms_constraints <> a:202 var
+R21377:21379 Coq.Init.Datatypes <> nil constr
+R21335:21335 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21352:21355 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21336:21347 Coq_Log.terms_constraints <> deleteElmntj def
+R21351:21351 Coq_Log.terms_constraints <> l:201 var
+R21349:21349 Coq_Log.terms_constraints <> j:200 var
+R21356:21358 Coq.Init.Datatypes <> nil constr
+R21322:21324 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21309:21317 Coq.Lists.List <> nth_error def
+R21321:21321 Coq_Log.terms_constraints <> j:200 var
+R21319:21319 Coq_Log.terms_constraints <> l:201 var
+R21325:21328 Coq.Init.Datatypes <> Some constr
+R21330:21330 Coq_Log.terms_constraints <> a:202 var
+R21431:21432 Coq.Lists.List <> In def
+R21436:21438 Coq.Init.Datatypes <> nil constr
+R21456:21461 Coq.Lists.List <> in_nil thm
+R21431:21432 Coq.Lists.List <> In def
+R21436:21438 Coq.Init.Datatypes <> nil constr
+R21456:21461 Coq.Lists.List <> in_nil thm
+R21456:21461 Coq.Lists.List <> in_nil thm
+R21477:21488 Coq.Lists.List <> nth_error_In thm
+R21477:21488 Coq.Lists.List <> nth_error_In thm
+R21629:21630 Coq.Lists.List <> In def
+R21635:21637 Coq.Init.Datatypes <> nil constr
+R21655:21660 Coq.Lists.List <> in_nil thm
+R21629:21630 Coq.Lists.List <> In def
+R21635:21637 Coq.Init.Datatypes <> nil constr
+R21655:21660 Coq.Lists.List <> in_nil thm
+R21655:21660 Coq.Lists.List <> in_nil thm
+R21700:21704 Coq.Lists.List <> in_eq thm
+R21700:21704 Coq.Lists.List <> in_eq thm
+prf 21722:21739 <> deleteElmntj_in_or
+binder 21742:21742 <> A:203
+R21757:21759 Coq.Init.Datatypes <> nat ind
+binder 21753:21753 <> j:204
+R21767:21770 Coq.Init.Datatypes <> list ind
+R21772:21772 Coq_Log.terms_constraints <> A:203 var
+binder 21763:21763 <> l:205
+R21783:21783 Coq_Log.terms_constraints <> A:203 var
+binder 21776:21776 <> a:206
+binder 21778:21779 <> a':207
+R21814:21817 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21824:21832 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21833:21833 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R21840:21845 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R21869:21869 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R21835:21837 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21834:21834 Coq_Log.terms_constraints <> a:206 var
+R21838:21839 Coq_Log.terms_constraints <> a':207 var
+R21846:21847 Coq.Lists.List <> In def
+R21852:21863 Coq_Log.terms_constraints <> deleteElmntj def
+R21867:21867 Coq_Log.terms_constraints <> l:205 var
+R21865:21865 Coq_Log.terms_constraints <> j:204 var
+R21849:21849 Coq_Log.terms_constraints <> a:206 var
+R21818:21819 Coq.Lists.List <> In def
+R21823:21823 Coq_Log.terms_constraints <> l:205 var
+R21821:21821 Coq_Log.terms_constraints <> a:206 var
+R21804:21806 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21791:21799 Coq.Lists.List <> nth_error def
+R21803:21803 Coq_Log.terms_constraints <> j:204 var
+R21801:21801 Coq_Log.terms_constraints <> l:205 var
+R21807:21810 Coq.Init.Datatypes <> Some constr
+R21812:21813 Coq_Log.terms_constraints <> a':207 var
+R21900:21902 Coq.Init.Datatypes <> nat ind
+binder 21896:21896 <> n:208
+R21921:21924 Coq.Init.Datatypes <> list ind
+binder 21916:21917 <> l':209
+binder 21936:21937 <> j':210
+R21940:21940 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21955:21974 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22000:22003 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22011:22014 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22015:22015 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R22022:22027 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R22053:22053 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R22017:22019 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22028:22029 Coq.Lists.List <> In def
+R22034:22045 Coq_Log.terms_constraints <> deleteElmntj def
+R22050:22051 Coq_Log.terms_constraints <> l':209 var
+R22047:22048 Coq_Log.terms_constraints <> j':210 var
+R22004:22005 Coq.Lists.List <> In def
+R22009:22010 Coq_Log.terms_constraints <> l':209 var
+R21990:21992 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21975:21983 Coq.Lists.List <> nth_error def
+R21988:21989 Coq_Log.terms_constraints <> j':210 var
+R21985:21986 Coq_Log.terms_constraints <> l':209 var
+R21993:21996 Coq.Init.Datatypes <> Some constr
+R21950:21953 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R21941:21946 Coq.Init.Datatypes <> length def
+R21948:21949 Coq_Log.terms_constraints <> l':209 var
+R21954:21954 Coq_Log.terms_constraints <> n:208 var
+R21900:21902 Coq.Init.Datatypes <> nat ind
+binder 21896:21896 <> n:211
+R21921:21924 Coq.Init.Datatypes <> list ind
+binder 21916:21917 <> l':212
+binder 21936:21937 <> j':213
+R21940:21940 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21955:21974 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22000:22003 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22011:22014 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22015:22015 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R22022:22027 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R22053:22053 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R22017:22019 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22028:22029 Coq.Lists.List <> In def
+R22034:22045 Coq_Log.terms_constraints <> deleteElmntj def
+R22050:22051 Coq_Log.terms_constraints <> l':212 var
+R22047:22048 Coq_Log.terms_constraints <> j':213 var
+R22004:22005 Coq.Lists.List <> In def
+R22009:22010 Coq_Log.terms_constraints <> l':212 var
+R21990:21992 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21975:21983 Coq.Lists.List <> nth_error def
+R21988:21989 Coq_Log.terms_constraints <> j':213 var
+R21985:21986 Coq_Log.terms_constraints <> l':212 var
+R21993:21996 Coq.Init.Datatypes <> Some constr
+R21950:21953 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R21941:21946 Coq.Init.Datatypes <> length def
+R21948:21949 Coq_Log.terms_constraints <> l':212 var
+R21954:21954 Coq_Log.terms_constraints <> n:211 var
+binder 22079:22079 <> n:214
+R22085:22085 Coq_Log.terms_constraints <> n:214 var
+binder 22079:22079 <> n:215
+R22085:22085 Coq_Log.terms_constraints <> n:215 var
+R22104:22109 Coq.Init.Datatypes <> length def
+R22104:22109 Coq.Init.Datatypes <> length def
+R22129:22132 Coq.Init.Peano <> le_n constr
+R22129:22132 Coq.Init.Peano <> le_n constr
+R22691:22694 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R22686:22688 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22695:22696 Coq.Lists.List <> In def
+R22701:22712 Coq_Log.terms_constraints <> deleteElmntj def
+R22691:22694 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R22686:22688 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22695:22696 Coq.Lists.List <> In def
+R22701:22712 Coq_Log.terms_constraints <> deleteElmntj def
+R22775:22780 Coq.Arith.Le <> le_S_n thm
+R22775:22780 Coq.Arith.Le <> le_S_n thm
+prf 22859:22875 <> incl_deleteElmntj
+binder 22878:22878 <> A:216
+R22893:22895 Coq.Init.Datatypes <> nat ind
+binder 22889:22889 <> j:217
+R22903:22906 Coq.Init.Datatypes <> list ind
+R22908:22908 Coq_Log.terms_constraints <> A:216 var
+binder 22899:22899 <> l:218
+R22916:22916 Coq_Log.terms_constraints <> A:216 var
+binder 22912:22912 <> a:219
+R22946:22954 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22955:22958 Coq.Lists.List <> incl def
+R22964:22968 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R22985:22985 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R22963:22963 Coq_Log.terms_constraints <> a:219 var
+R22969:22980 Coq_Log.terms_constraints <> deleteElmntj def
+R22984:22984 Coq_Log.terms_constraints <> l:218 var
+R22982:22982 Coq_Log.terms_constraints <> j:217 var
+R22960:22960 Coq_Log.terms_constraints <> l:218 var
+R22937:22939 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22924:22932 Coq.Lists.List <> nth_error def
+R22936:22936 Coq_Log.terms_constraints <> j:217 var
+R22934:22934 Coq_Log.terms_constraints <> l:218 var
+R22940:22943 Coq.Init.Datatypes <> Some constr
+R22945:22945 Coq_Log.terms_constraints <> a:219 var
+R23025:23042 Coq_Log.terms_constraints <> deleteElmntj_in_or thm
+R23087:23091 Coq.Lists.List <> in_eq thm
+R23025:23042 Coq_Log.terms_constraints <> deleteElmntj_in_or thm
+R23087:23091 Coq.Lists.List <> in_eq thm
+R23087:23091 Coq.Lists.List <> in_eq thm
+R23105:23111 Coq.Lists.List <> in_cons thm
+R23105:23111 Coq.Lists.List <> in_cons thm
+prf 23129:23142 <> sizet_listSetC
+binder 23144:23144 <> t:220
+binder 23146:23147 <> lt:221
+binder 23161:23162 <> t':222
+R23172:23174 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R23165:23169 Coq_Log.terms_constraints <> sizet def
+R23171:23171 Coq_Log.terms_constraints <> t:220 var
+R23175:23179 Coq_Log.terms_constraints <> sizet def
+R23182:23189 Coq_Log.terms_constraints <> listSetC def
+R23202:23202 Coq_Log.terms_constraints <> t:220 var
+R23194:23197 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R23192:23193 Coq_Log.terms_constraints <> t':222 var
+R23198:23199 Coq_Log.terms_constraints <> lt:221 var
+R23250:23259 Coq.Arith.Lt <> le_lt_n_Sm thm
+R23250:23259 Coq.Arith.Lt <> le_lt_n_Sm thm
+R23275:23283 Coq.Arith.Plus <> le_plus_r thm
+R23275:23283 Coq.Arith.Plus <> le_plus_r thm
+R23333:23342 Coq.Arith.Lt <> le_lt_n_Sm thm
+R23333:23342 Coq.Arith.Lt <> le_lt_n_Sm thm
+R23356:23367 Coq.Arith.PeanoNat Nat add_comm thm
+R23356:23367 Coq.Arith.PeanoNat Nat add_comm thm
+R23356:23367 Coq.Arith.PeanoNat Nat add_comm thm
+R23379:23391 Coq.Arith.Plus <> le_plus_trans thm
+R23379:23391 Coq.Arith.Plus <> le_plus_trans thm
+R23403:23416 Coq.Arith.PeanoNat Nat lt_le_incl thm
+R23403:23416 Coq.Arith.PeanoNat Nat lt_le_incl thm
+prf 23450:23461 <> listSetC_neq
+binder 23463:23464 <> t1:223
+binder 23466:23467 <> t2:224
+binder 23469:23470 <> lt:225
+R23477:23477 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R23500:23504 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R23478:23485 Coq_Log.terms_constraints <> listSetC def
+R23498:23499 Coq_Log.terms_constraints <> t2:224 var
+R23490:23493 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R23488:23489 Coq_Log.terms_constraints <> t1:223 var
+R23494:23495 Coq_Log.terms_constraints <> lt:225 var
+R23505:23506 Coq_Log.terms_constraints <> t2:224 var
+R23547:23549 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R23539:23543 Coq_Log.terms_constraints <> sizet def
+R23550:23554 Coq_Log.terms_constraints <> sizet def
+R23557:23564 Coq_Log.terms_constraints <> listSetC def
+R23569:23572 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R23597:23610 Coq_Log.terms_constraints <> sizet_listSetC thm
+R23547:23549 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R23539:23543 Coq_Log.terms_constraints <> sizet def
+R23550:23554 Coq_Log.terms_constraints <> sizet def
+R23557:23564 Coq_Log.terms_constraints <> listSetC def
+R23569:23572 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R23597:23610 Coq_Log.terms_constraints <> sizet_listSetC thm
+R23597:23610 Coq_Log.terms_constraints <> sizet_listSetC thm
+R23639:23651 Coq.Arith.PeanoNat Nat lt_irrefl thm
+R23639:23651 Coq.Arith.PeanoNat Nat lt_irrefl thm
+prf 23669:23681 <> listSetC_cons
+binder 23683:23684 <> t1:226
+binder 23686:23687 <> t2:227
+binder 23689:23690 <> lt:228
+R23706:23709 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23710:23710 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23733:23736 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23711:23718 Coq_Log.terms_constraints <> listSetC def
+R23731:23732 Coq_Log.terms_constraints <> t2:227 var
+R23723:23726 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R23721:23722 Coq_Log.terms_constraints <> t1:226 var
+R23727:23728 Coq_Log.terms_constraints <> lt:228 var
+R23737:23740 Coq_Log.terms_constraints <> SetC constr
+R23746:23753 Coq_Log.terms_constraints <> listSetC def
+R23758:23759 Coq_Log.terms_constraints <> t2:227 var
+R23755:23756 Coq_Log.terms_constraints <> lt:228 var
+R23742:23743 Coq_Log.terms_constraints <> t1:226 var
+R23699:23702 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R23697:23698 Coq_Log.terms_constraints <> lt:228 var
+R23703:23705 Coq.Init.Datatypes <> nil constr
+prf 23839:23850 <> listSetC_app
+binder 23852:23852 <> t:229
+binder 23854:23856 <> lt1:230
+binder 23858:23860 <> lt2:231
+R23877:23880 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23891:23899 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23900:23900 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23924:23927 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23901:23908 Coq_Log.terms_constraints <> listSetC def
+R23923:23923 Coq_Log.terms_constraints <> t:229 var
+R23914:23917 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R23911:23913 Coq_Log.terms_constraints <> lt1:230 var
+R23918:23920 Coq_Log.terms_constraints <> lt2:231 var
+R23928:23935 Coq_Log.terms_constraints <> listSetC def
+R23942:23949 Coq_Log.terms_constraints <> listSetC def
+R23955:23955 Coq_Log.terms_constraints <> t:229 var
+R23951:23953 Coq_Log.terms_constraints <> lt2:231 var
+R23937:23939 Coq_Log.terms_constraints <> lt1:230 var
+R23884:23887 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R23881:23883 Coq_Log.terms_constraints <> lt2:231 var
+R23888:23890 Coq.Init.Datatypes <> nil constr
+R23870:23873 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R23867:23869 Coq_Log.terms_constraints <> lt1:230 var
+R23874:23876 Coq.Init.Datatypes <> nil constr
+R23987:23989 Coq.Init.Datatypes <> nat ind
+binder 23983:23983 <> n:232
+binder 24003:24006 <> lt1':233
+binder 24008:24011 <> lt2':234
+R24014:24014 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24047:24098 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24110:24113 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24125:24163 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24164:24164 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24190:24193 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24165:24172 Coq_Log.terms_constraints <> listSetC def
+R24179:24182 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R24175:24178 Coq_Log.terms_constraints <> lt1':233 var
+R24183:24186 Coq_Log.terms_constraints <> lt2':234 var
+R24194:24201 Coq_Log.terms_constraints <> listSetC def
+R24209:24216 Coq_Log.terms_constraints <> listSetC def
+R24218:24221 Coq_Log.terms_constraints <> lt2':234 var
+R24203:24206 Coq_Log.terms_constraints <> lt1':233 var
+R24118:24121 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R24114:24117 Coq_Log.terms_constraints <> lt2':234 var
+R24122:24124 Coq.Init.Datatypes <> nil constr
+R24103:24106 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R24099:24102 Coq_Log.terms_constraints <> lt1':233 var
+R24107:24109 Coq.Init.Datatypes <> nil constr
+R24015:24015 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R24041:24045 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R24027:24029 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R24016:24021 Coq.Init.Datatypes <> length def
+R24023:24026 Coq_Log.terms_constraints <> lt1':233 var
+R24030:24035 Coq.Init.Datatypes <> length def
+R24037:24040 Coq_Log.terms_constraints <> lt2':234 var
+R24046:24046 Coq_Log.terms_constraints <> n:232 var
+R23987:23989 Coq.Init.Datatypes <> nat ind
+binder 23983:23983 <> n:235
+binder 24003:24006 <> lt1':236
+binder 24008:24011 <> lt2':237
+R24014:24014 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24047:24098 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24110:24113 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24125:24163 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24164:24164 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24190:24193 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24165:24172 Coq_Log.terms_constraints <> listSetC def
+R24179:24182 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R24175:24178 Coq_Log.terms_constraints <> lt1':236 var
+R24183:24186 Coq_Log.terms_constraints <> lt2':237 var
+R24194:24201 Coq_Log.terms_constraints <> listSetC def
+R24209:24216 Coq_Log.terms_constraints <> listSetC def
+R24218:24221 Coq_Log.terms_constraints <> lt2':237 var
+R24203:24206 Coq_Log.terms_constraints <> lt1':236 var
+R24118:24121 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R24114:24117 Coq_Log.terms_constraints <> lt2':237 var
+R24122:24124 Coq.Init.Datatypes <> nil constr
+R24103:24106 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R24099:24102 Coq_Log.terms_constraints <> lt1':236 var
+R24107:24109 Coq.Init.Datatypes <> nil constr
+R24015:24015 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R24041:24045 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R24027:24029 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R24016:24021 Coq.Init.Datatypes <> length def
+R24023:24026 Coq_Log.terms_constraints <> lt1':236 var
+R24030:24035 Coq.Init.Datatypes <> length def
+R24037:24040 Coq_Log.terms_constraints <> lt2':237 var
+R24046:24046 Coq_Log.terms_constraints <> n:235 var
+binder 24250:24250 <> n:238
+R24256:24256 Coq_Log.terms_constraints <> n:238 var
+binder 24250:24250 <> n:239
+R24256:24256 Coq_Log.terms_constraints <> n:239 var
+R24285:24287 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R24275:24280 Coq.Init.Datatypes <> length def
+R24288:24293 Coq.Init.Datatypes <> length def
+R24285:24287 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R24275:24280 Coq.Init.Datatypes <> length def
+R24288:24293 Coq.Init.Datatypes <> length def
+R24315:24318 Coq.Init.Peano <> le_n constr
+R24315:24318 Coq.Init.Peano <> le_n constr
+R24445:24447 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24431:24433 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R24420:24425 Coq.Init.Datatypes <> length def
+R24434:24439 Coq.Init.Datatypes <> length def
+R24445:24447 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24431:24433 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R24420:24425 Coq.Init.Datatypes <> length def
+R24434:24439 Coq.Init.Datatypes <> length def
+R24467:24476 Coq.Arith.PeanoNat Nat le_0_r thm
+R24467:24476 Coq.Arith.PeanoNat Nat le_0_r thm
+R24494:24496 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24497:24499 Coq.Init.Datatypes <> nil constr
+R24494:24496 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24497:24499 Coq.Init.Datatypes <> nil constr
+R24528:24546 Coq.Lists.List <> length_zero_iff_nil thm
+R24528:24546 Coq.Lists.List <> length_zero_iff_nil thm
+R24566:24574 Coq.Arith.Plus <> plus_is_O thm
+R24566:24574 Coq.Arith.Plus <> plus_is_O thm
+R24766:24778 Coq_Log.terms_constraints <> listSetC_cons thm
+R24795:24806 Coq_Log.preliminaries <> cons_neq_nil thm
+R24766:24778 Coq_Log.terms_constraints <> listSetC_cons thm
+R24766:24778 Coq_Log.terms_constraints <> listSetC_cons thm
+R24766:24778 Coq_Log.terms_constraints <> listSetC_cons thm
+R24795:24806 Coq_Log.preliminaries <> cons_neq_nil thm
+R24795:24806 Coq_Log.preliminaries <> cons_neq_nil thm
+R24856:24858 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24826:24826 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R24842:24846 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R24829:24832 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R24835:24838 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R24849:24852 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R24861:24865 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R24888:24888 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R24868:24871 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R24875:24878 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R24881:24884 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R24856:24858 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24826:24826 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R24842:24846 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R24829:24832 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R24835:24838 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R24849:24852 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R24861:24865 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R24888:24888 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R24868:24871 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R24875:24878 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R24881:24884 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R24933:24945 Coq_Log.terms_constraints <> listSetC_cons thm
+R24962:24973 Coq_Log.preliminaries <> cons_neq_nil thm
+R24933:24945 Coq_Log.terms_constraints <> listSetC_cons thm
+R24933:24945 Coq_Log.terms_constraints <> listSetC_cons thm
+R24933:24945 Coq_Log.terms_constraints <> listSetC_cons thm
+R24962:24973 Coq_Log.preliminaries <> cons_neq_nil thm
+R24962:24973 Coq_Log.preliminaries <> cons_neq_nil thm
+R25027:25029 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24992:24999 Coq_Log.terms_constraints <> listSetC def
+R25004:25007 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R25011:25014 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R25017:25020 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R25030:25037 Coq_Log.terms_constraints <> listSetC def
+R25052:25059 Coq_Log.terms_constraints <> listSetC def
+R25064:25067 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R25042:25045 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R25027:25029 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24992:24999 Coq_Log.terms_constraints <> listSetC def
+R25004:25007 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R25011:25014 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R25017:25020 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R25030:25037 Coq_Log.terms_constraints <> listSetC def
+R25052:25059 Coq_Log.terms_constraints <> listSetC def
+R25064:25067 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R25042:25045 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R25129:25132 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R25153:25164 Coq_Log.preliminaries <> cons_neq_nil thm
+R25129:25132 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R25153:25164 Coq_Log.preliminaries <> cons_neq_nil thm
+R25153:25164 Coq_Log.preliminaries <> cons_neq_nil thm
+R25153:25164 Coq_Log.preliminaries <> cons_neq_nil thm
+R25180:25185 Coq.Arith.Le <> le_S_n thm
+R25180:25185 Coq.Arith.Le <> le_S_n thm
+prf 25203:25223 <> listSetC_app_EmptySet
+binder 25225:25227 <> lt1:240
+binder 25229:25231 <> lt2:241
+R25248:25251 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25252:25252 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R25283:25286 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R25253:25260 Coq_Log.terms_constraints <> listSetC def
+R25275:25282 Coq_Log.terms_constraints <> EmptySet constr
+R25266:25269 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R25263:25265 Coq_Log.terms_constraints <> lt1:240 var
+R25270:25272 Coq_Log.terms_constraints <> lt2:241 var
+R25287:25294 Coq_Log.terms_constraints <> listSetC def
+R25301:25308 Coq_Log.terms_constraints <> listSetC def
+R25314:25321 Coq_Log.terms_constraints <> EmptySet constr
+R25310:25312 Coq_Log.terms_constraints <> lt2:241 var
+R25296:25298 Coq_Log.terms_constraints <> lt1:240 var
+R25241:25244 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R25238:25240 Coq_Log.terms_constraints <> lt1:240 var
+R25245:25247 Coq.Init.Datatypes <> nil constr
+R25361:25371 Coq.Lists.List <> list_eq_dec thm
+R25389:25391 Coq.Init.Datatypes <> nil constr
+R25373:25383 Coq_Log.terms_constraints <> eq_term_dec thm
+R25434:25442 Coq.Lists.List <> app_nil_r thm
+R25361:25371 Coq.Lists.List <> list_eq_dec thm
+R25389:25391 Coq.Init.Datatypes <> nil constr
+R25373:25383 Coq_Log.terms_constraints <> eq_term_dec thm
+R25434:25442 Coq.Lists.List <> app_nil_r thm
+R25434:25442 Coq.Lists.List <> app_nil_r thm
+R25434:25442 Coq.Lists.List <> app_nil_r thm
+R25456:25467 Coq_Log.terms_constraints <> listSetC_app thm
+R25456:25467 Coq_Log.terms_constraints <> listSetC_app thm
+prf 25485:25497 <> listSetC_eq_l
+binder 25499:25499 <> t:242
+binder 25501:25503 <> lt1:243
+binder 25505:25507 <> lt2:244
+R25545:25548 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25552:25554 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R25549:25551 Coq_Log.terms_constraints <> lt1:243 var
+R25555:25557 Coq_Log.terms_constraints <> lt2:244 var
+R25528:25530 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R25514:25521 Coq_Log.terms_constraints <> listSetC def
+R25527:25527 Coq_Log.terms_constraints <> t:242 var
+R25523:25525 Coq_Log.terms_constraints <> lt1:243 var
+R25531:25538 Coq_Log.terms_constraints <> listSetC def
+R25544:25544 Coq_Log.terms_constraints <> t:242 var
+R25540:25542 Coq_Log.terms_constraints <> lt2:244 var
+R25588:25590 Coq.Init.Datatypes <> nat ind
+binder 25584:25584 <> n:245
+binder 25604:25607 <> lt1':246
+binder 25609:25612 <> lt2':247
+binder 25614:25615 <> t':248
+R25618:25618 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25654:25658 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25694:25697 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25702:25705 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R25698:25701 Coq_Log.terms_constraints <> lt1':246 var
+R25706:25709 Coq_Log.terms_constraints <> lt2':247 var
+R25675:25677 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R25659:25666 Coq_Log.terms_constraints <> listSetC def
+R25673:25674 Coq_Log.terms_constraints <> t':248 var
+R25668:25671 Coq_Log.terms_constraints <> lt1':246 var
+R25678:25685 Coq_Log.terms_constraints <> listSetC def
+R25692:25693 Coq_Log.terms_constraints <> t':248 var
+R25687:25690 Coq_Log.terms_constraints <> lt2':247 var
+R25649:25652 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R25619:25619 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R25631:25636 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R25648:25648 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R25620:25625 Coq.Init.Datatypes <> length def
+R25627:25630 Coq_Log.terms_constraints <> lt1':246 var
+R25637:25642 Coq.Init.Datatypes <> length def
+R25644:25647 Coq_Log.terms_constraints <> lt2':247 var
+R25653:25653 Coq_Log.terms_constraints <> n:245 var
+R25588:25590 Coq.Init.Datatypes <> nat ind
+binder 25584:25584 <> n:249
+binder 25604:25607 <> lt1':250
+binder 25609:25612 <> lt2':251
+binder 25614:25615 <> t':252
+R25618:25618 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25654:25658 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25694:25697 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25702:25705 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R25698:25701 Coq_Log.terms_constraints <> lt1':250 var
+R25706:25709 Coq_Log.terms_constraints <> lt2':251 var
+R25675:25677 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R25659:25666 Coq_Log.terms_constraints <> listSetC def
+R25673:25674 Coq_Log.terms_constraints <> t':252 var
+R25668:25671 Coq_Log.terms_constraints <> lt1':250 var
+R25678:25685 Coq_Log.terms_constraints <> listSetC def
+R25692:25693 Coq_Log.terms_constraints <> t':252 var
+R25687:25690 Coq_Log.terms_constraints <> lt2':251 var
+R25649:25652 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R25619:25619 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R25631:25636 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R25648:25648 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R25620:25625 Coq.Init.Datatypes <> length def
+R25627:25630 Coq_Log.terms_constraints <> lt1':250 var
+R25637:25642 Coq.Init.Datatypes <> length def
+R25644:25647 Coq_Log.terms_constraints <> lt2':251 var
+R25653:25653 Coq_Log.terms_constraints <> n:249 var
+binder 25735:25735 <> n:253
+R25741:25741 Coq_Log.terms_constraints <> n:253 var
+binder 25735:25735 <> n:254
+R25741:25741 Coq_Log.terms_constraints <> n:254 var
+R25760:25760 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R25771:25775 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R25786:25786 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R25761:25766 Coq.Init.Datatypes <> length def
+R25776:25781 Coq.Init.Datatypes <> length def
+R25760:25760 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R25771:25775 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R25786:25786 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R25761:25766 Coq.Init.Datatypes <> length def
+R25776:25781 Coq.Init.Datatypes <> length def
+R25804:25807 Coq.Init.Peano <> le_n constr
+R25804:25807 Coq.Init.Peano <> le_n constr
+R25903:25905 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R25906:25908 Coq.Init.Datatypes <> nil constr
+R25903:25905 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R25906:25908 Coq.Init.Datatypes <> nil constr
+R25923:25941 Coq.Lists.List <> length_zero_iff_nil thm
+R25923:25941 Coq.Lists.List <> length_zero_iff_nil thm
+R25955:25964 Coq.Arith.PeanoNat Nat le_0_r thm
+R25955:25964 Coq.Arith.PeanoNat Nat le_0_r thm
+R26002:26007 Coq.Init.Datatypes <> length def
+R25982:25989 Coq_Log.preliminaries <> le_add_l thm
+R26002:26007 Coq.Init.Datatypes <> length def
+R25982:25989 Coq_Log.preliminaries <> le_add_l thm
+R26109:26111 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R26101:26105 Coq_Log.terms_constraints <> sizet def
+R26112:26116 Coq_Log.terms_constraints <> sizet def
+R26119:26126 Coq_Log.terms_constraints <> listSetC def
+R26132:26135 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R26109:26111 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R26101:26105 Coq_Log.terms_constraints <> sizet def
+R26112:26116 Coq_Log.terms_constraints <> sizet def
+R26119:26126 Coq_Log.terms_constraints <> listSetC def
+R26132:26135 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R26186:26195 Coq.Arith.PeanoNat Nat lt_neq thm
+R26186:26195 Coq.Arith.PeanoNat Nat lt_neq thm
+R26211:26224 Coq_Log.terms_constraints <> sizet_listSetC thm
+R26211:26224 Coq_Log.terms_constraints <> sizet_listSetC thm
+R26350:26352 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R26342:26346 Coq_Log.terms_constraints <> sizet def
+R26353:26357 Coq_Log.terms_constraints <> sizet def
+R26360:26367 Coq_Log.terms_constraints <> listSetC def
+R26372:26375 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R26350:26352 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R26342:26346 Coq_Log.terms_constraints <> sizet def
+R26353:26357 Coq_Log.terms_constraints <> sizet def
+R26360:26367 Coq_Log.terms_constraints <> listSetC def
+R26372:26375 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R26432:26441 Coq.Arith.PeanoNat Nat lt_neq thm
+R26432:26441 Coq.Arith.PeanoNat Nat lt_neq thm
+R26459:26472 Coq_Log.terms_constraints <> sizet_listSetC thm
+R26459:26472 Coq_Log.terms_constraints <> sizet_listSetC thm
+R26561:26563 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R26553:26557 Coq_Log.terms_constraints <> sizet def
+R26564:26568 Coq_Log.terms_constraints <> sizet def
+R26571:26578 Coq_Log.terms_constraints <> listSetC def
+R26583:26586 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R26561:26563 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R26553:26557 Coq_Log.terms_constraints <> sizet def
+R26564:26568 Coq_Log.terms_constraints <> sizet def
+R26571:26578 Coq_Log.terms_constraints <> listSetC def
+R26583:26586 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R26644:26653 Coq.Arith.PeanoNat Nat lt_neq thm
+R26644:26653 Coq.Arith.PeanoNat Nat lt_neq thm
+R26673:26686 Coq_Log.terms_constraints <> sizet_listSetC thm
+R26673:26686 Coq_Log.terms_constraints <> sizet_listSetC thm
+R26906:26908 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R26898:26902 Coq_Log.terms_constraints <> sizet def
+R26909:26913 Coq_Log.terms_constraints <> sizet def
+R26916:26923 Coq_Log.terms_constraints <> listSetC def
+R26929:26932 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R26906:26908 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R26898:26902 Coq_Log.terms_constraints <> sizet def
+R26909:26913 Coq_Log.terms_constraints <> sizet def
+R26916:26923 Coq_Log.terms_constraints <> listSetC def
+R26929:26932 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R26968:26977 Coq.Arith.PeanoNat Nat lt_neq thm
+R26968:26977 Coq.Arith.PeanoNat Nat lt_neq thm
+R27007:27020 Coq_Log.terms_constraints <> sizet_listSetC thm
+R27007:27020 Coq_Log.terms_constraints <> sizet_listSetC thm
+R27053:27053 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27080:27083 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27054:27055 Coq_Log.terms_constraints <> :::'{{'_x_'|'_x_'}}' not
+R27059:27061 Coq_Log.terms_constraints <> :::'{{'_x_'|'_x_'}}' not
+R27078:27079 Coq_Log.terms_constraints <> :::'{{'_x_'|'_x_'}}' not
+R27062:27069 Coq_Log.terms_constraints <> listSetC def
+R27084:27091 Coq_Log.terms_constraints <> listSetC def
+R27097:27100 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R27053:27053 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27080:27083 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27054:27055 Coq_Log.terms_constraints <> :::'{{'_x_'|'_x_'}}' not
+R27059:27061 Coq_Log.terms_constraints <> :::'{{'_x_'|'_x_'}}' not
+R27078:27079 Coq_Log.terms_constraints <> :::'{{'_x_'|'_x_'}}' not
+R27062:27069 Coq_Log.terms_constraints <> listSetC def
+R27084:27091 Coq_Log.terms_constraints <> listSetC def
+R27097:27100 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R27342:27344 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27334:27338 Coq_Log.terms_constraints <> sizet def
+R27345:27349 Coq_Log.terms_constraints <> sizet def
+R27352:27359 Coq_Log.terms_constraints <> listSetC def
+R27365:27368 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R27342:27344 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27334:27338 Coq_Log.terms_constraints <> sizet def
+R27345:27349 Coq_Log.terms_constraints <> sizet def
+R27352:27359 Coq_Log.terms_constraints <> listSetC def
+R27365:27368 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R27405:27414 Coq.Arith.PeanoNat Nat lt_neq thm
+R27405:27414 Coq.Arith.PeanoNat Nat lt_neq thm
+R27443:27456 Coq_Log.terms_constraints <> sizet_listSetC thm
+R27443:27456 Coq_Log.terms_constraints <> sizet_listSetC thm
+R27488:27488 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27517:27520 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27489:27490 Coq_Log.terms_constraints <> :::'{{'_x_'|'_x_'}}' not
+R27494:27496 Coq_Log.terms_constraints <> :::'{{'_x_'|'_x_'}}' not
+R27515:27516 Coq_Log.terms_constraints <> :::'{{'_x_'|'_x_'}}' not
+R27497:27504 Coq_Log.terms_constraints <> listSetC def
+R27521:27528 Coq_Log.terms_constraints <> listSetC def
+R27534:27537 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R27488:27488 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27517:27520 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27489:27490 Coq_Log.terms_constraints <> :::'{{'_x_'|'_x_'}}' not
+R27494:27496 Coq_Log.terms_constraints <> :::'{{'_x_'|'_x_'}}' not
+R27515:27516 Coq_Log.terms_constraints <> :::'{{'_x_'|'_x_'}}' not
+R27497:27504 Coq_Log.terms_constraints <> listSetC def
+R27521:27528 Coq_Log.terms_constraints <> listSetC def
+R27534:27537 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R27750:27752 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27740:27743 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R27756:27759 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R27750:27752 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27740:27743 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R27756:27759 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R27906:27911 Coq.Arith.Le <> le_S_n thm
+R27906:27911 Coq.Arith.Le <> le_S_n thm
+R27981:27983 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R27953:27958 Coq.Init.Datatypes <> length def
+R27963:27966 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R27970:27973 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R27984:27989 Coq.Init.Datatypes <> length def
+R27994:27997 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R28001:28004 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R27933:27940 Coq.Arith.Le <> le_trans syndef
+R27981:27983 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R27953:27958 Coq.Init.Datatypes <> length def
+R27963:27966 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R27970:27973 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R27984:27989 Coq.Init.Datatypes <> length def
+R27994:27997 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R28001:28004 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R27933:27940 Coq.Arith.Le <> le_trans syndef
+R28055:28060 Coq.Arith.Le <> le_n_S thm
+R28055:28060 Coq.Arith.Le <> le_n_S thm
+R28055:28060 Coq.Arith.Le <> le_n_S thm
+R28082:28098 Coq.Arith.PeanoNat Nat add_le_mono_l thm
+R28082:28098 Coq.Arith.PeanoNat Nat add_le_mono_l thm
+R28124:28141 Coq.Arith.PeanoNat Nat le_succ_diag_r thm
+R28124:28141 Coq.Arith.PeanoNat Nat le_succ_diag_r thm
+prf 28220:28239 <> listSetC_Var_eq_list
+binder 28241:28242 <> v1:255
+binder 28244:28245 <> v2:256
+binder 28247:28249 <> lt1:257
+binder 28251:28253 <> lt2:258
+R28305:28313 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28317:28319 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R28314:28316 Coq_Log.terms_constraints <> lt1:257 var
+R28320:28322 Coq_Log.terms_constraints <> lt2:258 var
+R28281:28283 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R28260:28267 Coq_Log.terms_constraints <> listSetC def
+R28274:28276 Coq_Log.terms_constraints <> Var constr
+R28278:28279 Coq_Log.terms_constraints <> v1:255 var
+R28269:28271 Coq_Log.terms_constraints <> lt1:257 var
+R28284:28291 Coq_Log.terms_constraints <> listSetC def
+R28298:28300 Coq_Log.terms_constraints <> Var constr
+R28302:28303 Coq_Log.terms_constraints <> v2:256 var
+R28293:28295 Coq_Log.terms_constraints <> lt2:258 var
+R28353:28355 Coq.Init.Datatypes <> nat ind
+binder 28349:28349 <> n:259
+binder 28369:28372 <> lt1':260
+binder 28374:28377 <> lt2':261
+R28380:28380 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28415:28419 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28467:28470 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28475:28477 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R28471:28474 Coq_Log.terms_constraints <> lt1':260 var
+R28478:28481 Coq_Log.terms_constraints <> lt2':261 var
+R28442:28444 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R28420:28427 Coq_Log.terms_constraints <> listSetC def
+R28435:28437 Coq_Log.terms_constraints <> Var constr
+R28429:28432 Coq_Log.terms_constraints <> lt1':260 var
+R28445:28452 Coq_Log.terms_constraints <> listSetC def
+R28460:28462 Coq_Log.terms_constraints <> Var constr
+R28454:28457 Coq_Log.terms_constraints <> lt2':261 var
+R28410:28413 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R28381:28381 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R28393:28397 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R28409:28409 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R28382:28387 Coq.Init.Datatypes <> length def
+R28389:28392 Coq_Log.terms_constraints <> lt1':260 var
+R28398:28403 Coq.Init.Datatypes <> length def
+R28405:28408 Coq_Log.terms_constraints <> lt2':261 var
+R28414:28414 Coq_Log.terms_constraints <> n:259 var
+R28353:28355 Coq.Init.Datatypes <> nat ind
+binder 28349:28349 <> n:262
+binder 28369:28372 <> lt1':263
+binder 28374:28377 <> lt2':264
+R28380:28380 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28415:28419 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28467:28470 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28475:28477 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R28471:28474 Coq_Log.terms_constraints <> lt1':263 var
+R28478:28481 Coq_Log.terms_constraints <> lt2':264 var
+R28442:28444 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R28420:28427 Coq_Log.terms_constraints <> listSetC def
+R28435:28437 Coq_Log.terms_constraints <> Var constr
+R28429:28432 Coq_Log.terms_constraints <> lt1':263 var
+R28445:28452 Coq_Log.terms_constraints <> listSetC def
+R28460:28462 Coq_Log.terms_constraints <> Var constr
+R28454:28457 Coq_Log.terms_constraints <> lt2':264 var
+R28410:28413 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R28381:28381 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R28393:28397 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R28409:28409 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R28382:28387 Coq.Init.Datatypes <> length def
+R28389:28392 Coq_Log.terms_constraints <> lt1':263 var
+R28398:28403 Coq.Init.Datatypes <> length def
+R28405:28408 Coq_Log.terms_constraints <> lt2':264 var
+R28414:28414 Coq_Log.terms_constraints <> n:262 var
+binder 28507:28507 <> n:265
+R28513:28513 Coq_Log.terms_constraints <> n:265 var
+binder 28507:28507 <> n:266
+R28513:28513 Coq_Log.terms_constraints <> n:266 var
+R28532:28532 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R28543:28547 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R28558:28558 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R28533:28538 Coq.Init.Datatypes <> length def
+R28548:28553 Coq.Init.Datatypes <> length def
+R28532:28532 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R28543:28547 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R28558:28558 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R28533:28538 Coq.Init.Datatypes <> length def
+R28548:28553 Coq.Init.Datatypes <> length def
+R28576:28579 Coq.Init.Peano <> le_n constr
+R28576:28579 Coq.Init.Peano <> le_n constr
+R28672:28674 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R28675:28677 Coq.Init.Datatypes <> nil constr
+R28672:28674 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R28675:28677 Coq.Init.Datatypes <> nil constr
+R28692:28710 Coq.Lists.List <> length_zero_iff_nil thm
+R28692:28710 Coq.Lists.List <> length_zero_iff_nil thm
+R28724:28733 Coq.Arith.PeanoNat Nat le_0_r thm
+R28724:28733 Coq.Arith.PeanoNat Nat le_0_r thm
+R28771:28776 Coq.Init.Datatypes <> length def
+R28751:28758 Coq_Log.preliminaries <> le_add_l thm
+R28771:28776 Coq.Init.Datatypes <> length def
+R28751:28758 Coq_Log.preliminaries <> le_add_l thm
+R29181:29184 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R29176:29178 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R29208:29210 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R29185:29192 Coq_Log.terms_constraints <> listSetC def
+R29201:29203 Coq_Log.terms_constraints <> Var constr
+R29211:29218 Coq_Log.terms_constraints <> listSetC def
+R29227:29229 Coq_Log.terms_constraints <> Var constr
+R29181:29184 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R29176:29178 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R29208:29210 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R29185:29192 Coq_Log.terms_constraints <> listSetC def
+R29201:29203 Coq_Log.terms_constraints <> Var constr
+R29211:29218 Coq_Log.terms_constraints <> listSetC def
+R29227:29229 Coq_Log.terms_constraints <> Var constr
+R29292:29294 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R29292:29294 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R29376:29381 Coq.Arith.Le <> le_S_n thm
+R29376:29381 Coq.Arith.Le <> le_S_n thm
+R29437:29439 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R29417:29422 Coq.Init.Datatypes <> length def
+R29427:29430 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R29440:29445 Coq.Init.Datatypes <> length def
+R29450:29453 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R29397:29404 Coq.Arith.Le <> le_trans syndef
+R29437:29439 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R29417:29422 Coq.Init.Datatypes <> length def
+R29427:29430 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R29440:29445 Coq.Init.Datatypes <> length def
+R29450:29453 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R29397:29404 Coq.Arith.Le <> le_trans syndef
+R29492:29497 Coq.Arith.Le <> le_n_S thm
+R29492:29497 Coq.Arith.Le <> le_n_S thm
+R29513:29529 Coq.Arith.PeanoNat Nat add_le_mono_l thm
+R29513:29529 Coq.Arith.PeanoNat Nat add_le_mono_l thm
+R29549:29566 Coq.Arith.PeanoNat Nat le_succ_diag_r thm
+R29549:29566 Coq.Arith.PeanoNat Nat le_succ_diag_r thm
+prf 29764:29786 <> setTerm_exists_listSetC
+binder 29788:29788 <> t:267
+R29804:29807 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29808:29814 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R29817:29818 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 29815:29816 <> lt:268
+R29820:29822 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R29819:29819 Coq_Log.terms_constraints <> t:267 var
+R29823:29830 Coq_Log.terms_constraints <> listSetC def
+R29835:29842 Coq_Log.terms_constraints <> EmptySet constr
+R29832:29833 Coq_Log.terms_constraints <> lt:268 var
+R29795:29801 Coq_Log.terms_constraints <> setTerm def
+R29803:29803 Coq_Log.terms_constraints <> t:267 var
+R29873:29875 Coq.Init.Datatypes <> nat ind
+binder 29869:29869 <> n:269
+binder 29889:29890 <> t':270
+R29893:29893 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29909:29913 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29924:29927 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29928:29934 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R29937:29938 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 29935:29936 <> lt:271
+R29941:29943 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R29939:29940 Coq_Log.terms_constraints <> t':270 var
+R29944:29951 Coq_Log.terms_constraints <> listSetC def
+R29956:29963 Coq_Log.terms_constraints <> EmptySet constr
+R29953:29954 Coq_Log.terms_constraints <> lt:271 var
+R29914:29920 Coq_Log.terms_constraints <> setTerm def
+R29922:29923 Coq_Log.terms_constraints <> t':270 var
+R29894:29894 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R29903:29907 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R29895:29899 Coq_Log.terms_constraints <> sizet def
+R29901:29902 Coq_Log.terms_constraints <> t':270 var
+R29908:29908 Coq_Log.terms_constraints <> n:269 var
+R29873:29875 Coq.Init.Datatypes <> nat ind
+binder 29869:29869 <> n:272
+binder 29889:29890 <> t':273
+R29893:29893 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29909:29913 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29924:29927 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29928:29934 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R29937:29938 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 29935:29936 <> lt:274
+R29941:29943 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R29939:29940 Coq_Log.terms_constraints <> t':273 var
+R29944:29951 Coq_Log.terms_constraints <> listSetC def
+R29956:29963 Coq_Log.terms_constraints <> EmptySet constr
+R29953:29954 Coq_Log.terms_constraints <> lt:274 var
+R29914:29920 Coq_Log.terms_constraints <> setTerm def
+R29922:29923 Coq_Log.terms_constraints <> t':273 var
+R29894:29894 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R29903:29907 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R29895:29899 Coq_Log.terms_constraints <> sizet def
+R29901:29902 Coq_Log.terms_constraints <> t':273 var
+R29908:29908 Coq_Log.terms_constraints <> n:272 var
+binder 29989:29989 <> n:275
+R29995:29995 Coq_Log.terms_constraints <> n:275 var
+binder 29989:29989 <> n:276
+R29995:29995 Coq_Log.terms_constraints <> n:276 var
+R30014:30018 Coq_Log.terms_constraints <> sizet def
+R30014:30018 Coq_Log.terms_constraints <> sizet def
+R30038:30041 Coq.Init.Peano <> le_n constr
+R30038:30041 Coq.Init.Peano <> le_n constr
+R30122:30125 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R30114:30118 Coq_Log.terms_constraints <> sizet def
+R30137:30147 Coq_Log.terms_constraints <> sizet_gte_1 thm
+R30122:30125 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R30114:30118 Coq_Log.terms_constraints <> sizet def
+R30137:30147 Coq_Log.terms_constraints <> sizet_gte_1 thm
+R30274:30280 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R30284:30285 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 30281:30283 <> lt':277
+R30288:30290 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R30291:30298 Coq_Log.terms_constraints <> listSetC def
+R30304:30311 Coq_Log.terms_constraints <> EmptySet constr
+R30300:30302 Coq_Log.terms_constraints <> lt':277 var
+R30274:30280 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R30284:30285 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 30281:30283 <> lt':278
+R30288:30290 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R30291:30298 Coq_Log.terms_constraints <> listSetC def
+R30304:30311 Coq_Log.terms_constraints <> EmptySet constr
+R30300:30302 Coq_Log.terms_constraints <> lt':278 var
+R30371:30380 Coq_Log.terms_constraints <> sizet_SetC thm
+R30371:30380 Coq_Log.terms_constraints <> sizet_SetC thm
+R30442:30445 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R30442:30445 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R30563:30565 Coq.Init.Datatypes <> nil constr
+R30563:30565 Coq.Init.Datatypes <> nil constr
+prf 30583:30593 <> dec_setTerm
+binder 30595:30595 <> t:279
+R30602:30610 Coq.Logic.Decidable <> decidable def
+R30613:30619 Coq_Log.terms_constraints <> setTerm def
+R30621:30621 Coq_Log.terms_constraints <> t:279 var
+R30653:30655 Coq.Init.Datatypes <> nat ind
+binder 30649:30649 <> n:280
+binder 30669:30670 <> t':281
+R30673:30673 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30689:30693 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30694:30702 Coq.Logic.Decidable <> decidable def
+R30705:30711 Coq_Log.terms_constraints <> setTerm def
+R30713:30714 Coq_Log.terms_constraints <> t':281 var
+R30674:30674 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R30683:30687 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R30675:30679 Coq_Log.terms_constraints <> sizet def
+R30681:30682 Coq_Log.terms_constraints <> t':281 var
+R30688:30688 Coq_Log.terms_constraints <> n:280 var
+R30653:30655 Coq.Init.Datatypes <> nat ind
+binder 30649:30649 <> n:282
+binder 30669:30670 <> t':283
+R30673:30673 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30689:30693 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30694:30702 Coq.Logic.Decidable <> decidable def
+R30705:30711 Coq_Log.terms_constraints <> setTerm def
+R30713:30714 Coq_Log.terms_constraints <> t':283 var
+R30674:30674 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R30683:30687 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R30675:30679 Coq_Log.terms_constraints <> sizet def
+R30681:30682 Coq_Log.terms_constraints <> t':283 var
+R30688:30688 Coq_Log.terms_constraints <> n:282 var
+binder 30741:30741 <> n:284
+R30747:30747 Coq_Log.terms_constraints <> n:284 var
+binder 30741:30741 <> n:285
+R30747:30747 Coq_Log.terms_constraints <> n:285 var
+R30766:30770 Coq_Log.terms_constraints <> sizet def
+R30766:30770 Coq_Log.terms_constraints <> sizet def
+R30790:30793 Coq.Init.Peano <> le_n constr
+R30790:30793 Coq.Init.Peano <> le_n constr
+R30874:30877 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R30866:30870 Coq_Log.terms_constraints <> sizet def
+R30889:30899 Coq_Log.terms_constraints <> sizet_gte_1 thm
+R30874:30877 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R30866:30870 Coq_Log.terms_constraints <> sizet def
+R30889:30899 Coq_Log.terms_constraints <> sizet_gte_1 thm
+R30964:30972 Coq.Logic.Decidable <> dec_False thm
+R30964:30972 Coq.Logic.Decidable <> dec_False thm
+R31044:31053 Coq_Log.terms_constraints <> sizet_SetC thm
+R31044:31053 Coq_Log.terms_constraints <> sizet_SetC thm
+R31087:31095 Coq.Logic.Decidable <> dec_False thm
+R31087:31095 Coq.Logic.Decidable <> dec_False thm
+R31121:31128 Coq.Logic.Decidable <> dec_True thm
+R31121:31128 Coq.Logic.Decidable <> dec_True thm
+prf 31146:31159 <> isVariable_dec
+binder 31161:31161 <> t:286
+R31168:31168 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R31181:31186 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R31200:31200 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R31169:31178 Coq_Log.terms_constraints <> isVariable def
+R31180:31180 Coq_Log.terms_constraints <> t:286 var
+R31187:31187 Coq.Init.Logic <> ::type_scope:'~'_x not
+R31188:31197 Coq_Log.terms_constraints <> isVariable def
+R31199:31199 Coq_Log.terms_constraints <> t:286 var
+prf 31268:31284 <> isVariable_exists
+binder 31286:31286 <> t:287
+R31305:31313 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R31314:31320 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R31322:31323 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 31321:31321 <> v:288
+R31325:31327 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R31324:31324 Coq_Log.terms_constraints <> t:287 var
+R31328:31330 Coq_Log.terms_constraints <> Var constr
+R31332:31332 Coq_Log.terms_constraints <> v:288 var
+R31293:31302 Coq_Log.terms_constraints <> isVariable def
+R31304:31304 Coq_Log.terms_constraints <> t:287 var
+prf 31410:31429 <> tail_EmptySet_exists
+binder 31431:31432 <> t1:289
+binder 31434:31435 <> t2:290
+R31465:31473 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R31474:31480 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R31483:31484 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 31481:31482 <> lt:291
+R31495:31497 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R31485:31488 Coq_Log.terms_constraints <> SetC constr
+R31493:31494 Coq_Log.terms_constraints <> t2:290 var
+R31490:31491 Coq_Log.terms_constraints <> t1:289 var
+R31498:31505 Coq_Log.terms_constraints <> listSetC def
+R31510:31517 Coq_Log.terms_constraints <> EmptySet constr
+R31507:31508 Coq_Log.terms_constraints <> lt:291 var
+R31449:31451 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R31442:31445 Coq_Log.terms_constraints <> tail def
+R31447:31448 Coq_Log.terms_constraints <> t2:290 var
+R31452:31455 Coq.Init.Datatypes <> Some constr
+R31457:31464 Coq_Log.terms_constraints <> EmptySet constr
+R31548:31550 Coq.Init.Datatypes <> nat ind
+binder 31544:31544 <> n:292
+binder 31564:31566 <> t1':293
+binder 31568:31570 <> t2':294
+R31573:31573 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R31590:31597 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R31622:31630 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R31631:31637 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R31640:31641 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 31638:31639 <> lt:295
+R31654:31656 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R31642:31645 Coq_Log.terms_constraints <> SetC constr
+R31651:31653 Coq_Log.terms_constraints <> t2':294 var
+R31647:31649 Coq_Log.terms_constraints <> t1':293 var
+R31657:31664 Coq_Log.terms_constraints <> listSetC def
+R31669:31676 Coq_Log.terms_constraints <> EmptySet constr
+R31666:31667 Coq_Log.terms_constraints <> lt:295 var
+R31606:31608 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R31598:31601 Coq_Log.terms_constraints <> tail def
+R31603:31605 Coq_Log.terms_constraints <> t2':294 var
+R31609:31612 Coq.Init.Datatypes <> Some constr
+R31614:31621 Coq_Log.terms_constraints <> EmptySet constr
+R31574:31574 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R31584:31588 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R31575:31579 Coq_Log.terms_constraints <> sizet def
+R31581:31583 Coq_Log.terms_constraints <> t2':294 var
+R31589:31589 Coq_Log.terms_constraints <> n:292 var
+R31548:31550 Coq.Init.Datatypes <> nat ind
+binder 31544:31544 <> n:296
+binder 31564:31566 <> t1':297
+binder 31568:31570 <> t2':298
+R31573:31573 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R31590:31597 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R31622:31630 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R31631:31637 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R31640:31641 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 31638:31639 <> lt:299
+R31654:31656 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R31642:31645 Coq_Log.terms_constraints <> SetC constr
+R31651:31653 Coq_Log.terms_constraints <> t2':298 var
+R31647:31649 Coq_Log.terms_constraints <> t1':297 var
+R31657:31664 Coq_Log.terms_constraints <> listSetC def
+R31669:31676 Coq_Log.terms_constraints <> EmptySet constr
+R31666:31667 Coq_Log.terms_constraints <> lt:299 var
+R31606:31608 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R31598:31601 Coq_Log.terms_constraints <> tail def
+R31603:31605 Coq_Log.terms_constraints <> t2':298 var
+R31609:31612 Coq.Init.Datatypes <> Some constr
+R31614:31621 Coq_Log.terms_constraints <> EmptySet constr
+R31574:31574 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R31584:31588 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R31575:31579 Coq_Log.terms_constraints <> sizet def
+R31581:31583 Coq_Log.terms_constraints <> t2':298 var
+R31589:31589 Coq_Log.terms_constraints <> n:296 var
+binder 31702:31702 <> n:300
+R31708:31708 Coq_Log.terms_constraints <> n:300 var
+binder 31702:31702 <> n:301
+R31708:31708 Coq_Log.terms_constraints <> n:301 var
+R31727:31731 Coq_Log.terms_constraints <> sizet def
+R31727:31731 Coq_Log.terms_constraints <> sizet def
+R31752:31755 Coq.Init.Peano <> le_n constr
+R31752:31755 Coq.Init.Peano <> le_n constr
+R31842:31845 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R31833:31837 Coq_Log.terms_constraints <> sizet def
+R31857:31867 Coq_Log.terms_constraints <> sizet_gte_1 thm
+R31842:31845 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R31833:31837 Coq_Log.terms_constraints <> sizet def
+R31857:31867 Coq_Log.terms_constraints <> sizet_gte_1 thm
+R31992:32001 Coq_Log.terms_constraints <> sizet_SetC thm
+R31992:32001 Coq_Log.terms_constraints <> sizet_SetC thm
+R32044:32050 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R32053:32054 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 32051:32052 <> lt:302
+R32066:32068 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R32055:32056 Coq_Log.terms_constraints <> :::'{{'_x_'|'_x_'}}' not
+R32059:32061 Coq_Log.terms_constraints <> :::'{{'_x_'|'_x_'}}' not
+R32064:32065 Coq_Log.terms_constraints <> :::'{{'_x_'|'_x_'}}' not
+R32069:32076 Coq_Log.terms_constraints <> listSetC def
+R32081:32088 Coq_Log.terms_constraints <> EmptySet constr
+R32078:32079 Coq_Log.terms_constraints <> lt:302 var
+R32044:32050 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R32053:32054 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 32051:32052 <> lt:303
+R32066:32068 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R32055:32056 Coq_Log.terms_constraints <> :::'{{'_x_'|'_x_'}}' not
+R32059:32061 Coq_Log.terms_constraints <> :::'{{'_x_'|'_x_'}}' not
+R32064:32065 Coq_Log.terms_constraints <> :::'{{'_x_'|'_x_'}}' not
+R32069:32076 Coq_Log.terms_constraints <> listSetC def
+R32081:32088 Coq_Log.terms_constraints <> EmptySet constr
+R32078:32079 Coq_Log.terms_constraints <> lt:303 var
+R32129:32138 Coq_Log.terms_constraints <> sizet_SetC thm
+R32129:32138 Coq_Log.terms_constraints <> sizet_SetC thm
+R32129:32138 Coq_Log.terms_constraints <> sizet_SetC thm
+R32208:32211 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R32208:32211 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R32302:32305 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R32306:32308 Coq.Init.Datatypes <> nil constr
+R32302:32305 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R32306:32308 Coq.Init.Datatypes <> nil constr
+prf 32327:32341 <> tail_Var_exists
+binder 32343:32343 <> v:304
+binder 32345:32346 <> t1:305
+binder 32348:32349 <> t2:306
+R32378:32386 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32387:32393 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R32396:32397 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 32394:32395 <> lt:307
+R32407:32410 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R32400:32403 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R32398:32399 Coq_Log.terms_constraints <> lt:307 var
+R32404:32406 Coq.Init.Datatypes <> nil constr
+R32421:32423 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R32411:32414 Coq_Log.terms_constraints <> SetC constr
+R32419:32420 Coq_Log.terms_constraints <> t2:306 var
+R32416:32417 Coq_Log.terms_constraints <> t1:305 var
+R32424:32431 Coq_Log.terms_constraints <> listSetC def
+R32437:32439 Coq_Log.terms_constraints <> Var constr
+R32441:32441 Coq_Log.terms_constraints <> v:304 var
+R32433:32434 Coq_Log.terms_constraints <> lt:307 var
+R32363:32365 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R32356:32359 Coq_Log.terms_constraints <> tail def
+R32361:32362 Coq_Log.terms_constraints <> t2:306 var
+R32366:32369 Coq.Init.Datatypes <> Some constr
+R32372:32374 Coq_Log.terms_constraints <> Var constr
+R32376:32376 Coq_Log.terms_constraints <> v:304 var
+R32473:32475 Coq.Init.Datatypes <> nat ind
+binder 32469:32469 <> n:308
+binder 32489:32491 <> t1':309
+binder 32493:32495 <> t2':310
+R32498:32498 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32515:32522 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32546:32554 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32555:32561 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R32564:32565 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 32562:32563 <> lt:311
+R32575:32578 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R32568:32571 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R32566:32567 Coq_Log.terms_constraints <> lt:311 var
+R32572:32574 Coq.Init.Datatypes <> nil constr
+R32591:32593 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R32579:32582 Coq_Log.terms_constraints <> SetC constr
+R32588:32590 Coq_Log.terms_constraints <> t2':310 var
+R32584:32586 Coq_Log.terms_constraints <> t1':309 var
+R32594:32601 Coq_Log.terms_constraints <> listSetC def
+R32607:32609 Coq_Log.terms_constraints <> Var constr
+R32603:32604 Coq_Log.terms_constraints <> lt:311 var
+R32531:32533 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R32523:32526 Coq_Log.terms_constraints <> tail def
+R32528:32530 Coq_Log.terms_constraints <> t2':310 var
+R32534:32537 Coq.Init.Datatypes <> Some constr
+R32540:32542 Coq_Log.terms_constraints <> Var constr
+R32499:32499 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R32509:32513 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R32500:32504 Coq_Log.terms_constraints <> sizet def
+R32506:32508 Coq_Log.terms_constraints <> t2':310 var
+R32514:32514 Coq_Log.terms_constraints <> n:308 var
+R32473:32475 Coq.Init.Datatypes <> nat ind
+binder 32469:32469 <> n:312
+binder 32489:32491 <> t1':313
+binder 32493:32495 <> t2':314
+R32498:32498 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32515:32522 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32546:32554 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32555:32561 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R32564:32565 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 32562:32563 <> lt:315
+R32575:32578 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R32568:32571 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R32566:32567 Coq_Log.terms_constraints <> lt:315 var
+R32572:32574 Coq.Init.Datatypes <> nil constr
+R32591:32593 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R32579:32582 Coq_Log.terms_constraints <> SetC constr
+R32588:32590 Coq_Log.terms_constraints <> t2':314 var
+R32584:32586 Coq_Log.terms_constraints <> t1':313 var
+R32594:32601 Coq_Log.terms_constraints <> listSetC def
+R32607:32609 Coq_Log.terms_constraints <> Var constr
+R32603:32604 Coq_Log.terms_constraints <> lt:315 var
+R32531:32533 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R32523:32526 Coq_Log.terms_constraints <> tail def
+R32528:32530 Coq_Log.terms_constraints <> t2':314 var
+R32534:32537 Coq.Init.Datatypes <> Some constr
+R32540:32542 Coq_Log.terms_constraints <> Var constr
+R32499:32499 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R32509:32513 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R32500:32504 Coq_Log.terms_constraints <> sizet def
+R32506:32508 Coq_Log.terms_constraints <> t2':314 var
+R32514:32514 Coq_Log.terms_constraints <> n:312 var
+binder 32638:32638 <> n:316
+R32644:32644 Coq_Log.terms_constraints <> n:316 var
+binder 32638:32638 <> n:317
+R32644:32644 Coq_Log.terms_constraints <> n:317 var
+R32663:32667 Coq_Log.terms_constraints <> sizet def
+R32663:32667 Coq_Log.terms_constraints <> sizet def
+R32688:32691 Coq.Init.Peano <> le_n constr
+R32688:32691 Coq.Init.Peano <> le_n constr
+R32778:32781 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R32769:32773 Coq_Log.terms_constraints <> sizet def
+R32793:32803 Coq_Log.terms_constraints <> sizet_gte_1 thm
+R32778:32781 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R32769:32773 Coq_Log.terms_constraints <> sizet def
+R32793:32803 Coq_Log.terms_constraints <> sizet_gte_1 thm
+R32913:32916 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R32917:32919 Coq.Init.Datatypes <> nil constr
+R32913:32916 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R32917:32919 Coq.Init.Datatypes <> nil constr
+R32970:32979 Coq_Log.terms_constraints <> sizet_SetC thm
+R32970:32979 Coq_Log.terms_constraints <> sizet_SetC thm
+R33022:33028 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R33031:33032 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 33029:33030 <> lt:318
+R33042:33045 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R33035:33038 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R33033:33034 Coq_Log.terms_constraints <> lt:318 var
+R33039:33041 Coq.Init.Datatypes <> nil constr
+R33057:33059 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R33046:33047 Coq_Log.terms_constraints <> :::'{{'_x_'|'_x_'}}' not
+R33050:33052 Coq_Log.terms_constraints <> :::'{{'_x_'|'_x_'}}' not
+R33055:33056 Coq_Log.terms_constraints <> :::'{{'_x_'|'_x_'}}' not
+R33060:33067 Coq_Log.terms_constraints <> listSetC def
+R33073:33075 Coq_Log.terms_constraints <> Var constr
+R33069:33070 Coq_Log.terms_constraints <> lt:318 var
+R33022:33028 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R33031:33032 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 33029:33030 <> lt:319
+R33042:33045 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R33035:33038 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R33033:33034 Coq_Log.terms_constraints <> lt:319 var
+R33039:33041 Coq.Init.Datatypes <> nil constr
+R33057:33059 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R33046:33047 Coq_Log.terms_constraints <> :::'{{'_x_'|'_x_'}}' not
+R33050:33052 Coq_Log.terms_constraints <> :::'{{'_x_'|'_x_'}}' not
+R33055:33056 Coq_Log.terms_constraints <> :::'{{'_x_'|'_x_'}}' not
+R33060:33067 Coq_Log.terms_constraints <> listSetC def
+R33073:33075 Coq_Log.terms_constraints <> Var constr
+R33069:33070 Coq_Log.terms_constraints <> lt:319 var
+R33119:33128 Coq_Log.terms_constraints <> sizet_SetC thm
+R33119:33128 Coq_Log.terms_constraints <> sizet_SetC thm
+R33119:33128 Coq_Log.terms_constraints <> sizet_SetC thm
+R33213:33216 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R33213:33216 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+prf 33315:33331 <> tail_listSetC_Var
+binder 33333:33334 <> lt:320
+binder 33336:33336 <> v:321
+R33352:33355 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R33382:33384 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R33356:33359 Coq_Log.terms_constraints <> tail def
+R33362:33369 Coq_Log.terms_constraints <> listSetC def
+R33375:33377 Coq_Log.terms_constraints <> Var constr
+R33379:33379 Coq_Log.terms_constraints <> v:321 var
+R33371:33372 Coq_Log.terms_constraints <> lt:320 var
+R33385:33388 Coq.Init.Datatypes <> Some constr
+R33391:33393 Coq_Log.terms_constraints <> Var constr
+R33395:33395 Coq_Log.terms_constraints <> v:321 var
+R33345:33348 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R33343:33344 Coq_Log.terms_constraints <> lt:320 var
+R33349:33351 Coq.Init.Datatypes <> nil constr
+R33559:33561 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R33516:33519 Coq_Log.terms_constraints <> tail def
+R33522:33529 Coq_Log.terms_constraints <> listSetC def
+R33552:33554 Coq_Log.terms_constraints <> Var constr
+R33534:33537 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R33541:33544 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R33562:33565 Coq_Log.terms_constraints <> tail def
+R33568:33575 Coq_Log.terms_constraints <> listSetC def
+R33592:33594 Coq_Log.terms_constraints <> Var constr
+R33581:33584 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R33559:33561 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R33516:33519 Coq_Log.terms_constraints <> tail def
+R33522:33529 Coq_Log.terms_constraints <> listSetC def
+R33552:33554 Coq_Log.terms_constraints <> Var constr
+R33534:33537 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R33541:33544 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R33562:33565 Coq_Log.terms_constraints <> tail def
+R33568:33575 Coq_Log.terms_constraints <> listSetC def
+R33592:33594 Coq_Log.terms_constraints <> Var constr
+R33581:33584 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+prf 33660:33678 <> listSetC_SetCToList
+binder 33680:33681 <> t1:322
+binder 33683:33684 <> t2:323
+binder 33686:33687 <> lt:324
+binder 33689:33689 <> v:325
+R33731:33739 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R33740:33740 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R33757:33760 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R33741:33750 Coq_Log.terms_constraints <> SetCToList def
+R33755:33756 Coq_Log.terms_constraints <> t2:323 var
+R33752:33753 Coq_Log.terms_constraints <> t1:322 var
+R33761:33762 Coq_Log.terms_constraints <> lt:324 var
+R33696:33696 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R33708:33711 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R33697:33698 Coq_Log.terms_constraints <> :::'{{'_x_'|'_x_'}}' not
+R33701:33703 Coq_Log.terms_constraints <> :::'{{'_x_'|'_x_'}}' not
+R33706:33707 Coq_Log.terms_constraints <> :::'{{'_x_'|'_x_'}}' not
+R33699:33700 Coq_Log.terms_constraints <> t1:322 var
+R33704:33705 Coq_Log.terms_constraints <> t2:323 var
+R33712:33719 Coq_Log.terms_constraints <> listSetC def
+R33725:33727 Coq_Log.terms_constraints <> Var constr
+R33729:33729 Coq_Log.terms_constraints <> v:325 var
+R33721:33722 Coq_Log.terms_constraints <> lt:324 var
+R33793:33795 Coq.Init.Datatypes <> nat ind
+binder 33789:33789 <> n:326
+binder 33809:33811 <> t1':327
+binder 33813:33815 <> t2':328
+binder 33817:33819 <> lt':329
+R33822:33822 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R33839:33846 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R33885:33888 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R33889:33889 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R33908:33911 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R33890:33899 Coq_Log.terms_constraints <> SetCToList def
+R33905:33907 Coq_Log.terms_constraints <> t2':328 var
+R33901:33903 Coq_Log.terms_constraints <> t1':327 var
+R33912:33914 Coq_Log.terms_constraints <> lt':329 var
+R33847:33847 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R33861:33864 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R33848:33849 Coq_Log.terms_constraints <> :::'{{'_x_'|'_x_'}}' not
+R33853:33855 Coq_Log.terms_constraints <> :::'{{'_x_'|'_x_'}}' not
+R33859:33860 Coq_Log.terms_constraints <> :::'{{'_x_'|'_x_'}}' not
+R33850:33852 Coq_Log.terms_constraints <> t1':327 var
+R33856:33858 Coq_Log.terms_constraints <> t2':328 var
+R33865:33872 Coq_Log.terms_constraints <> listSetC def
+R33879:33881 Coq_Log.terms_constraints <> Var constr
+R33874:33876 Coq_Log.terms_constraints <> lt':329 var
+R33823:33823 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R33833:33837 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R33824:33828 Coq_Log.terms_constraints <> sizet def
+R33830:33832 Coq_Log.terms_constraints <> t2':328 var
+R33838:33838 Coq_Log.terms_constraints <> n:326 var
+R33793:33795 Coq.Init.Datatypes <> nat ind
+binder 33789:33789 <> n:330
+binder 33809:33811 <> t1':331
+binder 33813:33815 <> t2':332
+binder 33817:33819 <> lt':333
+R33822:33822 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R33839:33846 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R33885:33888 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R33889:33889 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R33908:33911 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R33890:33899 Coq_Log.terms_constraints <> SetCToList def
+R33905:33907 Coq_Log.terms_constraints <> t2':332 var
+R33901:33903 Coq_Log.terms_constraints <> t1':331 var
+R33912:33914 Coq_Log.terms_constraints <> lt':333 var
+R33847:33847 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R33861:33864 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R33848:33849 Coq_Log.terms_constraints <> :::'{{'_x_'|'_x_'}}' not
+R33853:33855 Coq_Log.terms_constraints <> :::'{{'_x_'|'_x_'}}' not
+R33859:33860 Coq_Log.terms_constraints <> :::'{{'_x_'|'_x_'}}' not
+R33850:33852 Coq_Log.terms_constraints <> t1':331 var
+R33856:33858 Coq_Log.terms_constraints <> t2':332 var
+R33865:33872 Coq_Log.terms_constraints <> listSetC def
+R33879:33881 Coq_Log.terms_constraints <> Var constr
+R33874:33876 Coq_Log.terms_constraints <> lt':333 var
+R33823:33823 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R33833:33837 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R33824:33828 Coq_Log.terms_constraints <> sizet def
+R33830:33832 Coq_Log.terms_constraints <> t2':332 var
+R33838:33838 Coq_Log.terms_constraints <> n:330 var
+binder 33940:33940 <> n:334
+R33946:33946 Coq_Log.terms_constraints <> n:334 var
+binder 33940:33940 <> n:335
+R33946:33946 Coq_Log.terms_constraints <> n:335 var
+R33965:33969 Coq_Log.terms_constraints <> sizet def
+R33965:33969 Coq_Log.terms_constraints <> sizet def
+R33990:33993 Coq.Init.Peano <> le_n constr
+R33990:33993 Coq.Init.Peano <> le_n constr
+R34084:34087 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R34075:34079 Coq_Log.terms_constraints <> sizet def
+R34099:34109 Coq_Log.terms_constraints <> sizet_gte_1 thm
+R34084:34087 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R34075:34079 Coq_Log.terms_constraints <> sizet def
+R34099:34109 Coq_Log.terms_constraints <> sizet_gte_1 thm
+R34203:34203 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R34219:34222 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R34204:34205 Coq_Log.terms_constraints <> :::'{{'_x_'|'_x_'}}' not
+R34209:34211 Coq_Log.terms_constraints <> :::'{{'_x_'|'_x_'}}' not
+R34217:34218 Coq_Log.terms_constraints <> :::'{{'_x_'|'_x_'}}' not
+R34212:34214 Coq_Log.terms_constraints <> Var constr
+R34223:34230 Coq_Log.terms_constraints <> listSetC def
+R34246:34248 Coq_Log.terms_constraints <> Var constr
+R34236:34239 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R34240:34242 Coq.Init.Datatypes <> nil constr
+R34203:34203 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R34219:34222 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R34204:34205 Coq_Log.terms_constraints <> :::'{{'_x_'|'_x_'}}' not
+R34209:34211 Coq_Log.terms_constraints <> :::'{{'_x_'|'_x_'}}' not
+R34217:34218 Coq_Log.terms_constraints <> :::'{{'_x_'|'_x_'}}' not
+R34212:34214 Coq_Log.terms_constraints <> Var constr
+R34223:34230 Coq_Log.terms_constraints <> listSetC def
+R34246:34248 Coq_Log.terms_constraints <> Var constr
+R34236:34239 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R34240:34242 Coq.Init.Datatypes <> nil constr
+R34301:34303 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R34294:34297 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R34298:34300 Coq.Init.Datatypes <> nil constr
+R34301:34303 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R34294:34297 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R34298:34300 Coq.Init.Datatypes <> nil constr
+R34356:34375 Coq_Log.terms_constraints <> listSetC_Var_eq_list thm
+R34356:34375 Coq_Log.terms_constraints <> listSetC_Var_eq_list thm
+R34533:34535 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R34522:34523 Coq_Log.terms_constraints <> :::'{{'_x_'|'_x_'}}' not
+R34526:34528 Coq_Log.terms_constraints <> :::'{{'_x_'|'_x_'}}' not
+R34531:34532 Coq_Log.terms_constraints <> :::'{{'_x_'|'_x_'}}' not
+R34536:34543 Coq_Log.terms_constraints <> listSetC def
+R34551:34553 Coq_Log.terms_constraints <> Var constr
+R34533:34535 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R34522:34523 Coq_Log.terms_constraints <> :::'{{'_x_'|'_x_'}}' not
+R34526:34528 Coq_Log.terms_constraints <> :::'{{'_x_'|'_x_'}}' not
+R34531:34532 Coq_Log.terms_constraints <> :::'{{'_x_'|'_x_'}}' not
+R34536:34543 Coq_Log.terms_constraints <> listSetC def
+R34551:34553 Coq_Log.terms_constraints <> Var constr
+R34703:34705 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R34687:34696 Coq_Log.terms_constraints <> SetCToList def
+R34703:34705 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R34687:34696 Coq_Log.terms_constraints <> SetCToList def
+R34769:34778 Coq_Log.terms_constraints <> sizet_SetC thm
+R34769:34778 Coq_Log.terms_constraints <> sizet_SetC thm
+R34801:34810 Coq_Log.terms_constraints <> SetCToList def
+R34825:34834 Coq_Log.terms_constraints <> SetCToList def
+R34919:34922 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R34952:34952 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R34891:34898 Coq_Log.terms_constraints <> listSetC def
+R34913:34915 Coq_Log.terms_constraints <> Var constr
+R34902:34905 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R34923:34924 Coq_Log.terms_constraints <> :::'{{'_x_'|'_x_'}}' not
+R34926:34928 Coq_Log.terms_constraints <> :::'{{'_x_'|'_x_'}}' not
+R34950:34951 Coq_Log.terms_constraints <> :::'{{'_x_'|'_x_'}}' not
+R34929:34936 Coq_Log.terms_constraints <> listSetC def
+R34944:34946 Coq_Log.terms_constraints <> Var constr
+R34919:34922 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R34952:34952 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R34891:34898 Coq_Log.terms_constraints <> listSetC def
+R34913:34915 Coq_Log.terms_constraints <> Var constr
+R34902:34905 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R34923:34924 Coq_Log.terms_constraints <> :::'{{'_x_'|'_x_'}}' not
+R34926:34928 Coq_Log.terms_constraints <> :::'{{'_x_'|'_x_'}}' not
+R34950:34951 Coq_Log.terms_constraints <> :::'{{'_x_'|'_x_'}}' not
+R34929:34936 Coq_Log.terms_constraints <> listSetC def
+R34944:34946 Coq_Log.terms_constraints <> Var constr
+R35158:35160 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R35131:35134 Coq_Log.terms_constraints <> tail def
+R35137:35144 Coq_Log.terms_constraints <> listSetC def
+R35151:35153 Coq_Log.terms_constraints <> Var constr
+R35161:35164 Coq.Init.Datatypes <> None constr
+R35158:35160 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R35131:35134 Coq_Log.terms_constraints <> tail def
+R35137:35144 Coq_Log.terms_constraints <> listSetC def
+R35151:35153 Coq_Log.terms_constraints <> Var constr
+R35161:35164 Coq.Init.Datatypes <> None constr
+R35244:35246 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R35217:35220 Coq_Log.terms_constraints <> tail def
+R35223:35230 Coq_Log.terms_constraints <> listSetC def
+R35237:35239 Coq_Log.terms_constraints <> Var constr
+R35247:35250 Coq.Init.Datatypes <> Some constr
+R35253:35255 Coq_Log.terms_constraints <> Var constr
+R35244:35246 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R35217:35220 Coq_Log.terms_constraints <> tail def
+R35223:35230 Coq_Log.terms_constraints <> listSetC def
+R35237:35239 Coq_Log.terms_constraints <> Var constr
+R35247:35250 Coq.Init.Datatypes <> Some constr
+R35253:35255 Coq_Log.terms_constraints <> Var constr
+R35275:35291 Coq_Log.terms_constraints <> tail_listSetC_Var thm
+R35275:35291 Coq_Log.terms_constraints <> tail_listSetC_Var thm
+R35448:35450 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R35421:35424 Coq_Log.terms_constraints <> tail def
+R35427:35434 Coq_Log.terms_constraints <> listSetC def
+R35441:35443 Coq_Log.terms_constraints <> Var constr
+R35451:35454 Coq.Init.Datatypes <> Some constr
+R35456:35463 Coq_Log.terms_constraints <> EmptySet constr
+R35448:35450 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R35421:35424 Coq_Log.terms_constraints <> tail def
+R35427:35434 Coq_Log.terms_constraints <> listSetC def
+R35441:35443 Coq_Log.terms_constraints <> Var constr
+R35451:35454 Coq.Init.Datatypes <> Some constr
+R35456:35463 Coq_Log.terms_constraints <> EmptySet constr
+R35543:35545 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R35516:35519 Coq_Log.terms_constraints <> tail def
+R35522:35529 Coq_Log.terms_constraints <> listSetC def
+R35536:35538 Coq_Log.terms_constraints <> Var constr
+R35546:35549 Coq.Init.Datatypes <> Some constr
+R35552:35554 Coq_Log.terms_constraints <> Var constr
+R35543:35545 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R35516:35519 Coq_Log.terms_constraints <> tail def
+R35522:35529 Coq_Log.terms_constraints <> listSetC def
+R35536:35538 Coq_Log.terms_constraints <> Var constr
+R35546:35549 Coq.Init.Datatypes <> Some constr
+R35552:35554 Coq_Log.terms_constraints <> Var constr
+R35574:35590 Coq_Log.terms_constraints <> tail_listSetC_Var thm
+R35574:35590 Coq_Log.terms_constraints <> tail_listSetC_Var thm
+prf 35694:35715 <> tail_listSetC_EmptySet
+binder 35717:35718 <> lt:336
+R35752:35754 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R35725:35728 Coq_Log.terms_constraints <> tail def
+R35731:35738 Coq_Log.terms_constraints <> listSetC def
+R35743:35750 Coq_Log.terms_constraints <> EmptySet constr
+R35740:35741 Coq_Log.terms_constraints <> lt:336 var
+R35755:35758 Coq.Init.Datatypes <> Some constr
+R35760:35767 Coq_Log.terms_constraints <> EmptySet constr
+prf 35807:35818 <> tail_setTerm
+binder 35820:35820 <> t:337
+R35836:35839 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R35846:35848 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R35840:35843 Coq_Log.terms_constraints <> tail def
+R35845:35845 Coq_Log.terms_constraints <> t:337 var
+R35849:35852 Coq.Init.Datatypes <> Some constr
+R35854:35861 Coq_Log.terms_constraints <> EmptySet constr
+R35827:35833 Coq_Log.terms_constraints <> setTerm def
+R35835:35835 Coq_Log.terms_constraints <> t:337 var
+R35900:35922 Coq_Log.terms_constraints <> setTerm_exists_listSetC thm
+R35900:35922 Coq_Log.terms_constraints <> setTerm_exists_listSetC thm
+R35959:35980 Coq_Log.terms_constraints <> tail_listSetC_EmptySet thm
+R35959:35980 Coq_Log.terms_constraints <> tail_listSetC_EmptySet thm
+prf 35998:36024 <> occurCheckList_listElements
+binder 36026:36026 <> v:338
+binder 36028:36028 <> t:339
+R36049:36052 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R36084:36092 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R36093:36106 Coq_Log.terms_constraints <> occurCheckList def
+R36111:36122 Coq_Log.terms_constraints <> listElements def
+R36124:36124 Coq_Log.terms_constraints <> t:339 var
+R36108:36108 Coq_Log.terms_constraints <> v:338 var
+R36053:36054 Coq.Init.Logic <> ::type_scope:'~'_x not
+R36055:36064 Coq_Log.terms_constraints <> occurCheck def
+R36069:36080 Coq_Log.terms_constraints <> LastFromSetC def
+R36082:36082 Coq_Log.terms_constraints <> t:339 var
+R36066:36066 Coq_Log.terms_constraints <> v:338 var
+R36035:36044 Coq_Log.terms_constraints <> occurCheck def
+R36048:36048 Coq_Log.terms_constraints <> t:339 var
+R36046:36046 Coq_Log.terms_constraints <> v:338 var
+R36156:36158 Coq.Init.Datatypes <> nat ind
+binder 36152:36152 <> n:340
+binder 36172:36173 <> t':341
+R36176:36176 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R36192:36210 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R36226:36229 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R36262:36279 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R36280:36293 Coq_Log.terms_constraints <> occurCheckList def
+R36298:36309 Coq_Log.terms_constraints <> listElements def
+R36311:36312 Coq_Log.terms_constraints <> t':341 var
+R36230:36231 Coq.Init.Logic <> ::type_scope:'~'_x not
+R36232:36241 Coq_Log.terms_constraints <> occurCheck def
+R36246:36257 Coq_Log.terms_constraints <> LastFromSetC def
+R36259:36260 Coq_Log.terms_constraints <> t':341 var
+R36211:36220 Coq_Log.terms_constraints <> occurCheck def
+R36224:36225 Coq_Log.terms_constraints <> t':341 var
+R36177:36177 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R36186:36190 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R36178:36182 Coq_Log.terms_constraints <> sizet def
+R36184:36185 Coq_Log.terms_constraints <> t':341 var
+R36191:36191 Coq_Log.terms_constraints <> n:340 var
+R36156:36158 Coq.Init.Datatypes <> nat ind
+binder 36152:36152 <> n:342
+binder 36172:36173 <> t':343
+R36176:36176 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R36192:36210 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R36226:36229 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R36262:36279 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R36280:36293 Coq_Log.terms_constraints <> occurCheckList def
+R36298:36309 Coq_Log.terms_constraints <> listElements def
+R36311:36312 Coq_Log.terms_constraints <> t':343 var
+R36230:36231 Coq.Init.Logic <> ::type_scope:'~'_x not
+R36232:36241 Coq_Log.terms_constraints <> occurCheck def
+R36246:36257 Coq_Log.terms_constraints <> LastFromSetC def
+R36259:36260 Coq_Log.terms_constraints <> t':343 var
+R36211:36220 Coq_Log.terms_constraints <> occurCheck def
+R36224:36225 Coq_Log.terms_constraints <> t':343 var
+R36177:36177 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R36186:36190 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R36178:36182 Coq_Log.terms_constraints <> sizet def
+R36184:36185 Coq_Log.terms_constraints <> t':343 var
+R36191:36191 Coq_Log.terms_constraints <> n:342 var
+binder 36339:36339 <> n:344
+R36345:36345 Coq_Log.terms_constraints <> n:344 var
+binder 36339:36339 <> n:345
+R36345:36345 Coq_Log.terms_constraints <> n:345 var
+R36364:36368 Coq_Log.terms_constraints <> sizet def
+R36364:36368 Coq_Log.terms_constraints <> sizet def
+R36388:36391 Coq.Init.Peano <> le_n constr
+R36388:36391 Coq.Init.Peano <> le_n constr
+R36472:36475 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R36464:36468 Coq_Log.terms_constraints <> sizet def
+R36487:36497 Coq_Log.terms_constraints <> sizet_gte_1 thm
+R36472:36475 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R36464:36468 Coq_Log.terms_constraints <> sizet def
+R36487:36497 Coq_Log.terms_constraints <> sizet_gte_1 thm
+R36722:36731 Coq_Log.terms_constraints <> sizet_SetC thm
+R36722:36731 Coq_Log.terms_constraints <> sizet_SetC thm
+def 37125:37132 <> isFreshC
+R37139:37150 Coq_Log.terms_constraints <> log_variable ind
+binder 37135:37135 <> N:346
+R37158:37167 Coq_Log.terms_constraints <> constraint def
+binder 37154:37154 <> c:347
+R37183:37184 Coq.Init.Logic <> ::type_scope:'~'_x not
+R37200:37200 Coq.Init.Logic <> ::type_scope:'~'_x not
+R37185:37195 Coq_Log.terms_constraints <> occurCheckC def
+R37199:37199 Coq_Log.terms_constraints <> c:347 var
+R37197:37197 Coq_Log.terms_constraints <> N:346 var
+def 37323:37330 <> isFreshL
+R37337:37348 Coq_Log.terms_constraints <> log_variable ind
+binder 37333:37333 <> N:348
+R37356:37359 Coq.Init.Datatypes <> list ind
+R37361:37364 Coq_Log.terms_constraints <> term ind
+binder 37352:37352 <> l:349
+R37380:37381 Coq.Init.Logic <> ::type_scope:'~'_x not
+R37400:37400 Coq.Init.Logic <> ::type_scope:'~'_x not
+R37382:37395 Coq_Log.terms_constraints <> occurCheckList def
+R37399:37399 Coq_Log.terms_constraints <> l:349 var
+R37397:37397 Coq_Log.terms_constraints <> N:348 var
+def 37417:37424 <> isFreshT
+R37431:37442 Coq_Log.terms_constraints <> log_variable ind
+binder 37427:37427 <> N:350
+R37450:37453 Coq_Log.terms_constraints <> term ind
+binder 37446:37446 <> t:351
+R37462:37463 Coq.Init.Logic <> ::type_scope:'~'_x not
+R37478:37478 Coq.Init.Logic <> ::type_scope:'~'_x not
+R37464:37473 Coq_Log.terms_constraints <> occurCheck def
+R37477:37477 Coq_Log.terms_constraints <> t:351 var
+R37475:37475 Coq_Log.terms_constraints <> N:350 var
+def 37577:37584 <> isNmemPC
+R37592:37610 Coq_Log.terms_constraints <> primitiveConstraint ind
+binder 37587:37588 <> pc:352
+R37625:37626 Coq_Log.terms_constraints <> pc:352 var
+R37640:37644 Coq_Log.terms_constraints <> :::x_'\:s'_x not
+R37651:37654 Coq.Init.Logic <> True ind
+R37666:37670 Coq.Init.Logic <> False ind
+prf 37689:37701 <> incl_isFreshC
+binder 37703:37703 <> v:354
+binder 37705:37706 <> c1:355
+binder 37708:37709 <> c2:356
+R37726:37729 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R37743:37746 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R37747:37754 Coq_Log.terms_constraints <> isFreshC def
+R37758:37759 Coq_Log.terms_constraints <> c1:355 var
+R37756:37756 Coq_Log.terms_constraints <> v:354 var
+R37730:37737 Coq_Log.terms_constraints <> isFreshC def
+R37741:37742 Coq_Log.terms_constraints <> c2:356 var
+R37739:37739 Coq_Log.terms_constraints <> v:354 var
+R37716:37719 Coq.Lists.List <> incl def
+R37724:37725 Coq_Log.terms_constraints <> c2:356 var
+R37721:37722 Coq_Log.terms_constraints <> c1:355 var
+R37809:37819 Coq_Log.terms_constraints <> occurCheckC def
+R37809:37819 Coq_Log.terms_constraints <> occurCheckC def
+R37855:37870 Coq_Log.terms_constraints <> incl_occurCheckC thm
+R37855:37870 Coq_Log.terms_constraints <> incl_occurCheckC thm
+prf 37904:37925 <> isFreshT_SetC_isFreshL
+binder 37927:37927 <> v:357
+binder 37929:37930 <> t1:358
+binder 37932:37933 <> t2:359
+R37963:37966 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R37967:37974 Coq_Log.terms_constraints <> isFreshL def
+R37979:37988 Coq_Log.terms_constraints <> SetCToList def
+R37993:37994 Coq_Log.terms_constraints <> t2:359 var
+R37990:37991 Coq_Log.terms_constraints <> t1:358 var
+R37976:37976 Coq_Log.terms_constraints <> v:357 var
+R37940:37947 Coq_Log.terms_constraints <> isFreshT def
+R37952:37955 Coq_Log.terms_constraints <> SetC constr
+R37960:37961 Coq_Log.terms_constraints <> t2:359 var
+R37957:37958 Coq_Log.terms_constraints <> t1:358 var
+R37949:37949 Coq_Log.terms_constraints <> v:357 var
+R38026:38028 Coq.Init.Datatypes <> nat ind
+binder 38022:38022 <> n:360
+binder 38042:38044 <> t1':361
+binder 38046:38048 <> t2':362
+R38051:38051 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R38068:38075 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R38101:38104 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R38105:38112 Coq_Log.terms_constraints <> isFreshL def
+R38117:38126 Coq_Log.terms_constraints <> SetCToList def
+R38132:38134 Coq_Log.terms_constraints <> t2':362 var
+R38128:38130 Coq_Log.terms_constraints <> t1':361 var
+R38076:38083 Coq_Log.terms_constraints <> isFreshT def
+R38088:38091 Coq_Log.terms_constraints <> SetC constr
+R38097:38099 Coq_Log.terms_constraints <> t2':362 var
+R38093:38095 Coq_Log.terms_constraints <> t1':361 var
+R38052:38052 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R38062:38066 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R38053:38057 Coq_Log.terms_constraints <> sizet def
+R38059:38061 Coq_Log.terms_constraints <> t2':362 var
+R38067:38067 Coq_Log.terms_constraints <> n:360 var
+R38026:38028 Coq.Init.Datatypes <> nat ind
+binder 38022:38022 <> n:363
+binder 38042:38044 <> t1':364
+binder 38046:38048 <> t2':365
+R38051:38051 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R38068:38075 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R38101:38104 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R38105:38112 Coq_Log.terms_constraints <> isFreshL def
+R38117:38126 Coq_Log.terms_constraints <> SetCToList def
+R38132:38134 Coq_Log.terms_constraints <> t2':365 var
+R38128:38130 Coq_Log.terms_constraints <> t1':364 var
+R38076:38083 Coq_Log.terms_constraints <> isFreshT def
+R38088:38091 Coq_Log.terms_constraints <> SetC constr
+R38097:38099 Coq_Log.terms_constraints <> t2':365 var
+R38093:38095 Coq_Log.terms_constraints <> t1':364 var
+R38052:38052 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R38062:38066 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R38053:38057 Coq_Log.terms_constraints <> sizet def
+R38059:38061 Coq_Log.terms_constraints <> t2':365 var
+R38067:38067 Coq_Log.terms_constraints <> n:363 var
+binder 38161:38161 <> n:366
+R38167:38167 Coq_Log.terms_constraints <> n:366 var
+binder 38161:38161 <> n:367
+R38167:38167 Coq_Log.terms_constraints <> n:367 var
+R38186:38190 Coq_Log.terms_constraints <> sizet def
+R38186:38190 Coq_Log.terms_constraints <> sizet def
+R38211:38214 Coq.Init.Peano <> le_n constr
+R38211:38214 Coq.Init.Peano <> le_n constr
+R38301:38304 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R38292:38296 Coq_Log.terms_constraints <> sizet def
+R38316:38326 Coq_Log.terms_constraints <> sizet_gte_1 thm
+R38301:38304 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R38292:38296 Coq_Log.terms_constraints <> sizet def
+R38316:38326 Coq_Log.terms_constraints <> sizet_gte_1 thm
+R38479:38482 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R38463:38472 Coq_Log.terms_constraints <> occurCheck def
+R38484:38486 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R38479:38482 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R38463:38472 Coq_Log.terms_constraints <> occurCheck def
+R38484:38486 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R38629:38632 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R38613:38622 Coq_Log.terms_constraints <> occurCheck def
+R38648:38651 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R38633:38642 Coq_Log.terms_constraints <> occurCheck def
+R38652:38661 Coq_Log.terms_constraints <> occurCheck def
+R38629:38632 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R38613:38622 Coq_Log.terms_constraints <> occurCheck def
+R38648:38651 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R38633:38642 Coq_Log.terms_constraints <> occurCheck def
+R38652:38661 Coq_Log.terms_constraints <> occurCheck def
+R38720:38725 Coq.Logic.Decidable <> not_or thm
+R38720:38725 Coq.Logic.Decidable <> not_or thm
+R38777:38780 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R38762:38771 Coq_Log.terms_constraints <> occurCheck def
+R38781:38794 Coq_Log.terms_constraints <> occurCheckList def
+R38799:38810 Coq_Log.terms_constraints <> listElements def
+R38777:38780 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R38762:38771 Coq_Log.terms_constraints <> occurCheck def
+R38781:38794 Coq_Log.terms_constraints <> occurCheckList def
+R38799:38810 Coq_Log.terms_constraints <> listElements def
+R38890:38899 Coq_Log.terms_constraints <> sizet_SetC thm
+R38890:38899 Coq_Log.terms_constraints <> sizet_SetC thm
+R39017:39020 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R39001:39010 Coq_Log.terms_constraints <> occurCheck def
+R39021:39030 Coq_Log.terms_constraints <> occurCheck def
+R39035:39039 Coq_Log.terms_constraints <> OTerm constr
+R39017:39020 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R39001:39010 Coq_Log.terms_constraints <> occurCheck def
+R39021:39030 Coq_Log.terms_constraints <> occurCheck def
+R39035:39039 Coq_Log.terms_constraints <> OTerm constr
+def 39334:39341 <> isInSFPC
+R39349:39367 Coq_Log.terms_constraints <> primitiveConstraint ind
+binder 39344:39345 <> pc:368
+R39375:39384 Coq_Log.terms_constraints <> constraint def
+binder 39371:39371 <> c:369
+R39399:39400 Coq_Log.terms_constraints <> pc:368 var
+R39417:39420 Coq_Log.terms_constraints <> :::x_'=='_x not
+R39412:39414 Coq_Log.terms_constraints <> Var constr
+R39427:39427 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R39445:39450 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R39494:39494 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R39428:39429 Coq.Init.Logic <> ::type_scope:'~'_x not
+R39444:39444 Coq.Init.Logic <> ::type_scope:'~'_x not
+R39430:39439 Coq_Log.terms_constraints <> occurCheck def
+R39451:39452 Coq.Init.Logic <> ::type_scope:'~'_x not
+R39493:39493 Coq.Init.Logic <> ::type_scope:'~'_x not
+R39453:39463 Coq_Log.terms_constraints <> occurCheckC def
+R39468:39473 Coq.Lists.List <> remove def
+R39491:39491 Coq_Log.terms_constraints <> c:369 var
+R39488:39489 Coq_Log.terms_constraints <> pc:368 var
+R39475:39486 Coq_Log.terms_constraints <> eq_primc_dec thm
+R39507:39511 Coq_Log.terms_constraints <> :::x_'\=='_x not
+R39502:39504 Coq_Log.terms_constraints <> Var constr
+R39518:39519 Coq.Init.Logic <> ::type_scope:'~'_x not
+R39534:39534 Coq.Init.Logic <> ::type_scope:'~'_x not
+R39520:39529 Coq_Log.terms_constraints <> occurCheck def
+R39543:39548 Coq_Log.terms_constraints <> :::x_'\:s'_x not
+R39554:39554 Coq_Log.terms_constraints <> :::x_'\:s'_x not
+R39549:39551 Coq_Log.terms_constraints <> Var constr
+R39560:39561 Coq.Init.Logic <> ::type_scope:'~'_x not
+R39576:39576 Coq.Init.Logic <> ::type_scope:'~'_x not
+R39562:39571 Coq_Log.terms_constraints <> occurCheck def
+R39584:39588 Coq_Log.terms_constraints <> IsSet constr
+R39591:39593 Coq_Log.terms_constraints <> Var constr
+R39601:39604 Coq.Init.Logic <> True ind
+R39616:39620 Coq.Init.Logic <> False ind
+def 39644:39650 <> isInSFC
+R39657:39666 Coq_Log.terms_constraints <> constraint def
+binder 39653:39653 <> c:371
+binder 39682:39683 <> cp:372
+R39693:39696 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R39697:39704 Coq_Log.terms_constraints <> isInSFPC def
+R39709:39709 Coq_Log.terms_constraints <> c:371 var
+R39706:39707 Coq_Log.terms_constraints <> cp:372 var
+R39686:39687 Coq.Lists.List <> In def
+R39692:39692 Coq_Log.terms_constraints <> c:371 var
+R39689:39690 Coq_Log.terms_constraints <> cp:372 var
+prf 39721:39733 <> incl_isInSFPC
+binder 39735:39736 <> pc:373
+binder 39738:39739 <> c1:374
+binder 39741:39742 <> c2:375
+R39759:39762 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R39777:39785 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R39786:39793 Coq_Log.terms_constraints <> isInSFPC def
+R39798:39799 Coq_Log.terms_constraints <> c1:374 var
+R39795:39796 Coq_Log.terms_constraints <> pc:373 var
+R39763:39770 Coq_Log.terms_constraints <> isInSFPC def
+R39775:39776 Coq_Log.terms_constraints <> c2:375 var
+R39772:39773 Coq_Log.terms_constraints <> pc:373 var
+R39749:39752 Coq.Lists.List <> incl def
+R39757:39758 Coq_Log.terms_constraints <> c2:375 var
+R39754:39755 Coq_Log.terms_constraints <> c1:374 var
+R39972:39982 Coq_Log.terms_constraints <> occurCheckC def
+R39987:39992 Coq.Lists.List <> remove def
+R40013:40016 Coq_Log.terms_constraints <> :::x_'=='_x not
+R40008:40010 Coq_Log.terms_constraints <> Var constr
+R39994:40005 Coq_Log.terms_constraints <> eq_primc_dec thm
+R39972:39982 Coq_Log.terms_constraints <> occurCheckC def
+R39987:39992 Coq.Lists.List <> remove def
+R40013:40016 Coq_Log.terms_constraints <> :::x_'=='_x not
+R40008:40010 Coq_Log.terms_constraints <> Var constr
+R39994:40005 Coq_Log.terms_constraints <> eq_primc_dec thm
+R40087:40092 Coq.Lists.List <> remove def
+R40113:40116 Coq_Log.terms_constraints <> :::x_'=='_x not
+R40108:40110 Coq_Log.terms_constraints <> Var constr
+R40094:40105 Coq_Log.terms_constraints <> eq_primc_dec thm
+R40057:40072 Coq_Log.terms_constraints <> incl_occurCheckC thm
+R40087:40092 Coq.Lists.List <> remove def
+R40113:40116 Coq_Log.terms_constraints <> :::x_'=='_x not
+R40108:40110 Coq_Log.terms_constraints <> Var constr
+R40094:40105 Coq_Log.terms_constraints <> eq_primc_dec thm
+R40057:40072 Coq_Log.terms_constraints <> incl_occurCheckC thm
+R40156:40166 Coq.Lists.List <> remove_incl thm
+R40156:40166 Coq.Lists.List <> remove_incl thm
+prf 40354:40365 <> incl_isInSFC
+binder 40367:40368 <> c1:376
+binder 40370:40371 <> c2:377
+R40388:40391 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R40402:40410 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R40411:40417 Coq_Log.terms_constraints <> isInSFC def
+R40419:40420 Coq_Log.terms_constraints <> c1:376 var
+R40392:40398 Coq_Log.terms_constraints <> isInSFC def
+R40400:40401 Coq_Log.terms_constraints <> c2:377 var
+R40378:40381 Coq.Lists.List <> incl def
+R40386:40387 Coq_Log.terms_constraints <> c2:377 var
+R40383:40384 Coq_Log.terms_constraints <> c1:376 var
+R40470:40482 Coq_Log.terms_constraints <> incl_isInSFPC thm
+R40470:40482 Coq_Log.terms_constraints <> incl_isInSFPC thm
+prf 40544:40555 <> isInSFPC_inv
+binder 40557:40559 <> pc1:378
+binder 40561:40563 <> pc2:379
+binder 40565:40565 <> c:380
+R40580:40583 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R40598:40606 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R40607:40614 Coq_Log.terms_constraints <> isInSFPC def
+R40624:40627 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R40621:40623 Coq_Log.terms_constraints <> pc1:378 var
+R40628:40633 Coq.Lists.List <> remove def
+R40652:40652 Coq_Log.terms_constraints <> c:380 var
+R40648:40650 Coq_Log.terms_constraints <> pc1:378 var
+R40635:40646 Coq_Log.terms_constraints <> eq_primc_dec thm
+R40616:40618 Coq_Log.terms_constraints <> pc2:379 var
+R40584:40591 Coq_Log.terms_constraints <> isInSFPC def
+R40597:40597 Coq_Log.terms_constraints <> c:380 var
+R40593:40595 Coq_Log.terms_constraints <> pc2:379 var
+R40572:40573 Coq.Lists.List <> In def
+R40579:40579 Coq_Log.terms_constraints <> c:380 var
+R40575:40577 Coq_Log.terms_constraints <> pc1:378 var
+R40802:40808 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R40812:40822 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 40809:40811 <> pc3:381
+R40900:40903 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R40823:40824 Coq.Lists.List <> In def
+R40831:40836 Coq.Lists.List <> remove def
+R40869:40872 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R40873:40878 Coq.Lists.List <> remove def
+R40880:40891 Coq_Log.terms_constraints <> eq_primc_dec thm
+R40857:40860 Coq_Log.terms_constraints <> :::x_'=='_x not
+R40852:40854 Coq_Log.terms_constraints <> Var constr
+R40838:40849 Coq_Log.terms_constraints <> eq_primc_dec thm
+R40826:40828 Coq_Log.terms_constraints <> pc3:381 var
+R40904:40915 Coq_Log.terms_constraints <> occurCheckPC def
+R40919:40921 Coq_Log.terms_constraints <> pc3:381 var
+R40802:40808 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R40812:40822 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 40809:40811 <> pc3:382
+R40900:40903 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R40823:40824 Coq.Lists.List <> In def
+R40831:40836 Coq.Lists.List <> remove def
+R40869:40872 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R40873:40878 Coq.Lists.List <> remove def
+R40880:40891 Coq_Log.terms_constraints <> eq_primc_dec thm
+R40857:40860 Coq_Log.terms_constraints <> :::x_'=='_x not
+R40852:40854 Coq_Log.terms_constraints <> Var constr
+R40838:40849 Coq_Log.terms_constraints <> eq_primc_dec thm
+R40826:40828 Coq_Log.terms_constraints <> pc3:382 var
+R40904:40915 Coq_Log.terms_constraints <> occurCheckPC def
+R40919:40921 Coq_Log.terms_constraints <> pc3:382 var
+R40938:40955 Coq_Log.terms_constraints <> occurCheckC_exists thm
+R40938:40955 Coq_Log.terms_constraints <> occurCheckC_exists thm
+R41006:41016 Coq_Log.terms_constraints <> occurCheckC def
+R41021:41026 Coq.Lists.List <> remove def
+R41047:41050 Coq_Log.terms_constraints <> :::x_'=='_x not
+R41042:41044 Coq_Log.terms_constraints <> Var constr
+R41028:41039 Coq_Log.terms_constraints <> eq_primc_dec thm
+R41006:41016 Coq_Log.terms_constraints <> occurCheckC def
+R41021:41026 Coq.Lists.List <> remove def
+R41047:41050 Coq_Log.terms_constraints <> :::x_'=='_x not
+R41042:41044 Coq_Log.terms_constraints <> Var constr
+R41028:41039 Coq_Log.terms_constraints <> eq_primc_dec thm
+R41085:41102 Coq_Log.terms_constraints <> occurCheckC_exists thm
+R41085:41102 Coq_Log.terms_constraints <> occurCheckC_exists thm
+R41153:41161 Coq.Lists.List <> in_remove thm
+R41163:41174 Coq_Log.terms_constraints <> eq_primc_dec thm
+R41153:41161 Coq.Lists.List <> in_remove thm
+R41163:41174 Coq_Log.terms_constraints <> eq_primc_dec thm
+R41213:41224 Coq.Lists.List <> in_in_remove thm
+R41213:41224 Coq.Lists.List <> in_in_remove thm
+R41298:41308 Coq_Log.preliminaries <> incl_remove thm
+R41310:41321 Coq_Log.terms_constraints <> eq_primc_dec thm
+R41298:41308 Coq_Log.preliminaries <> incl_remove thm
+R41310:41321 Coq_Log.terms_constraints <> eq_primc_dec thm
+prf 41344:41354 <> isInSFC_inv
+binder 41356:41357 <> pc:383
+binder 41359:41359 <> c:384
+R41373:41381 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R41391:41394 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R41395:41401 Coq_Log.terms_constraints <> isInSFC def
+R41406:41409 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R41404:41405 Coq_Log.terms_constraints <> pc:383 var
+R41410:41415 Coq.Lists.List <> remove def
+R41433:41433 Coq_Log.terms_constraints <> c:384 var
+R41430:41431 Coq_Log.terms_constraints <> pc:383 var
+R41417:41428 Coq_Log.terms_constraints <> eq_primc_dec thm
+R41382:41388 Coq_Log.terms_constraints <> isInSFC def
+R41390:41390 Coq_Log.terms_constraints <> c:384 var
+R41366:41367 Coq.Lists.List <> In def
+R41372:41372 Coq_Log.terms_constraints <> c:384 var
+R41369:41370 Coq_Log.terms_constraints <> pc:383 var
+R41476:41487 Coq_Log.terms_constraints <> isInSFPC_inv thm
+R41476:41487 Coq_Log.terms_constraints <> isInSFPC_inv thm
+R41528:41533 Coq.Lists.List <> in_inv thm
+R41528:41533 Coq.Lists.List <> in_inv thm
+R41581:41591 Coq_Log.preliminaries <> incl_remove thm
+R41593:41604 Coq_Log.terms_constraints <> eq_primc_dec thm
+R41581:41591 Coq_Log.preliminaries <> incl_remove thm
+R41593:41604 Coq_Log.terms_constraints <> eq_primc_dec thm

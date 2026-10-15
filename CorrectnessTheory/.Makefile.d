@@ -1,0 +1,30 @@
+theories/preliminaries.vo theories/preliminaries.glob theories/preliminaries.v.beautified theories/preliminaries.required_vo: theories/preliminaries.v 
+theories/preliminaries.vio: theories/preliminaries.v 
+theories/preliminaries.vos theories/preliminaries.vok theories/preliminaries.required_vos: theories/preliminaries.v 
+theories/terms_constraints.vo theories/terms_constraints.glob theories/terms_constraints.v.beautified theories/terms_constraints.required_vo: theories/terms_constraints.v theories/preliminaries.vo
+theories/terms_constraints.vio: theories/terms_constraints.v theories/preliminaries.vio
+theories/terms_constraints.vos theories/terms_constraints.vok theories/terms_constraints.required_vos: theories/terms_constraints.v theories/preliminaries.vos
+theories/substitution.vo theories/substitution.glob theories/substitution.v.beautified theories/substitution.required_vo: theories/substitution.v theories/preliminaries.vo theories/terms_constraints.vo
+theories/substitution.vio: theories/substitution.v theories/preliminaries.vio theories/terms_constraints.vio
+theories/substitution.vos theories/substitution.vok theories/substitution.required_vos: theories/substitution.v theories/preliminaries.vos theories/terms_constraints.vos
+theories/rewritings.vo theories/rewritings.glob theories/rewritings.v.beautified theories/rewritings.required_vo: theories/rewritings.v theories/terms_constraints.vo theories/substitution.vo
+theories/rewritings.vio: theories/rewritings.v theories/terms_constraints.vio theories/substitution.vio
+theories/rewritings.vos theories/rewritings.vok theories/rewritings.required_vos: theories/rewritings.v theories/terms_constraints.vos theories/substitution.vos
+theories/list_variables.vo theories/list_variables.glob theories/list_variables.v.beautified theories/list_variables.required_vo: theories/list_variables.v theories/preliminaries.vo theories/terms_constraints.vo theories/substitution.vo
+theories/list_variables.vio: theories/list_variables.v theories/preliminaries.vio theories/terms_constraints.vio theories/substitution.vio
+theories/list_variables.vos theories/list_variables.vok theories/list_variables.required_vos: theories/list_variables.v theories/preliminaries.vos theories/terms_constraints.vos theories/substitution.vos
+theories/depths.vo theories/depths.glob theories/depths.v.beautified theories/depths.required_vo: theories/depths.v theories/preliminaries.vo theories/terms_constraints.vo theories/list_variables.vo theories/substitution.vo
+theories/depths.vio: theories/depths.v theories/preliminaries.vio theories/terms_constraints.vio theories/list_variables.vio theories/substitution.vio
+theories/depths.vos theories/depths.vok theories/depths.required_vos: theories/depths.v theories/preliminaries.vos theories/terms_constraints.vos theories/list_variables.vos theories/substitution.vos
+theories/valuation.vo theories/valuation.glob theories/valuation.v.beautified theories/valuation.required_vo: theories/valuation.v theories/preliminaries.vo theories/terms_constraints.vo theories/list_variables.vo theories/depths.vo theories/substitution.vo
+theories/valuation.vio: theories/valuation.v theories/preliminaries.vio theories/terms_constraints.vio theories/list_variables.vio theories/depths.vio theories/substitution.vio
+theories/valuation.vos theories/valuation.vok theories/valuation.required_vos: theories/valuation.v theories/preliminaries.vos theories/terms_constraints.vos theories/list_variables.vos theories/depths.vos theories/substitution.vos
+theories/interpretation.vo theories/interpretation.glob theories/interpretation.v.beautified theories/interpretation.required_vo: theories/interpretation.v theories/preliminaries.vo theories/terms_constraints.vo theories/depths.vo theories/list_variables.vo theories/valuation.vo theories/substitution.vo
+theories/interpretation.vio: theories/interpretation.v theories/preliminaries.vio theories/terms_constraints.vio theories/depths.vio theories/list_variables.vio theories/valuation.vio theories/substitution.vio
+theories/interpretation.vos theories/interpretation.vok theories/interpretation.required_vos: theories/interpretation.v theories/preliminaries.vos theories/terms_constraints.vos theories/depths.vos theories/list_variables.vos theories/valuation.vos theories/substitution.vos
+theories/satisfiability.vo theories/satisfiability.glob theories/satisfiability.v.beautified theories/satisfiability.required_vo: theories/satisfiability.v theories/preliminaries.vo theories/terms_constraints.vo theories/list_variables.vo theories/depths.vo theories/substitution.vo theories/valuation.vo theories/interpretation.vo
+theories/satisfiability.vio: theories/satisfiability.v theories/preliminaries.vio theories/terms_constraints.vio theories/list_variables.vio theories/depths.vio theories/substitution.vio theories/valuation.vio theories/interpretation.vio
+theories/satisfiability.vos theories/satisfiability.vok theories/satisfiability.required_vos: theories/satisfiability.v theories/preliminaries.vos theories/terms_constraints.vos theories/list_variables.vos theories/depths.vos theories/substitution.vos theories/valuation.vos theories/interpretation.vos
+theories/sort_complete.vo theories/sort_complete.glob theories/sort_complete.v.beautified theories/sort_complete.required_vo: theories/sort_complete.v theories/preliminaries.vo theories/terms_constraints.vo theories/rewritings.vo theories/list_variables.vo theories/depths.vo theories/substitution.vo theories/interpretation.vo theories/satisfiability.vo
+theories/sort_complete.vio: theories/sort_complete.v theories/preliminaries.vio theories/terms_constraints.vio theories/rewritings.vio theories/list_variables.vio theories/depths.vio theories/substitution.vio theories/interpretation.vio theories/satisfiability.vio
+theories/sort_complete.vos theories/sort_complete.vok theories/sort_complete.required_vos: theories/sort_complete.v theories/preliminaries.vos theories/terms_constraints.vos theories/rewritings.vos theories/list_variables.vos theories/depths.vos theories/substitution.vos theories/interpretation.vos theories/satisfiability.vos
